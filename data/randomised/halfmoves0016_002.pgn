@@ -1,0 +1,11 @@
+[Event "World Cup"]
+[Site "NYC"]
+[Date "2010.10.10"]
+[Round "1"]
+[White "Kasparov,G"]
+[Black "Carlsen,M"]
+[Result "*"]
+[WhiteElo "2850"]
+[BlackElo "2850"]
+
+1. f3 e5 2. b3 Qf6 3. h4 Qb6 4. h5 Qxg1 5. e4 Qxg2 6. b4 f5 7. Ba6 Qg1+ 8. Rxg1 bxa6 *
