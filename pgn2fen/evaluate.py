@@ -1,6 +1,9 @@
 import re
 
-from pgn2fen.models import FEN, FENEvaluation, PGN2FENExperiment
+from Levenshtein import ratio
+
+from pgn2fen.models import FEN, FENEvaluation, PGN2FENLog
+from pgn2fen.utils import is_fen
 
 
 def is_en_passant(en_passant: str) -> bool:
@@ -137,18 +140,14 @@ def compare_fens(true_fen: FEN, llm_fen: FEN) -> FENEvaluation:
 
 
 def get_counts_and_mean_n_halfmoves(
-    experiments: list[PGN2FENExperiment],
-    min_halfmoves: int = 0,
-    max_halfmoves: int = 1000,
+    logs: list[PGN2FENLog],
 ) -> tuple[dict[str, int], float]:
     """
     Get the counts of each evaluation type from the experiments, and the mean number of
     halfmoves.
 
     Args:
-        experiments (list[PGN2FENExperiment]): A list of PGN2FENExperiment objects.
-        min_halfmoves (int): The minimum number of halfmoves to consider.
-        max_halfmoves (int): The maximum number of halfmoves to consider.
+        logs (list[PGN2FENLog]): A list of PGN2FENLog objects.
 
     Returns:
         tuple[dict[str, int], float]: A tuple containing a dictionary with the counts of
@@ -166,25 +165,89 @@ def get_counts_and_mean_n_halfmoves(
     }
     n_halfmoves = []
 
-    for experiment in experiments:
-        if min_halfmoves <= experiment.game_info.number_of_halfmoves <= max_halfmoves:
-            counts["n"] += 1
-            n_halfmoves.append(experiment.game_info.number_of_halfmoves)
-            if experiment.evaluation.full_correctness:
-                counts["full_correctness"] += 1
-            if experiment.evaluation.piece_placement:
-                counts["piece_placement"] += 1
-            if experiment.evaluation.turn:
-                counts["turn"] += 1
-            if experiment.evaluation.castling:
-                counts["castling"] += 1
-            if experiment.evaluation.en_passant:
-                counts["en_passant"] += 1
-            if experiment.evaluation.halfmove_clock:
-                counts["halfmove_clock"] += 1
-            if experiment.evaluation.fullmove_number:
-                counts["fullmove_number"] += 1
+    for log in logs:
+        llm_fen = log.llm_info.llm_fen
+        board_fen = log.game_info.input_fen
+
+        if llm_fen is not None and is_fen(llm_fen):
+            parsed_board_fen, parsed_llm_fen = prepare_true_fen(board_fen), prepare_llm_fen(llm_fen)
+            evaluation = compare_fens(parsed_board_fen, parsed_llm_fen)
+        else:
+            evaluation = FENEvaluation(False, False, False, False, False, False, False)
+
+        counts["n"] += 1
+        n_halfmoves.append(log.game_info.number_of_halfmoves)
+        if evaluation.full_correctness:
+            counts["full_correctness"] += 1
+        if evaluation.piece_placement:
+            counts["piece_placement"] += 1
+        if evaluation.turn:
+            counts["turn"] += 1
+        if evaluation.castling:
+            counts["castling"] += 1
+        if evaluation.en_passant:
+            counts["en_passant"] += 1
+        if evaluation.halfmove_clock:
+            counts["halfmove_clock"] += 1
+        if evaluation.fullmove_number:
+            counts["fullmove_number"] += 1
 
     mean_n_halfmoves = sum(n_halfmoves) / len(n_halfmoves) if n_halfmoves else 0
 
     return counts, mean_n_halfmoves
+
+
+def get_levenshtein_ratio(logs: list[PGN2FENLog]) -> float | None:
+    """
+    Compute the Levenshtein distance between the true FEN and the LLM-generated FEN.
+
+    Args:
+        logs (list[PGN2FENLog]): A list of PGN2FENLog objects.
+
+    Returns:
+        float: The average Levenshtein distance.
+    """
+    ratios = []
+    for log in logs:
+        llm_fen = log.llm_info.llm_fen
+        board_fen = log.game_info.input_fen
+
+        if llm_fen is not None and is_fen(llm_fen):
+            ratios.append(ratio(llm_fen, board_fen))
+        else:
+            ratios.append(0)
+
+    return sum(ratios) / len(ratios) * 100 if ratios else None
+
+
+def get_metric(metric: str, logs: list[PGN2FENLog], n_dp: int = 1) -> float | None:
+    """
+    Compute the score for a given metric based on the logs.
+
+    Args:
+        metric (str): The metric to compute.
+        logs (list[PGN2FENLog]): A list of PGN2FENLog objects.
+        n_dp (int): The number of decimal places to round the result to.
+
+    Returns:
+        float | None: The metric value. Returns None if the logs are empty.
+
+    Raises:
+        ValueError: If the metric is unknown.
+    """
+    if metric in [
+        "full_correctness",
+        "piece_placement",
+        "turn",
+        "castling",
+        "en_passant",
+        "halfmove_clock",
+        "fullmove_number",
+    ]:
+        counts, _ = get_counts_and_mean_n_halfmoves(logs)
+        return None if counts["n"] == 0 else round(counts[metric] / counts["n"] * 100, n_dp)
+    if metric == "levenshtein_ratio":
+        lr = get_levenshtein_ratio(logs)
+        return None if lr is None else round(lr, n_dp)
+    else:
+        raise ValueError(f"Unknown metric: {metric}")

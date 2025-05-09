@@ -70,7 +70,7 @@ class FENEvaluation:
 
     def __str__(self) -> str:
         return (
-            f"All Correct  : {self.full_correctness}\n"
+            f"Full Correctness : {self.full_correctness}\n"
             f"    Piece Placement : {self.piece_placement}\n"
             f"    Turn            : {self.turn}\n"
             f"    Castling        : {self.castling}\n"
@@ -81,15 +81,12 @@ class FENEvaluation:
 
 
 @dataclass
-class PGN2FENExperiment:
+class PGN2FENLog:
     game_info: PGNGameInfo
     llm_info: LLMInfo
-    evaluation: FENEvaluation
 
     def __str__(self) -> str:
-        out = ""
-        out += f"Results for {self.game_info.input_pgn_file}:\n"
+        out = f"Results for {self.game_info.input_pgn_file}:\n"
         out += f"    Original FEN : {self.game_info.input_fen}\n"
         out += f"    LLM FEN      : {self.llm_info.llm_fen}\n"
-        out += "\n".join(f"    {line}" for line in str(self.evaluation).splitlines())
         return out

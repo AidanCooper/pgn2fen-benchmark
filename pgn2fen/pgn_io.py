@@ -5,7 +5,7 @@ from pathlib import Path
 import chess
 import chess.pgn
 
-from pgn2fen.models import FENEvaluation, LLMInfo, PGN2FENExperiment, PGNGameInfo
+from pgn2fen.models import LLMInfo, PGN2FENLog, PGNGameInfo
 
 
 def parse_board_from_pgn_file(pgn_file_path: str | Path) -> chess.Board:
@@ -33,12 +33,12 @@ def parse_board_from_pgn_file(pgn_file_path: str | Path) -> chess.Board:
         return board
 
 
-def load_experiments_from_jsonl(results_jsonl: str) -> list[PGN2FENExperiment]:
+def load_logs_from_jsonl(results_jsonl: str) -> list[PGN2FENLog]:
     """
-    Load the experiment results from a JSONL file.
+    Load the logs from a JSONL file.
     """
 
-    experiments = []
+    logs = []
     with open(results_jsonl) as f:
         for line in f:
             if line == "\n":
@@ -56,18 +56,8 @@ def load_experiments_from_jsonl(results_jsonl: str) -> list[PGN2FENExperiment]:
                 llm_raw_text=data["llm_info"].get("llm_raw_text", data["llm_info"]["llm_fen"]),
                 llm_fen=data["llm_info"]["llm_fen"],
             )
-            evaluation = FENEvaluation(
-                piece_placement=data["evaluation"]["piece_placement"],
-                turn=data["evaluation"]["turn"],
-                castling=data["evaluation"]["castling"],
-                en_passant=data["evaluation"]["en_passant"],
-                halfmove_clock=data["evaluation"]["halfmove_clock"],
-                fullmove_number=data["evaluation"]["fullmove_number"],
-                full_correctness=data["evaluation"]["full_correctness"],
-            )
-            experiment = PGN2FENExperiment(game_info, llm_info, evaluation)
-            experiments.append(experiment)
-    return experiments
+            logs.append(PGN2FENLog(game_info, llm_info))
+    return logs
 
 
 def split_pgn_file(input_pgn_path: str, output_dir: str) -> None:

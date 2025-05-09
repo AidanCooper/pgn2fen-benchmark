@@ -1,0 +1,4 @@
+provider,model,0-10 moves,11-20 moves,21-40 moves,41-60 moves,61-80 moves,81-100 moves
+openai,o3-mini-2025-01-31,100.0,99.0,94.0,89.0,85.0,85.5
+openai,o4-mini-2025-04-16,98.0,96.0,90.0,83.5,78.5,82.0
+google,gemini-2.5-flash-preview-04-17,95.0,85.0,73.5,57.5,58.0,56.0

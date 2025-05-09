@@ -3,26 +3,31 @@
 import argparse
 from pathlib import Path
 
-from pgn2fen.evaluate import get_counts_and_mean_n_halfmoves
-from pgn2fen.pgn_io import load_experiments_from_jsonl
+from pgn2fen.evaluate import get_counts_and_mean_n_halfmoves, get_levenshtein_ratio
+from pgn2fen.pgn_io import load_logs_from_jsonl
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
-def format_results(input_file, counts_and_means):
+def format_results(input_file, counts_and_means_and_levenshtein):
     """Format the analysis results into a string.
 
     Args:
         input_file (str): The name of the input file being analyzed.
-        counts_and_means (tuple[dict, float]): A dictionary containing counts and a
-            float for the mean halfmoves of each range.
+        counts_and_means_and_levenshtein (tuple[dict, float, float]): A dictionary
+            containing counts, a float for the mean halfmoves, and a float for the
+            levenshtein ratio of each range
 
     Returns:
         str: A formatted string of the analysis results.
     """
     output = [f"{input_file}\n"]
 
-    for range_key, (counts, mean_halfmoves) in counts_and_means.items():
+    for range_key, (
+        counts,
+        mean_halfmoves,
+        levenshtein,
+    ) in counts_and_means_and_levenshtein.items():
         output.append(
             f"Range: {range_key} moves (n={counts['n']}, mean_halfmoves={mean_halfmoves:.1f})"
         )
@@ -38,7 +43,8 @@ def format_results(input_file, counts_and_means):
         ]:
             count = counts[key]
             percentage = (count / counts["n"] * 100) if counts["n"] > 0 else 0
-            output.append(f"    {key:16}: {count:4} ({percentage:.1f}%)")
+            output.append(f"    {key:20}: {count:4} ({percentage:.1f}%)")
+        output.append(f"    {'levenshtein ratio':20}: {levenshtein:5.1f}%")
 
         output.append("")
 
@@ -75,7 +81,7 @@ def main():
     print_to_console = args.print_to_console
 
     jsonl_file = PROJECT_ROOT / "model_logs" / f"{input_file}.jsonl"
-    experiments = load_experiments_from_jsonl(jsonl_file)
+    logs = load_logs_from_jsonl(jsonl_file)
 
     halfmove_ranges = [
         (1, 10),
@@ -86,15 +92,18 @@ def main():
         (81, 100),
     ]
 
-    counts_and_means = {}
+    counts_and_means_and_levenshtein = {}
     for min_moves, max_moves in halfmove_ranges:
-        range_key = f"{min_moves}-{max_moves}"
-        counts, mean_n_halfmoves = get_counts_and_mean_n_halfmoves(
-            experiments, min_halfmoves=min_moves, max_halfmoves=max_moves
+        logs_ = [log for log in logs if min_moves <= log.game_info.number_of_halfmoves <= max_moves]
+        counts, mean_n_halfmoves = get_counts_and_mean_n_halfmoves(logs_)
+        levenshtein = get_levenshtein_ratio(logs_)
+        counts_and_means_and_levenshtein[f"{min_moves}-{max_moves}"] = (
+            counts,
+            mean_n_halfmoves,
+            levenshtein,
         )
-        counts_and_means[range_key] = (counts, mean_n_halfmoves)
 
-    formatted_results = format_results(input_file, counts_and_means)
+    formatted_results = format_results(input_file, counts_and_means_and_levenshtein)
 
     if print_to_console:
         print(formatted_results)

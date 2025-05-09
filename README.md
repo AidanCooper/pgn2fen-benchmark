@@ -32,40 +32,40 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 ### Reasoning Language Models
 
 <p align="center">
-  <img src="results/full_correctness_reasoning.png" width="800">
+  <img src="results/standard/levenshtein_ratio/reasoning.png" width="800">
 </p>
 
-**Full correctness accuracy (%):**
+**Levenshtein Ratio (%):**
 <div align="center">
 
 | provider   | model                          |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
 |:-----------|:-------------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
-| openai     | o3-2025-04-16                  |           99 |          91.7 |          95   |          90   |          95   |           96.4 |
-| openai     | o3-mini-2025-01-31             |           82 |          74   |          49   |          39.5 |          27   |           16   |
-| deepseek   | deepseek-reasoner              |           82 |          22   |           7.5 |           9.5 |           3   |            6   |
-| google     | gemini-2.5-pro-preview-03-25   |           48 |           8   |           2   |           1   |           0   |            0   |
-| openai     | o4-mini-2025-04-16             |           28 |          19   |          17.5 |          25.8 |          35.8 |           42.5 |
-| google     | gemini-2.5-flash-preview-04-17 |           19 |           1   |           0   |           0   |           0   |            0   |
+| openai     | o3-2025-04-16                  |         99.1 |          99.1 |          99.7 |          99.6 |          99.5 |           99.8 |
+| deepseek   | deepseek-reasoner              |         98.4 |          95.7 |          92.5 |          89.2 |          87   |           88.6 |
+| openai     | o3-mini-2025-01-31             |         98.3 |          98.2 |          97.6 |          97.2 |          96.4 |           94.2 |
+| google     | gemini-2.5-pro-preview-03-25   |         96.8 |          94.5 |          87.2 |          79.9 |          73.3 |           71.9 |
+| google     | gemini-2.5-flash-preview-04-17 |         92.1 |          76.6 |          62.8 |          53.9 |          43   |           45.7 |
+| openai     | o4-mini-2025-04-16             |         84.6 |          83.8 |          81.6 |          79.5 |          86.4 |           89.4 |
 
 </div>
 
 ### Non-Reasoning Language Models
 
 <p align="center">
-  <img src="results/full_correctness_non_reasoning.png" width="800">
+  <img src="results/standard/levenshtein_ratio/non_reasoning.png" width="800">
 </p>
 
-**Full correctness accuracy (%):**
+**Levenshtein Ratio (%):**
 <div align="center">
 
 | provider   | model                     |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
 |:-----------|:--------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
-| google     | gemini-2.0-flash-001      |           44 |            10 |           3.5 |           0.5 |           0.5 |              0 |
-| google     | gemini-2.0-flash-lite-001 |           36 |             7 |           1.5 |           0   |           0   |              0 |
-| deepseek   | deepseek-chat             |           25 |             0 |           0   |           0   |           0   |              0 |
-| openai     | gpt-4.1-2025-04-14        |           20 |             1 |           0   |           0   |           0   |              0 |
-| openai     | gpt-4.1-mini-2025-04-14   |           17 |             0 |           0   |           0   |           0   |              0 |
-| openai     | gpt-4.1-nano-2025-04-14   |            2 |             0 |           0   |           0   |           0   |              0 |
+| google     | gemini-2.0-flash-001      |         97.3 |          93.5 |          91.6 |          88.3 |          84   |           75.5 |
+| google     | gemini-2.0-flash-lite-001 |         96.5 |          92.9 |          88   |          79.9 |          73.1 |           76.6 |
+| openai     | gpt-4.1-2025-04-14        |         94.9 |          85.3 |          72.9 |          64.9 |          62.3 |           55.5 |
+| deepseek   | deepseek-chat             |         93.5 |          83.4 |          72.8 |          67.9 |          65.5 |           65.3 |
+| openai     | gpt-4.1-mini-2025-04-14   |         90.4 |          78.9 |          69.2 |          62.4 |          59.1 |           55.7 |
+| openai     | gpt-4.1-nano-2025-04-14   |         78.8 |          66.7 |          57.9 |          54.9 |          50.6 |           44.8 |
 
 </div>
 

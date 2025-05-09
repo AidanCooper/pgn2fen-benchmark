@@ -10,10 +10,9 @@ import argparse
 from dotenv import load_dotenv
 from tqdm import tqdm
 
-from pgn2fen.evaluate import compare_fens, prepare_llm_fen, prepare_true_fen
 from pgn2fen.llms import get_fen
-from pgn2fen.models import FENEvaluation, LLMInfo, PGN2FENExperiment, PGNGameInfo, Provider
-from pgn2fen.pgn_io import load_experiments_from_jsonl, parse_board_from_pgn_file
+from pgn2fen.models import LLMInfo, PGN2FENLog, PGNGameInfo, Provider
+from pgn2fen.pgn_io import load_logs_from_jsonl, parse_board_from_pgn_file
 from pgn2fen.utils import is_fen, process_llm_raw_text
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -25,7 +24,7 @@ def process_single_pgn(
     model: str,
     thinking_budget: int | None = None,
     extract_fen: bool = False,
-) -> PGN2FENExperiment:
+) -> PGN2FENLog:
     """
     Processes a single PGN file.
 
@@ -51,14 +50,6 @@ def process_single_pgn(
     except Exception as e:
         raise RuntimeError(f"Error calling {provider.value}_{model} for {pgn_file}: {e}") from e
 
-    llm_fen = process_llm_raw_text(llm_raw_text, extract_fen)
-
-    if llm_fen is not None and is_fen(llm_fen):
-        parsed_board_fen, parsed_llm_fen = prepare_true_fen(board_fen), prepare_llm_fen(llm_fen)
-        evaluation = compare_fens(parsed_board_fen, parsed_llm_fen)
-    else:
-        evaluation = FENEvaluation(False, False, False, False, False, False, False)
-
     game_info = PGNGameInfo(
         datetime=str(datetime.now()),
         input_pgn_file=str(pgn_file.relative_to(PROJECT_ROOT)),
@@ -69,13 +60,12 @@ def process_single_pgn(
         provider=provider.value,
         model=model,
         llm_raw_text=llm_raw_text,
-        llm_fen=llm_fen,
+        llm_fen=process_llm_raw_text(llm_raw_text, extract_fen),
     )
 
-    return PGN2FENExperiment(
+    return PGN2FENLog(
         game_info=game_info,
         llm_info=llm_info,
-        evaluation=evaluation,
     )
 
 
@@ -150,7 +140,7 @@ def get_pgn_paths(
     """
     pgn_files = sorted(pgn_dir.glob("*.pgn"))[start_index:end_index]
     if not reprocess and jsonl_write_file.exists():
-        previous_experiments = load_experiments_from_jsonl(jsonl_write_file)
+        previous_experiments = load_logs_from_jsonl(jsonl_write_file)
         pgn_files = [
             pgn_file
             for pgn_file in pgn_files

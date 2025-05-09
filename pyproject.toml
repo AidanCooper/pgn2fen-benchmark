@@ -21,6 +21,7 @@ dependencies = [
     "tabulate",
     "google-generativeai",
     "openai",
+    "levenshtein",
 ]
 
 [project.optional-dependencies]

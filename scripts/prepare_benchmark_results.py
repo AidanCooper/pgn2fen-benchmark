@@ -6,14 +6,14 @@ import argparse
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from pgn2fen.evaluate import get_counts_and_mean_n_halfmoves
-from pgn2fen.models import PGN2FENExperiment
-from pgn2fen.pgn_io import load_experiments_from_jsonl
+from pgn2fen.evaluate import get_metric
+from pgn2fen.models import PGN2FENLog
+from pgn2fen.pgn_io import load_logs_from_jsonl
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-MODEL_TYPE_TO_FILES = {
+MODEL_TYPE_TO_FILES_STANDARD = {
     "reasoning": [
         "openai_o3-mini-2025-01-31",
         "openai_o4-mini-2025-04-16",
@@ -32,59 +32,60 @@ MODEL_TYPE_TO_FILES = {
     ],
 }
 
+MODEL_TYPE_TO_FILES_RANDOMISED = {
+    "reasoning": [
+        "openai_o3-mini-2025-01-31_randomised",
+        "openai_o4-mini-2025-04-16_randomised",
+        "google_gemini-2.5-flash-preview-04-17_randomised",
+    ],
+    "non_reasoning": [
+        "google_gemini-2.0-flash-001_randomised",
+        "google_gemini-2.0-flash-lite-001_randomised",
+    ],
+}
+
 
 def prepare_table(
     json_files: list[Path],
-    evaluation_col: str = "all correct",
+    model_type: str,
+    evaluation_metric: str = "full_correctness",
     strata: list[tuple[int, int]] | None = None,
-    output_string: str | None = None,
+    subdir: str = "",
 ) -> pd.DataFrame:
     """
     Prepares a table summarising evaluation metrics for PGN2FEN experiments.
 
     Args:
         json_files (list[Path]): List of paths to JSONL files containing experiment logs.
-        evaluation_col (str): The evaluation metric to calculate (default: "all correct").
+        model_type (str): Type of model (e.g., "reasoning" or "non_reasoning").
+        evaluation_col (str): The evaluation metric to calculate.
         strata (list[tuple[int, int]] | None): List of move ranges for stratified analysis.
-        output_string (str | None): Base name for output CSV and Markdown files.
+        subdir (str): Subdirectory for saving results.
 
     Returns:
         pd.DataFrame: DataFrame containing evaluation results.
     """
     if strata is None:
-        strata = [(0, 20), (20, 40), (40, 60), (60, 80), (80, 100)]
+        strata = [(0, 20), (21, 40), (41, 60), (61, 80), (81, 100)]
 
-    evaluation_cols = [
-        f"{evaluation_col} ({strata[i][0]}-{strata[i][1]} moves)" for i in range(len(strata))
-    ]
+    evaluation_cols = [f"{strata[i][0]}-{strata[i][1]} moves" for i in range(len(strata))]
     df = pd.DataFrame(columns=["provider", "model", *evaluation_cols])
     for json_file in json_files:
-        experiments: list[PGN2FENExperiment] = load_experiments_from_jsonl(json_file)
+        logs: list[PGN2FENLog] = load_logs_from_jsonl(json_file)
+        if not logs:
+            continue
 
-        pcts_dict = {}
+        metrics_dict = {}
         for stratum in strata:
-            counts, _ = get_counts_and_mean_n_halfmoves(
-                experiments,
-                min_halfmoves=stratum[0],
-                max_halfmoves=stratum[1],
-            )
+            logs_ = [
+                log for log in logs if stratum[0] <= log.game_info.number_of_halfmoves <= stratum[1]
+            ]
+            metrics_dict[stratum] = get_metric(evaluation_metric, logs_)
 
-            if counts["n"] == 0:
-                pcts_dict[stratum] = None
-            else:
-                pcts_dict[stratum] = round(
-                    counts[evaluation_col.lower().replace(" ", "_")] / counts["n"] * 100, 1
-                )
-
-        provider = experiments[0].llm_info.provider
-        model = experiments[0].llm_info.model
         row = {
-            "provider": provider,
-            "model": model,
-            **{
-                f"{evaluation_col} ({stratum[0]}-{stratum[1]} moves)": pcts_dict[stratum]
-                for stratum in strata
-            },
+            "provider": logs[0].llm_info.provider,
+            "model": logs[0].llm_info.model,
+            **{f"{stratum[0]}-{stratum[1]} moves": metrics_dict[stratum] for stratum in strata},
         }
         df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
 
@@ -93,37 +94,36 @@ def prepare_table(
         ascending=False,
     )
 
-    if output_string:
-        df_ = df.copy()
-        evaluation_cols = [f"{strata[i][0]}-{strata[i][1]} moves" for i in range(len(strata))]
-        df_.columns = ["provider", "model", *evaluation_cols]
-        df_.to_csv(
-            PROJECT_ROOT / "results" / f"{output_string}.csv",
-            index=False,
-        )
-        df_.to_markdown(
-            PROJECT_ROOT / "results" / f"{output_string}.md",
-            index=False,
-        )
+    output_dir = PROJECT_ROOT / "results" / subdir / evaluation_metric
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    df.to_csv(
+        output_dir / f"{model_type}.csv",
+        index=False,
+    )
+    df.to_markdown(
+        output_dir / f"{model_type}.md",
+        index=False,
+    )
     return df
 
 
 def prepare_bar_plot(
     df: pd.DataFrame,
+    model_type: str,
+    evaluation_metric: str,
     strata: list[tuple[int, int]],
-    evaluation_col: str,
-    output_string: str = "bar_plot",
-    model_type: str = "",
+    subdir: str = "",
 ) -> None:
     """
     Creates a bar plot visualising evaluation metrics for PGN2FEN experiments.
 
     Args:
         df (pd.DataFrame): DataFrame containing evaluation results.
-        strata (list[tuple[int, int]]): List of move ranges for stratified analysis.
-        evaluation_col (str): The evaluation metric to visualise.
-        output_string (str): Base name for the output PNG file (default: "bar_plot").
         model_type (str): Type of model (e.g., "reasoning" or "non_reasoning") for labeling.
+        evaluation_metric (str): The evaluation metric to visualise.
+        strata (list[tuple[int, int]]): List of move ranges for stratified analysis.
+        subdir (str): Subdirectory for saving results.
 
     Returns:
         None
@@ -144,9 +144,6 @@ def prepare_bar_plot(
         except KeyError as e:
             raise ValueError(f"Unknown provider: {provider} (model: {model})") from e
 
-    if model_type:
-        model_type = f" ({model_type.replace("_", "-").title()} Models)"
-
     df_ = df.copy()
     df_ = df_.fillna(0)
     df_ = df_.set_index(["provider", "model"])
@@ -154,24 +151,38 @@ def prepare_bar_plot(
     plt.rcParams.update({"font.size": 14})
     fig, ax = plt.subplots(figsize=(10, 7))
     df_.T.plot(kind="bar", ax=ax, color=colours)
-    ax.set_ylabel("Accuracy (%)")
+    ax.set_ylabel("%")
     ax.set_ylim(0, 100)
     ax.set_xticklabels([f"{stratum[0]}-{stratum[1]}\nmoves" for stratum in strata], rotation=45)
     ax.grid(axis="y", linestyle="--")
-    ax.set_title(f"{evaluation_col.title()} Evaluation{model_type}")
+    ax.set_title(
+        f"{evaluation_metric.replace("_", " ").title()} ({model_type.replace("_", "-").title()} Models)"
+    )
     ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.2), ncol=2, frameon=False)
 
     plt.tight_layout()
-    plt.savefig(PROJECT_ROOT / "results" / f"{output_string}.png")
+
+    output_dir = PROJECT_ROOT / "results" / subdir / evaluation_metric
+    output_dir.mkdir(parents=True, exist_ok=True)
+    plt.savefig(output_dir / f"{model_type}.png")
 
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Prepare benchmark results and visualizations.")
     parser.add_argument(
-        "--evaluation-cols",
+        "--evaluation-metrics",
         nargs="+",
-        default=["full correctness", "piece placement"],
-        help="List of evaluation columns to use (default: ['full correctness', 'piece placement'])",
+        default=[
+            "full_correctness",
+            "piece_placement",
+            "turn",
+            "castling",
+            "en_passant",
+            "halfmove_clock",
+            "fullmove_number",
+            "levenshtein_ratio",
+        ],
+        help="List of evaluation metrics to compute. Options: ['full_correctness' 'piece_placement' 'turn' 'castling' 'en_passant' 'halfmove_clock' 'fullmove_number' 'levenshtein_ratio'].",
     )
     return parser.parse_args()
 
@@ -179,21 +190,42 @@ def parse_arguments():
 def main():
     args = parse_arguments()
 
-    evaluation_cols = args.evaluation_cols
+    evaluation_metrics = args.evaluation_metrics
     strata = [(0, 10), (11, 20), (21, 40), (41, 60), (61, 80), (81, 100)]
 
     input_dir = PROJECT_ROOT / "model_logs"
 
-    for model_type, model_files in MODEL_TYPE_TO_FILES.items():
-        for evaluation_col in evaluation_cols:
-            json_files = [input_dir / f"{file}.jsonl" for file in model_files]
-            output_string = "_".join([evaluation_col.replace(" ", "_"), model_type])
+    for benchmark, model_type_to_files in zip(
+        [
+            "standard",
+            "randomised",
+        ],
+        [
+            MODEL_TYPE_TO_FILES_STANDARD,
+            MODEL_TYPE_TO_FILES_RANDOMISED,
+        ],
+    ):
+        for model_type, model_files in model_type_to_files.items():
+            for evaluation_metric in evaluation_metrics:
+                json_files = [input_dir / f"{file}.jsonl" for file in model_files]
 
-            # Prepare data for analysis
-            df = prepare_table(json_files, evaluation_col, strata, output_string)
+                # Prepare data for analysis
+                df = prepare_table(
+                    json_files,
+                    model_type,
+                    evaluation_metric,
+                    strata,
+                    subdir=benchmark,
+                )
 
-            # Visualise results as a bar plot
-            prepare_bar_plot(df, strata, evaluation_col, output_string, model_type)
+                # Visualise results as a bar plot
+                prepare_bar_plot(
+                    df,
+                    model_type,
+                    evaluation_metric,
+                    strata,
+                    subdir=benchmark,
+                )
 
 
 if __name__ == "__main__":
