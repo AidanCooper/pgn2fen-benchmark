@@ -1,0 +1,14 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.08"]
+[Round "9.3"]
+[White "Nakamura, Hikaru"]
+[Black "Fedoseev, Vladimir3"]
+[Result "*"]
+[WhiteElo "2802"]
+[BlackElo "2724"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "brkrnqnb/pppppppp/8/8/8/8/PPPPPPPP/BRKRNQNB w KQkq - 0 1"]
+
+1. g4 f5 2. gxf5 Qxf5 3. b3 Ngf6 4. f4 g5 5. Nd3 gxf4 6. e4 Qa5 7. Bc3 Qh5 8. e5 Ng8 9. Nxf4 Qxh2 *

@@ -1,0 +1,14 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.29"]
+[Round "2.6"]
+[White "So, Wesley"]
+[Black "Nepomniachtchi, Ian"]
+[Result "*"]
+[Variant "chess 960"]
+[SetUp "1"]
+[FEN "bnnrkqrb/pppppppp/8/8/8/8/PPPPPPPP/BNNRKQRB w KQkq - 0 1"]
+[WhiteElo "2767"]
+[BlackElo "2776"]
+
+1. b3 *

@@ -1,0 +1,31 @@
+[Event "World Fischer Random GpA"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.25"]
+[Round "2.1"]
+[White "So, Wesley"]
+[Black "Abdusattorov, Nodirbek"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2774"]
+[BlackElo "2713"]
+[WhiteFideId "5202213"]
+[BlackFideId "14204118"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qnbrkrnb/pppppppp/8/8/8/8/PPPPPPPP/QNBRKRNB w FDfd - 0 1"]
+[EventDate "2022.10.25"]
+
+1. b4 Nf6 2. g3 d5 3. Bb2 O-O 4. d3 a5 5. b5 a4 6. Na3 c6 7. Bc3 g6 8. Bg2 d4 9.
+Bd2 e5 10. e4 dxe3 11. fxe3 Bg4 12. Ne2 e4 13. Bc3 exd3 14. Rxd3 Rxd3 15. cxd3
+Nbd7 16. Rxf6 Bxf6 17. Bxf6 Nxf6 18. Qxf6 Re8 19. Qd4 Qa5+ 20. Kf2 Qd2 21. Qxg4
+Qxe3+ 22. Kf1 Qxd3 23. bxc6 bxc6 24. Bxc6 Re6 25. Bxa4 Rf6+ 26. Ke1 Qxa3 27. Qd4
+Qf3 28. Kd2 Re6 29. Bb5 Qa3 30. Bc4 Qb4+ 31. Qc3 Rd6+ 32. Kc2 Qb6 33. Qf3 Rf6
+34. Qe4 Qc7 35. Nf4 Rc6 36. Kd3 Qd8+ 37. Ke2 Rd6 38. Qe3 Qf6 39. Nd5 Qb2+ 40.
+Qd2 Qe5+ 41. Kf2 Rc6 42. Bb3 Kg7 43. h4 Qa1 44. Kg2 Rc1 45. Qf2 Qe5 46. Kh2 h5
+47. Nf4 Rc7 48. Bd5 Rd7 49. Bg2 Qd4 50. Qc2 Qd2 51. Qb3 Ra7 52. a4 Qd4 53. Bc6
+Qd2+ 54. Kh3 Re7 55. Bg2 Ra7 56. Qb5 Ra5 57. Qb7 Qc2 58. Ne6+ Kg8 59. Qb8+ Kh7
+60. Ng5+ Kg7 61. Qf4 Qc8+ 62. Kh2 Qd7 63. Bc6 Qe7 64. Qd4+ f6 65. Ne4 Re5 66.
+Qc4 Qc7 67. Nd2 Re3 68. Nf1 Ra3 69. Qe4 Ra2+ 70. Kh1 Ra1 71. Kg2 Ra2+ 72. Kf3
+Qd6 73. Ne3 Ra3 74. Bb5 Qc5 75. Qb7+ Kh6 76. Qe4 Qc1 77. Bd3 Qh1+ 78. Ng2 Qf1+
+79. Ke3 Qg1+ 80. Kf3 Qd1+ 81. Ke3 Qg1+ 82. Kf3 Qf1+ 1/2-1/2

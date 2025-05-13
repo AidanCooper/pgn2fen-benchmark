@@ -1,0 +1,28 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.08"]
+[Round "6.3"]
+[White "Caruana, Fabiano"]
+[Black "Gukesh, D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2803"]
+[BlackElo "2777"]
+[WhiteFideId "2020009"]
+[BlackFideId "46616543"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qbrnkrbn/pppppppp/8/8/8/8/PPPPPPPP/QBRNKRBN w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. c4 f6 2. Ng3 c5 3. f4 Ng6 4. Nh5 Nh4 5. g3 g6 6. gxh4 gxh5 7. Be4 f5 8. Bg2
+Bf7 9. Qb1 Rg8 10. Ne3 e6 11. b4 Bd6 12. bxc5 Bxc5 13. Bf3 Qb8 14. Ng2 Bxg1 15.
+Rxg1 b5 16. c5 Nc6 17. e3 Ne7 18. Kf2 e5 19. Qb2 e4 20. Be2 b4 21. Ne1 Rxg1 22.
+Kxg1 Kf8 23. Qh8+ Ng8 24. Qxh7 Nf6 25. Qxf5 Ke7 26. Bc4 Be6 27. Bxe6 dxe6 28.
+Qe5 Rg8+ 29. Kf1 Qb5+ 30. d3 exd3 31. Qd6+ Kf7 32. Qxd3 Qc6 33. e4 Nxe4 34. Rc4
+Nxc5 35. Qh7+ Kf8 36. Qh6+ Ke7 37. Qh7+ Kf8 38. Qxh5 Qh1+ 39. Ke2 Qxh2+ 40. Kd1
+Qxa2 41. Qxc5+ Kf7 42. Qh5+ Ke7 43. Qh7+ Kf6 44. Qh6+ Ke7 45. Qh7+ Kf6 46. Qd3
+Rg3 47. Qd8+ Kf5 48. Rc5+ Kg4 49. Rg5+ Kh3 50. Rxg3+ Kxg3 51. h5 Qb1+ 52. Kd2
+Qb2+ 53. Kd1 Qb1+ 54. Ke2 Qe4+ 55. Kd2 Qxf4+ 56. Kc2 Qc4+ 57. Kb1 Qb3+ 58. Kc1
+Qc3+ 59. Kd1 Qa1+ 60. Kd2 Qc3+ 61. Kd1 Qa1+ 1/2-1/2

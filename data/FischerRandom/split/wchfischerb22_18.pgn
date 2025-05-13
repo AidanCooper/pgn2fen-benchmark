@@ -1,0 +1,25 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.27"]
+[Round "5.1"]
+[White "Fedoseev, Vladimir3"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2688"]
+[BlackElo "2856"]
+[WhiteFideId "24130737"]
+[BlackFideId "1503014"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkrbbnq/pppppppp/8/8/8/8/PPPPPPPP/NRKRBBNQ w DBdb - 0 1"]
+[EventDate "2022.10.25"]
+
+1. g4 d5 2. f4 e6 3. Nf3 Bd6 4. e3 Ne7 5. d4 h5 6. g5 Nf5 7. Qg1 Nb6 8. Bd3 Nc4
+9. Bf2 a5 10. Ne5 b5 11. g6 f6 12. Nf7 Bxf7 13. gxf7 Qf8 14. Bxf5 exf5 15. Qg6
+Rd7 16. Qxh5 Qxf7 17. Qxf5 g6 18. Qh3 a4 19. c3 g5 20. Nc2 gxf4 21. b3 Nxe3 22.
+Bxe3 fxe3 23. Qxe3 a3 24. Rd2 Re7 25. Qf3 Re4 26. Qf5+ Kb7 27. Rf2 Rh8 28. O-O-O
+Rh5 29. Qf3 Rf4 30. Qe2 Rxf2 31. Qxf2 Rxh2 32. Qf5 c6 33. Kb1 Qg7 34. Rc1 Qg3
+35. Nb4 Bxb4 36. cxb4 Qc7 37. Qe6 Qh7+ 38. Ka1 Rc2 39. Re1 Rh2 40. Rc1 Rc2 41.
+Re1 Rg2 42. Qxf6 Qc2 43. Re7+ Ka6 44. Ra7+ Kxa7 45. Qe7+ 1/2-1/2

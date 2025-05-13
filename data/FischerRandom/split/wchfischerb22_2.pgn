@@ -1,0 +1,22 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.25"]
+[Round "1.1"]
+[White "Carlsen, Magnus"]
+[Black "Fedoseev, Vladimir3"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2856"]
+[BlackElo "2688"]
+[WhiteFideId "1503014"]
+[BlackFideId "24130737"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rnbbkqrn/pppppppp/8/8/8/8/PPPPPPPP/RNBBKQRN w GAga - 0 1"]
+[EventDate "2022.10.25"]
+
+1. d4 c5 2. d5 e6 3. e4 Qd6 4. Nc3 Ng6 5. f4 Ba5 6. Qf2 exd5 7. O-O d4 8. e5 Qe7
+9. Ne4 O-O 10. Nhg3 Bc7 11. Nf5 Qd8 12. Nfd6 Bxd6 13. Nxd6 Nc6 14. Be2 f6 15.
+Qg3 Qe7 16. Bc4+ Kh8 17. Rf3 b5 18. Bd5 fxe5 19. Qxg6 Rf6 20. Qe8+ Qxe8 21. Nxe8
+e4 22. Nxf6 exf3 23. Ne4 c4 24. Bd2 Rb8 25. Re1 1-0

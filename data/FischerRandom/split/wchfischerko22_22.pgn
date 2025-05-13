@@ -1,0 +1,27 @@
+[Event "World Fischer Random KO"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.30"]
+[Round "2.4"]
+[White "Fedoseev, Vladimir3"]
+[Black "So, Wesley"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2688"]
+[BlackElo "2774"]
+[WhiteFideId "24130737"]
+[BlackFideId "5202213"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkqbrnb/pppppppp/8/8/8/8/PPPPPPPP/NRKQBRNB w FBfb - 0 1"]
+[EventDate "2022.10.29"]
+
+1. g3 f5 2. d4 Nb6 3. Qd3 g6 4. c4 d6 5. Nc2 Nf6 6. Nf3 e6 7. Qe3 Qe7 8. b3 Ng4
+9. Qg5 Bf6 10. Qd2 Bg7 11. h3 Nf6 12. Qe3 Nh5 13. Ng5 Bd7 14. Nxh7 f4 15. Qd3
+Rh8 16. g4 Rxh7 17. gxh5 Rxh5 18. Qxg6 Rxh3 19. Bd2 Rh6 20. Qd3 e5 21. Be4 c6
+22. d5 c5 23. f3 Bf6 24. a4 Na8 25. Kb2 Nc7 26. Rh1 Rxh1 27. Rxh1 O-O-O 28. e3
+Rh8 29. Rxh8+ Bxh8 30. Bc3 Bf6 31. Bf5 Bg5 32. Bxd7+ Kxd7 33. Qf5+ Kd8 34. e4
+Bh4 35. b4 Bf2 36. b5 Ne8 37. a5 Qg7 38. b6 axb6 39. axb6 Qg2 40. Qf7 Qg7 41.
+Qf5 Bd4 42. Nxd4 cxd4 43. Be1 Qg2+ 44. Kb3 Qxf3+ 45. Kb4 Qh1 46. Qg5+ Kc8 47.
+Qg4+ Kb8 48. Qd1 Nf6 49. Kb5 Nxe4 50. Qg4 Qh8 51. Qg6 Qc8 52. Bb4 Qd7+ 53. Ka5
+Nc5 54. Bxc5 dxc5 55. Qf6 Qe8 56. Qd6+ Ka8 57. Qc7 1-0

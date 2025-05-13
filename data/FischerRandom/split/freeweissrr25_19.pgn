@@ -1,0 +1,24 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.07"]
+[Round "4.4"]
+[White "Caruana, Fabiano"]
+[Black "Firouzja, Alireza"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2803"]
+[BlackElo "2760"]
+[WhiteFideId "2020009"]
+[BlackFideId "12573981"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qbnrbknr/pppppppp/8/8/8/8/PPPPPPPP/QBNRBKNR w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. c4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 b6 5. b3 d5 6. O-O O-O 7. Nf5 Bd7 8. Rxd5
+Bxf5 9. Rxf5 Nd6 10. Rf3 Nde4 11. Qb2 Ng4 12. Rh3 f5 13. Bxe4 fxe4 14. e3 Be5
+15. Qe2 Qc8 16. b4 Rd6 17. Nb3 Rg6 18. Rh4 Nxh2 19. Rxh2 Bxh2+ 20. Kxh2 Rf3 21.
+Rh1 Qg4 22. Qf1 Rf5 23. Kg1 Rfg5 24. Rh2 h5 25. Nd4 e5 26. Ne2 h4 27. Nc3 Rh6
+28. c5 bxc5 29. bxc5 Kh8 30. Qc4 h3 31. Qxe4 Qc8 32. g3 Qxc5 33. Qa8+ Kh7 34.
+Ne4 1-0

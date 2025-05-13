@@ -1,0 +1,24 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.07"]
+[Round "5.3"]
+[White "Carlsen, Magnus"]
+[Black "Sindarov, Javokhir"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2833"]
+[BlackElo "2700"]
+[WhiteFideId "1503014"]
+[BlackFideId "14205483"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rbbknrqn/pppppppp/8/8/8/8/PPPPPPPP/RBBKNRQN w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. f3 f5 2. d4 d6 3. Nd3 Nf6 4. Ng3 Ng6 5. a4 a5 6. e4 fxe4 7. fxe4 Ba7 8. h3 e5
+9. Be3 exd4 10. Bxd4 Bxd4 11. Qxd4 Be6 12. O-O Nd7 13. Nf5 Nge5 14. Nf4 Bc4 15.
+Rf2 g6 16. Ne3 g5 17. Nfd5 Rxf2 18. Kxf2 Bxd5 19. exd5 Nc5 20. Ra3 Qg6 21. Qd1
+Qe4 22. c4 Qf4+ 23. Kg1 O-O-O 24. Bxh7 Kb8 25. Rc3 Re8 26. Bc2 Ned3 27. Bxd3
+Qxe3+ 28. Kh2 Qf4+ 29. Kh1 Qf2 30. Rc1 g4 31. Qf1 Nxd3 32. Qxd3 gxh3 33. Qxh3
+Qd4 0-1

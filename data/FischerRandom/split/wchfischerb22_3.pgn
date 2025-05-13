@@ -1,0 +1,23 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.25"]
+[Round "1.2"]
+[White "Nakamura, Hikaru"]
+[Black "Bluebaum, Matthias"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2768"]
+[BlackElo "2647"]
+[WhiteFideId "2016192"]
+[BlackFideId "24651516"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rnbbkqrn/pppppppp/8/8/8/8/PPPPPPPP/RNBBKQRN w GAga - 0 1"]
+[EventDate "2022.10.25"]
+
+1. c4 e5 2. g4 d6 3. Nc3 f5 4. gxf5 Bxf5 5. Ng3 Be6 6. e3 Nc6 7. b3 Ng6 8. Bh5
+Nb4 9. Kd1 Be7 10. a3 Nc6 11. Qe2 O-O-O 12. Bg4 Qf7 13. Bb2 Kb8 14. Nge4 Nh4 15.
+Bxe6 Qxe6 16. Nd5 Rdf8 17. Rg3 Bd8 18. Kc2 Qf5 19. Qg4 Qf7 20. f4 h5 21. Qe2
+exf4 22. Nxf4 g5 23. Nd5 Nf3 24. Nef6 Bxf6 25. Nxf6 Ncd4+ 26. Bxd4 Nxd4+ 27.
+exd4 Qxf6 28. Qxh5 Qxd4 29. Re1 Rh8 30. Qxg5 Rxh2 31. Qe3 Qxe3 1/2-1/2

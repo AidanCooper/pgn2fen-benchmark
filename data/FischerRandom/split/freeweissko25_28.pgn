@@ -1,0 +1,24 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.13"]
+[Round "3.1"]
+[White "Keymer, Vincent"]
+[Black "Caruana, Fabiano"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2803"]
+[WhiteFideId "12940690"]
+[BlackFideId "2020009"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "bqrkrbnn/pppppppp/8/8/8/8/PPPPPPPP/BQRKRBNN w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. c4 Nf6 2. Nf3 b6 3. b4 c5 4. Be5 d6 5. Bxf6 exf6 6. Qxh7 Ng6 7. e3 cxb4 8.
+Be2 Rc5 9. Ng3 Qc7 10. d4 Ra5 11. Rc2 Bc6 12. O-O Ra3 13. h4 Ba4 14. Rcc1 a5 15.
+h5 Ne7 16. d5 Rxa2 17. Nd4 Qd7 18. Ra1 Rd2 19. h6 gxh6 20. Bh5 Rxd4 21. exd4 Bb3
+22. Qd3 a4 23. Rfb1 Nc8 24. Nf1 b5 25. cxb5 Qc7 26. Ne3 Nb6 27. Rc1 Qb7 28. Bf3
+f5 29. Qxf5 Bg7 30. Qf4 Bf8 31. Rc6 a3 32. Rxd6+ Nd7 33. Ra6 1-0

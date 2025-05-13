@@ -1,0 +1,35 @@
+[Event "World Fischer Random GpA"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.26"]
+[Round "3.1"]
+[White "So, Wesley"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2774"]
+[BlackElo "2793"]
+[WhiteFideId "5202213"]
+[BlackFideId "4168119"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkrbbqn/pppppppp/8/8/8/8/PPPPPPPP/NRKRBBQN w DBdb - 0 1"]
+[EventDate "2022.10.25"]
+
+1. Ng3 f6 2. Nb3 e5 3. d4 Nb6 4. e4 g6 5. f3 Nf7 6. d5 Bh6+ 7. Bd2 Qg7 8. c4 d6
+9. c5 dxc5 10. Nxc5 Bd7 11. a4 Nd6 12. b3 O-O 13. Qf2 f5 14. a5 Bxd2+ 15. Qxd2
+Nbc8 16. Bd3 fxe4 17. Bxe4 Nxe4 18. Ngxe4 Nd6 19. Ng5 Qe7 20. O-O Nf5 21. Rbc1
+Nd4 22. Rfe1 Qd6 23. Nxd7 Qxd7 24. Qc3 Rf5 25. Ne6 c6 26. Nxd4 exd4 27. Qxd4
+Rxd5 28. Qxa7 Re8 29. a6 Rxe1+ 30. Rxe1 Rd1 31. Qb8+ Kf7 32. Qf4+ Kg7 33. Qe5+
+Kf7 34. Qf4+ Kg7 35. Qe5+ Kf7 36. axb7 Rxe1+ 37. Qxe1 Qxb7 38. Qe3 Qd7 39. Qf4+
+Kg8 40. Kf2 h5 41. h4 Kh7 42. b4 Qa7+ 43. Qe3 Qd7 44. Qe4 Qd2+ 45. Kg3 Qd6+ 46.
+Qf4 Qe7 47. Qd4 Qe1+ 48. Kh2 Qe7 49. Kh3 Qe6+ 50. g4 hxg4+ 51. fxg4 Qb3+ 52. Kg2
+Qa2+ 53. Kg3 Qb3+ 54. Kf4 Qf7+ 55. Kg3 Qb3+ 56. Kg2 Qa2+ 57. Kf3 Qf7+ 58. Qf4
+Qb3+ 59. Ke2 Qc2+ 60. Kf1 Qb1+ 61. Kg2 Qc2+ 62. Qf2 Qe4+ 63. Kg3 Qe5+ 64. Qf4
+Qe1+ 65. Qf2 Qe5+ 66. Kg2 Qe4+ 67. Kh3 Kg8 68. Qa2+ Kg7 69. Qb2+ Kh7 70. Qc3
+Qh1+ 71. Kg3 Qe4 72. g5 Kg8 73. Qd2 Qe5+ 74. Kf3 Qf5+ 75. Ke3 Qe6+ 76. Kd4 Qd5+
+77. Kc3 Qe5+ 78. Kc4 Qb5+ 79. Kc3 Qe5+ 80. Qd4 Qe1+ 81. Kc4 Qc1+ 82. Qc3 Qg1 83.
+Qd3 Qc1+ 84. Kb3 Kh7 85. Qd7+ Kg8 86. Qe8+ Kg7 87. Qe7+ Kg8 88. Qe6+ Kf8 89.
+Qf6+ Ke8 90. Qxg6+ Kd7 91. Qd3+ Kc7 92. g6 Qg1 93. h5 Qg5 94. Qf3 Kb6 95. Qf2+
+Ka6 96. Qc5 Qg2 97. Qc4+ Kb6 98. Qd4+ Kb7 99. g7 Qf3+ 100. Qc3 Qf7+ 101. Ka3 c5
+102. h6 cxb4+ 103. Kxb4 Qd5 104. Qb3 Qd6+ 105. Kc3+ Ka7 106. Qa4+ 1-0

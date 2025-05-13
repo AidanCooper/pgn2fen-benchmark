@@ -1,0 +1,25 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.07"]
+[Round "1.5"]
+[White "Carlsen, Magnus"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2833"]
+[BlackElo "2802"]
+[WhiteFideId "1503014"]
+[BlackFideId "2016192"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rkqrbbnn/pppppppp/8/8/8/8/PPPPPPPP/RKQRBBNN w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. d4 d5 2. f3 Bb5 3. a4 Ba6 4. Nf2 Ng6 5. Nd3 Bxd3 6. Rxd3 e5 7. e3 Nf6 8. Rb3
+a6 9. g4 c5 10. dxc5 Qxc5 11. Ne2 Bd6 12. Ng3 Ne7 13. Rc3 Qa7 14. a5 Bb4 15. Rb3
+Bxe1 16. Qxe1 Nc6 17. g5 Nd7 18. Bh3 Qc5 19. Nh5 Qf8 20. f4 Nc5 21. Rb6 Ka7 22.
+fxe5 Nxe5 23. Qb4 Rab8 24. Nxg7 Nc6 25. Qa3 d4 26. exd4 Rxd4 27. Nf5 Ra4 28. Qg3
+Rxa1+ 29. Kxa1 Qd8 30. Qg1 Qd5 31. b4 Qe5+ 32. Ka2 Rc8 33. bxc5 Qc3 34. Rb3
+Qxc2+ 35. Ka3 Nxa5 36. c6+ Kb8 37. Qg3+ Rc7 38. Rc3 Qb1 39. Nd4 b6 40. Qd6 Qa1+
+41. Kb4 Nb7 42. Qf8+ Ka7 43. Nb5+ 1-0

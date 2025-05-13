@@ -1,0 +1,26 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.04"]
+[Round "1.17"]
+[White "Firouzja,Alireza"]
+[Black "Nepomniachtchi, Ian"]
+[Result "0-1"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rnbnkbrq/pppppppp/8/8/8/8/PPPPPPPP/RNBNKBRQ w GAga - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2702"]
+[BlackElo "2776"]
+[WhiteFideId "12573981"]
+[BlackFideId "4168119"]
+[EventDate "2019.10.04"]
+
+1. e4 e5 2. Bc4 Bc5 3. d3 d6 4. Nbc3 Be6 5. Be3 Bxc4 6. dxc4 Ne6 7. Bxc5 Nxc5 8.
+Ne3 Nc6 9. O-O-O O-O-O 10. g3 Rge8 11. Qf3 Qg8 12. Ned5 Kb8 13. Kb1 f6 14. Qe3
+Ne6 15. f4 Qf7 16. a3 exf4 17. gxf4 Nc5 18. f5 Ne5 19. b3 a6 20. Rg2 g5 21. Rgd2
+h5 22. Qe2 g4 23. Nf4 Nf3 24. Rd5 Ng5 25. R5d4 Nf3 26. Rd5 Ng5 27. Kb2 Ncxe4 28.
+Nxe4 Rxe4 29. Qf2 Re5 30. Qh4 Rxd5 31. cxd5 Rh8 32. Ng6 Rh7 33. Qe1 Nf3 34. Qe6
+Ne5 35. Rd4 Nxg6 36. fxg6 Qxg6 37. Rf4 Qg5 38. Rf5 Qg7 39. Ka2 h4 40. Rxf6 g3
+41. Qe8+ Ka7 42. Qe3+ b6 43. Rf1 g2 44. Rg1 h3 45. Qd3 Rh8 46. a4 a5 47. Qc4 Kb8
+48. Qd3 Qe5 49. Qf3 Qxh2 50. Qf2 Qxg1 51. Qxg1 h2 52. Qxg2 h1=Q 0-1

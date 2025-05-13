@@ -1,0 +1,28 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.07"]
+[Round "1.1"]
+[White "Keymer, Vincent"]
+[Black "Sindarov, Javokhir"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2700"]
+[WhiteFideId "12940690"]
+[BlackFideId "14205483"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rkqrbbnn/pppppppp/8/8/8/8/PPPPPPPP/RKQRBBNN w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. e4 e5 2. Ng3 Ng6 3. d4 exd4 4. Nf3 c5 5. c3 d5 6. cxd4 dxe4 7. Nxe4 Bc6 8.
+Bd3 cxd4 9. Neg5 Qc7 10. Bxg6 hxg6 11. Nxd4 Bd5 12. Qxc7+ Kxc7 13. f3 b6 14.
+Nb5+ Kb7 15. Nc3 Bc4 16. Rxd8 Rxd8 17. b3 Be7 18. bxc4 Bxg5 19. Kc2 Ne7 20. Ne4
+Bf4 21. Bc3 Bxh2 22. Bxg7 Nf5 23. Bf6 Rd7 24. Kc3 Bc7 25. Re1 Bf4 26. c5 Ne3 27.
+cxb6 axb6 28. Re2 Nd5+ 29. Kb3 Nxf6 30. Nxf6 Rd2 31. Rxd2 Bxd2 32. Kc4 Kc6 33.
+a4 Bg5 34. Nd5 Bd2 35. Nf6 Bg5 36. Ne4 Be7 37. Nc3 Bg5 38. Nd1 Bh6 39. Nf2 Bf8
+40. Nd3 Bd6 41. Kd4 Bg3 42. Nb4+ Kd6 43. Kc4 Bf2 44. Kb5 f5 45. Nd3 Bd4 46. Kc4
+Be3 47. Nb4 Ke5 48. Nd5 Bf2 49. Ne7 g5 50. Kb5 Kf4 51. Nd5+ Kg3 52. Nxb6 Be1 53.
+Nd5 Kxg2 54. f4 g4 55. Ne3+ Kf3 56. Nxf5 Kxf4 57. Nd4 Bf2 58. Ne6+ Ke5 59. Nf8
+Kf5 60. a5 g3 0-1

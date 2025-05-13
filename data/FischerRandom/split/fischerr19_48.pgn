@@ -1,0 +1,24 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.06"]
+[Round "1.32"]
+[White "Firouzja,Alireza"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1/2-1/2"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rkbbqrnn/pppppppp/8/8/8/8/PPPPPPPP/RKBBQRNN w FAfa - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2702"]
+[BlackElo "2776"]
+[WhiteFideId "12573981"]
+[BlackFideId "4168119"]
+[EventDate "2019.10.04"]
+
+1. f4 d5 2. b3 e6 3. Bb2 Bf6 4. d4 Ng6 5. Ng3 Nh4 6. Nh5 Nf5 7. e3 Nd6 8. g4 g6
+9. Nxf6 Nxf6 10. a4 a5 11. g5 Nfe4 12. Nf3 b6 13. Ne5 Ba6 14. Rh1 h6 15. h4 Rh8
+16. Bf3 Ka7 17. Ka2 Rc8 18. Rc1 Bb7 19. Ba3 Rh7 20. gxh6 Rxh6 21. h5 gxh5 22.
+Rxh5 Rxh5 23. Bxh5 Qg8 24. Bf3 f6 25. Nd3 Kb8 26. Nf2 Qg6 27. Nxe4 Nxe4 28. Qg1
+Ng3 29. Qg2 Rg8 30. Rg1 Qh7 31. b4 Rg7 32. Qf2 Ne2 33. Rxg7 Qxc2+ 34. Ka1 Qd1+
+35. Ka2 Qd2+ 36. Ka1 Qd1+ 37. Ka2 Qc2+ 38. Ka1 Qd1+ 1/2-1/2

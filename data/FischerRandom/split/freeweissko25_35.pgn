@@ -1,0 +1,24 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.14"]
+[Round "3.2"]
+[White "Gukesh, D"]
+[Black "Firouzja, Alireza"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2777"]
+[BlackElo "2760"]
+[WhiteFideId "46616543"]
+[BlackFideId "12573981"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rkqbrnbn/pppppppp/8/8/8/8/PPPPPPPP/RKQBRNBN w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. f4 f6 2. e4 e5 3. f5 d5 4. d3 c6 5. g4 Bb6 6. Nfg3 Qd8 7. Bxb6 Qxb6 8. Nh5
+Re7 9. g5 Nd7 10. h4 dxe4 11. dxe4 O-O-O 12. Bg4 Nf7 13. Rd1 Kc7 14. a4 Nd6 15.
+N1g3 Nc5 16. a5 Qb4 17. Qd2 Qb5 18. Be2 Bc4 19. gxf6 Red7 20. b3 gxf6 21. Nxf6
+Ndxe4 22. Qxd7+ Rxd7 23. Rxd7+ Nxd7 24. Nfxe4 Bxe2 25. Nc3 Qb4 26. Ngxe2 Qxh4
+27. Kb2 Qg5 28. Rg1 Qxf5 29. Rg7 e4 30. Re7 Kd8 0-1

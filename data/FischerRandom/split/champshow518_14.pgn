@@ -1,0 +1,31 @@
+[Event "Champions Chess960 G5"]
+[Site "Saint Louis USA"]
+[Date "2018.09.12"]
+[Round "3.4"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Shankland, Samuel"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2780"]
+[BlackElo "2722"]
+[WhiteFideId "623539"]
+[BlackFideId "2004887"]
+[EventDate "2018.09.11"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rbnnqkbr/pppppppp/8/8/8/8/PPPPPPPP/RBNNQKBR w HAha - 0 1"]
+
+1. e4 e5 2. c3 f6 3. Ne2 c6 4. d4 exd4 5. Nxd4 Bc4+ 6. Ne2 O-O 7. Ne3 Bf7 8. f3
+Nb6 9. Bf2 d5 10. O-O dxe4 11. Bxe4 Ne6 12. Nf5 Bg6 13. Ned4 Be5 14. Rd1 Rd8 15.
+Nxe6 Qxe6 16. Rxd8 Rxd8 17. Nxg7 Kxg7 18. Bxg6 Bxh2+ 19. Kxh2 Qxe1 20. Rxe1 Kxg6
+21. Re7 Rd2 22. Bd4 Rxb2 23. Rxb7 Rxa2 24. Rc7 Nd5 25. Rxc6 Nf4 26. Rxf6+ Kg5
+27. Rf7 Rxg2+ 28. Kh1 Rg3 29. Bf6+ Kh6 30. Be5 Rh3+ 31. Kg1 Ng6 32. Bd4 Nh4 33.
+Kf2 Kg6 34. Rg7+ Kf5 35. Rxh7 Rxf3+ 36. Ke2 Rf4 37. Rxa7 Ng6 38. Ra6 Re4+ 39.
+Kd3 Nf4+ 40. Kc4 Ne2 41. Rf6+ Kg5 42. Rf8 Nxc3 43. Kxc3 Rg4 44. Kd3 Rg3+ 45. Ke4
+Rg4+ 46. Kd5 Kg6 47. Be5 Ra4 48. Ke6 Ra6+ 49. Bd6 Kh6 50. Rg8 Rb6 51. Rg1 Ra6
+52. Ke5 Kh7 53. Bc5 Rg6 54. Rh1+ Rh6 55. Rf1 Rh5+ 56. Kd6 Kg6 57. Bd4 Rf5 58.
+Re1 Rf8 59. Rg1+ Kh5 60. Ke6 Kh4 61. Be5 Rf3 62. Kd5 Re3 63. Bf4 Re2 64. Kd4 Kh3
+65. Rg3+ Kh4 66. Kd3 Re6 67. Rg5 Re8 68. Rg1 Re6 69. Be3 Kh5 70. Rg5+ Kh4 71.
+Ra5 Kg4 72. Ke2 Rg6 73. Re5 Rg8 74. Kd3 Kf3 75. Rf5+ Kg3 76. Rf1 Re8 77. Ke2 Kg4
+78. Rf4+ Kh5 79. Rf6 1/2-1/2

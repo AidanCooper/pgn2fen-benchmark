@@ -1,0 +1,14 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.29"]
+[Round "2.7"]
+[White "Caruana, Fabiano"]
+[Black "Carlsen, Magnus"]
+[Result "*"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "brnkrbqn/pppppppp/8/8/8/8/PPPPPPPP/BRNKRBQN w KQkq - 0 1"]
+[WhiteElo "2812"]
+[BlackElo "2876"]
+
+1. e4 e5 2. b3 b6 3. f3 Ng6 4. Ng3 f6 5. d4 Bb4 6. Re3 d5 7. Bb5 c6 8. Ba6 exd4 9. Bxd4 Nd6 10. Nd3 Ba3 11. b4 dxe4 12. Nxe4 Nf5 13. Re2 Qd5 14. Bxf6+ Kc7 15. Rb3 Bxb4 16. Rxb4 gxf6 17. Nxf6 Qf7 18. Nxe8+ *

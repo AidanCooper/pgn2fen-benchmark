@@ -1,0 +1,25 @@
+[Event "Champions Chess960 G5"]
+[Site "Saint Louis USA"]
+[Date "2018.09.11"]
+[Round "2.2"]
+[White "Svidler, Peter"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2756"]
+[BlackElo "2763"]
+[WhiteFideId "4102142"]
+[BlackFideId "2016192"]
+[EventDate "2018.09.11"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nqbbrkrn/pppppppp/8/8/8/8/PPPPPPPP/NQBBRKRN w GEge - 0 1"]
+
+1. f4 c6 2. O-O d5 3. c3 Ng6 4. f5 Ne5 5. d4 Ng4 6. Bf4 Bc7 7. e3 Bxf4 8. exf4
+Nf6 9. Ng3 Nb6 10. Nb3 Nc4 11. Be2 Nd6 12. Bd3 b6 13. Nd2 g6 14. fxg6 hxg6 15.
+Nf3 Qc7 16. Ne5 e6 17. Qc1 Rh8 18. c4 dxc4 19. Bxc4 Bb7 20. Bb3 O-O-O 21. Qe3
+Kb8 22. Rc1 Rc8 23. h3 Qe7 24. Rc3 Nd5 25. Bxd5 cxd5 26. f5 Rxc3 27. bxc3 Rg8
+28. fxg6 fxg6 29. Ng4 Nc4 30. Qh6 a5 31. Kh2 Bc8 32. Rf6 g5 33. Qh5 b5 34. Rf7
+Qd6 35. Qh7 Rd8 36. Qg7 Re8 37. Qxg5 e5 38. dxe5 Nxe5 39. Nxe5 Rxe5 40. Qf4 Re6
+41. Qxd6+ Rxd6 42. Ne2 b4 43. cxb4 d4 44. Nxd4 Rxd4 45. bxa5 Ra4 46. g4 Bxg4 1/2-1/2

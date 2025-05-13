@@ -1,0 +1,22 @@
+[Event "World Fischer Random KO"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.30"]
+[Round "2.2"]
+[White "So, Wesley"]
+[Black "Fedoseev, Vladimir3"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2774"]
+[BlackElo "2688"]
+[WhiteFideId "5202213"]
+[BlackFideId "24130737"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qrbnkbrn/pppppppp/8/8/8/8/PPPPPPPP/QRBNKBRN w GBgb - 0 1"]
+[EventDate "2022.10.29"]
+
+1. b4 b6 2. e3 c5 3. a3 f6 4. f4 Nhf7 5. Ng3 Bb7 6. bxc5 bxc5 7. Be2 Rc8 8. Nf2
+g6 9. c4 f5 10. d3 Ne6 11. Qb2 Bc6 12. Bf3 Bxf3 13. gxf3 Nd6 14. Ke2 Bh6 15. h4
+Bg7 16. Qc2 Rb8 17. Bb2 Bxb2 18. Rxb2 Rxb2 19. Qxb2 Kf7 20. Rb1 Qc6 21. Nd1 Nc7
+22. Nf2 Ne6 23. Nd1 Nc7 24. Nf2 Ne6 1/2-1/2

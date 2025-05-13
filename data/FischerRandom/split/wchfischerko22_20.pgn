@@ -1,0 +1,21 @@
+[Event "World Fischer Random KO"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.30"]
+[Round "2.4"]
+[White "Nepomniachtchi, Ian"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2793"]
+[BlackElo "2768"]
+[WhiteFideId "4168119"]
+[BlackFideId "2016192"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkqbrnb/pppppppp/8/8/8/8/PPPPPPPP/NRKQBRNB w FBfb - 0 1"]
+[EventDate "2022.10.29"]
+
+1. g3 d5 2. Nb3 g6 3. d4 Nb6 4. Nf3 Nf6 5. Nc5 Nbd7 6. Bb4 Nxc5 7. Bxc5 Ne4 8.
+Ba3 Bb5 9. c3 Bg7 10. Nd2 Bh6 11. f4 f5 12. Nf3 g5 13. Ne5 Qe8 14. Bxe4 fxe4 15.
+Qd2 gxf4 1/2-1/2

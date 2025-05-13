@@ -1,0 +1,24 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.27"]
+[Round "6.1"]
+[White "Bluebaum, Matthias"]
+[Black "Fedoseev, Vladimir3"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2688"]
+[WhiteFideId "24651516"]
+[BlackFideId "24130737"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "bqrbnnkr/pppppppp/8/8/8/8/PPPPPPPP/BQRBNNKR w HChc - 0 1"]
+[EventDate "2022.10.25"]
+
+1. c4 b6 2. b3 e6 3. e3 Ng6 4. Nf3 f5 5. d4 Be4 6. Qb2 O-O 7. N1d2 Bb7 8. h4 Bf6
+9. h5 Nh8 10. Bc2 c5 11. Qb1 cxd4 12. Nxd4 Nf7 13. N2f3 Qa8 14. Rd1 Ned6 15. Rh3
+Ne4 16. Ne2 Rcd8 17. Nf4 Nc3 18. Bxc3 Bxc3 19. Nd4 Nh6 20. b4 e5 21. Nd5 exd4
+22. exd4 Bxd5 23. cxd5 Rc8 24. Ba4 b5 25. Bxb5 Qb7 26. Ba4 Qb6 27. Rhd3 Qd6 28.
+a3 a5 29. Rc1 axb4 30. axb4 Bxb4 31. Rxc8 Rxc8 32. Bxd7 Qxd7 33. Qxb4 Rc1+ 34.
+Kh2 Ng4+ 35. Kg3 Nf6 36. Ra3 f4+ 37. Kh4 Qg4# 0-1

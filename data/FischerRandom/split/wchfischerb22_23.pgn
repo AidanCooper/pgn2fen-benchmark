@@ -1,0 +1,31 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.27"]
+[Round "6.2"]
+[White "Fedoseev, Vladimir3"]
+[Black "Bluebaum, Matthias"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2688"]
+[BlackElo "2647"]
+[WhiteFideId "24130737"]
+[BlackFideId "24651516"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "bqrbnnkr/pppppppp/8/8/8/8/PPPPPPPP/BQRBNNKR w HChc - 0 1"]
+[EventDate "2022.10.25"]
+
+1. d3 c5 2. b4 b6 3. e4 e6 4. Ne3 Ng6 5. O-O O-O 6. bxc5 bxc5 7. Qxb8 Rxb8 8. f4
+d5 9. exd5 exd5 10. Ng4 d4 11. c3 f5 12. Nf2 Nxf4 13. cxd4 cxd4 14. Bxd4 Bb6 15.
+Be5 Be3 16. Bxb8 Bxc1 17. Bxa7 Nf6 18. g3 N4d5 19. Ng2 Nc3 20. Bb3+ Bd5 21. Nd1
+Nb5 22. Bc5 Rc8 23. Be7 Bxb3 24. axb3 Nd4 25. Bxf6 gxf6 26. Nde3 Rc5 27. b4 Rb5
+28. Kh1 Bd2 29. Nc4 Bxb4 30. Nf4 Bf8 31. Ra1 Rb7 32. Ra6 Kf7 33. Kg2 Rd7 34. Nb6
+Rb7 35. Nfd5 Ne6 36. Na4 Rd7 37. Nac3 Bc5 38. Ra5 Rb7 39. Rb5 Rd7 40. Ra5 Rb7
+41. Ra2 Rd7 42. Rc2 Bd4 43. Nb4 Rb7 44. Ncd5 Be5 45. Rc4 Bd6 46. Kf3 Rb5 47. Ke3
+Ra5 48. Nc3 f4+ 49. gxf4 Rh5 50. Nbd5 Rxh2 51. f5 Ng7 52. Ne4 Nxf5+ 53. Kf3 Be5
+54. Nf2 h5 55. Ra4 Nd4+ 56. Ke3 Kg6 57. Ne7+ Kf7 58. Nd5 Rg2 59. Ra7+ Ke6 60.
+Nc7+ Bxc7 61. Rxc7 Nf5+ 62. Kf3 Rg8 63. Ne4 Nd4+ 64. Ke3 Nf5+ 65. Kf2 Ne7 66.
+Ra7 Nd5 67. Ra6+ Ke5 68. Ra5 Rd8 69. Ng3 h4 70. Ne2 Ke6 71. Nd4+ Kf7 72. Nf3 h3
+73. Kg3 Rg8+ 74. Kxh3 Nf4+ 75. Kh2 Nxd3 76. Ra7+ Ke6 77. Nd4+ Ke5 78. Nc6+ Kf4
+79. Ra4+ Ke3 80. Ne7 Rg5 81. Ra6 f5 82. Re6+ Kf2 83. Rh6 Ne1 84. Nxf5 0-1

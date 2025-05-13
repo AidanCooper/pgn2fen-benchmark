@@ -1,0 +1,26 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.12"]
+[Round "2.2"]
+[White "Firouzja, Alireza"]
+[Black "Abdusattorov, Nodirbek"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2766"]
+[WhiteFideId "12573981"]
+[BlackFideId "14204118"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rqknrnbb/pppppppp/8/8/8/8/PPPPPPPP/RQKNRNBB w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. e4 c6 2. g3 e5 3. c3 Nde6 4. Nfe3 d6 5. b4 g6 6. Nb2 Qc7 7. a4 Nd7 8. a5 f6
+9. Nbc4 Bg7 10. Rf1 Nd4 11. Kb2 Nb5 12. f4 Bf7 13. Qd3 O-O-O 14. f5 Bh6 15. Qe2
+gxf5 16. Rxf5 Kb8 17. Rff1 c5 18. Rfc1 Rc8 19. Qd3 a6 20. Nd5 Qc6 21. Nce3 Bxe3
+22. Bxe3 f5 23. c4 Nd4 24. Bxd4 exd4 25. exf5 Ne5 26. Qb3 Qd7 27. b5 Qxf5 28.
+bxa6 Bxd5 29. Bxd5 Nd3+ 30. Ka3 Nb4 31. Bxb7 Rc7 32. Rf1 Qg6 33. Rae1 Rxe1 34.
+Rxe1 Ka7 35. Kb2 Rf7 36. Bd5 Qg5 37. Re2 d3 38. Re3 Rf2 39. Ka3 Qg7 40. Re1 Rxd2
+41. Rf1 Ra2+ 42. Qxa2 Nxa2 43. Kxa2 Qc3 0-1

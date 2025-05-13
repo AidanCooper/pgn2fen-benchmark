@@ -1,0 +1,14 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.29"]
+[Round "2.7"]
+[White "Caruana, Fabiano"]
+[Black "Carlsen, Magnus"]
+[Result "*"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "brnkrbqn/pppppppp/8/8/8/8/PPPPPPPP/BRNKRBQN w KQkq - 0 1"]
+[WhiteElo "2812"]
+[BlackElo "2876"]
+
+1. e4 e5 *

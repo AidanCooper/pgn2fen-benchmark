@@ -1,0 +1,22 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.07"]
+[Round "2.5"]
+[White "Caruana, Fabiano"]
+[Black "Carlsen, Magnus"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2803"]
+[BlackElo "2833"]
+[WhiteFideId "2020009"]
+[BlackFideId "1503014"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nnbrqkrb/pppppppp/8/8/8/8/PPPPPPPP/NNBRQKRB w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. d4 d5 2. Nc3 b6 3. O-O O-O 4. Bf4 Ba6 5. g3 c6 6. Qd2 Nd7 7. Rfe1 e5 8. e4 c5
+9. dxe5 d4 10. Nd5 Nxe5 11. b4 Nc4 12. Qe2 Rxd5 13. exd5 Qxe2 14. Rxe2 Nb2 15.
+Rde1 Bxe2 16. Rxe2 d3 17. Re7 g5 18. Bxg5 cxb4 19. Rxa7 b5 20. d6 Nb6 21. d7
+N2a4 22. Nb3 Nxd7 23. Rxd7 dxc2 24. Be4 Rc8 25. Rd8+ 1-0

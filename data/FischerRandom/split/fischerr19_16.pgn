@@ -1,0 +1,28 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.04"]
+[Round "1.14"]
+[White "Fedoseev,Vl3"]
+[Black "Vidit,S"]
+[Result "1-0"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "bbqrnkrn/pppppppp/8/8/8/8/PPPPPPPP/BBQRNKRN w GDgd - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2664"]
+[BlackElo "2718"]
+[WhiteFideId "24130737"]
+[BlackFideId "5029465"]
+[EventDate "2019.10.04"]
+
+1. c4 Ng6 2. Ng3 O-O 3. b3 d6 4. d4 f5 5. d5 e5 6. Qg5 e4 7. Nc2 c5 8. f4 Rd7 9.
+Nxf5 Rdf7 10. g4 Bc7 11. e3 b5 12. Na3 Bd8 13. Qh5 Bf6 14. Bxf6 Nxf6 15. Qh3
+Nxg4 16. Qxg4 Rxf5 17. O-O-O bxc4 18. Nxc4 Bxd5 19. Nxd6 Qe6 20. Nxf5 Rxf5 21.
+h4 Qf6 22. h5 Nh4 23. Qe2 Nf3 24. Rh1 Qc3+ 25. Bc2 c4 26. Kb1 a5 27. bxc4 Bxc4
+28. Bb3 Qxb3+ 29. axb3 Bxe2 30. Rd8+ Rf8 31. Rd5 Rb8 32. Kc2 Bd3+ 33. Kc3 Rc8+
+34. Kb2 Rc2+ 35. Ka3 Re2 36. Rc1 Nd2 37. Rxa5 Rxe3 38. Rc7 h6 39. Ra8+ Kh7 40.
+Raa7 Rg3 41. f5 e3 42. f6 e2 43. Rxg7+ Rxg7 44. Rxg7+ Kh8 45. Rg1 Bc4 46. bxc4
+Nxc4+ 47. Kb4 Nd6 48. Re1 Ne4 49. f7 Kg7 50. Rxe2 Nf6 51. Rf2 Kxf7 52. Kc4 Ke6
+53. Rh2 Kf5 54. Kd4 Kg5 55. Rg2+ Kxh5 56. Ke5 Nh7 57. Kf5 Kh4 58. Rh2+ Kg3 59.
+Rxh6 Nf8 60. Rd6 Kf3 61. Rd8 Nh7 62. Kg6 1-0

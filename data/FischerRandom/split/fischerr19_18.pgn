@@ -1,0 +1,22 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.04"]
+[Round "1.16"]
+[White "Vidit,S"]
+[Black "Fedoseev,Vl3"]
+[Result "0-1"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nnbbrkrq/pppppppp/8/8/8/8/PPPPPPPP/NNBBRKRQ w GEge - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2718"]
+[BlackElo "2664"]
+[WhiteFideId "5029465"]
+[BlackFideId "24130737"]
+[EventDate "2019.10.04"]
+
+1. e4 c5 2. O-O Nc6 3. Nb3 d6 4. d3 b5 5. f4 c4 6. Na1 cxd3 7. cxd3 Bb6+ 8. Be3
+g5 9. Bb3 Nd4 10. fxg5 Nxb3 11. Nxb3 Qxb2 12. d4 Qxa2 13. N1d2 a5 14. g4 Bxg4
+15. Qg2 Bd7 16. Qf3 Rg7 17. d5 Qb2 18. Kh1 a4 19. g6 Bxe3 20. gxf7 Rc8 21. Qxe3
+axb3 22. Nf3 Qg2# 0-1

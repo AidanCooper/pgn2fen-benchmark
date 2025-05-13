@@ -1,0 +1,14 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.26"]
+[Round "3.2"]
+[White "Fedoseev, Vladimir3"]
+[Black "Nakamura, Hikaru"]
+[Result "*"]
+[WhiteElo "2688"]
+[BlackElo "2768"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkrbbqn/pppppppp/8/8/8/8/PPPPPPPP/NRKRBBQN w KQkq - 0 1"]
+
+1. e4 e6 2. f4 d5 3. Ng3 Nb6 4. Nb3 dxe4 5. Nxe4 f5 6. Nc3 g5 7. fxg5 Bh5 8. Be2 Bxe2 9. Nxe2 Qxg5 10. Bg3 Ng6 11. Ned4 Re8 12. Nb5 f4 13. Nxa7+ Kd8 14. Bf2 *

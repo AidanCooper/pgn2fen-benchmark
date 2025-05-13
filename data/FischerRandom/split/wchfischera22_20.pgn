@@ -1,0 +1,23 @@
+[Event "World Fischer Random GpA"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.27"]
+[Round "5.2"]
+[White "Abdusattorov, Nodirbek"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2713"]
+[BlackElo "2793"]
+[WhiteFideId "14204118"]
+[BlackFideId "4168119"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkrbbnq/pppppppp/8/8/8/8/PPPPPPPP/NRKRBBNQ w DBdb - 0 1"]
+[EventDate "2022.10.25"]
+
+1. g4 Nb6 2. f4 d5 3. e4 Nf6 4. exd5 Nfxd5 5. Ne2 Bc6 6. Bg2 g5 7. fxg5 Qe5 8.
+Qf1 Nb4 9. Nc3 Bxg2 10. Qxg2 N6d5 11. Bg3 Qxg5 12. O-O f6 13. Nb5 e5 14. Nxa7+
+Kd7 15. a3 Bc5+ 16. Kh1 Bxa7 17. axb4 Nxb4 18. Qe4 Nc6 19. Qxh7+ Kc8 20. Nb3 Rd7
+21. Qh8+ Nd8 22. Qxf6 Qxg4 23. Qxe5 Qc4 24. Na5 Qa6 25. Rf8 Qh6 26. Rxd8+ Kxd8
+27. Re1 Kc8 28. Qe8+ Rd8 29. Qf7 1-0

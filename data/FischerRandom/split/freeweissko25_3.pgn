@@ -1,0 +1,25 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.09"]
+[Round "1.1"]
+[White "Gukesh, D"]
+[Black "Caruana, Fabiano"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2777"]
+[BlackElo "2803"]
+[WhiteFideId "46616543"]
+[BlackFideId "2020009"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkbrnbq/pppppppp/8/8/8/8/PPPPPPPP/NRKBRNBQ w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. f4 Nb6 2. Nb3 f5 3. e4 fxe4 4. Rxe4 Bd5 5. Re1 Qg8 6. Bf2 Ng6 7. f5 Nf4 8.
+Ne3 e5 9. Nxd5 Nfxd5 10. g4 c6 11. Ra1 Nf4 12. a4 a5 13. Nc5 Nbd5 14. Ne4 Qf8
+15. g5 Bb6 16. Bxb6 Nxb6 17. f6 Kc7 18. Qg1 d5 19. fxg7 Qb4 20. Nc5 d4 21. Nb3
+Re7 22. Re4 Nc4 23. Qf1 Nd6 24. c3 Qc4 25. Qxc4 Nxc4 26. Nxd4 Nd6 27. Rxf4 exf4
+28. Bb3 Kd7 29. g8=Q Rxg8 30. Bxg8 Re1+ 31. Kc2 Rxa1 32. Bxh7 Ke7 33. h4 Rh1 34.
+Nf3 Rh3 35. Ne5 f3 36. Kd3 Ke6 37. g6 Nf5 38. Nf7 Kf6 39. g7 f2+ 40. Ke2 Rf3 0-1

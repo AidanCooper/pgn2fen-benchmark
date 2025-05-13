@@ -1,0 +1,14 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.11.02"]
+[Round "3.6"]
+[White "Caruana, Fabiano"]
+[Black "Nepomniachtchi, Ian"]
+[Result "*"]
+[Variant "chess 960"]
+[SetUp "1"]
+[FEN "nrkbqnbr/pppppppp/8/8/8/8/PPPPPPPP/NRKBQNBR w KQkq - 0 1"]
+[WhiteElo "2812"]
+[BlackElo "2776"]
+
+1. Nb3 Nb6 2. f4 c6 3. e4 Bc7 4. Be3 f6 5. d3 h5 6. Nfd2 d5 7. Bf3 Nfd7 8. O-O-O e5 9. exd5 Nxd5 10. fxe5 Nxe5 11. Bxa7 Ra8 12. Bf2 Nb4 13. Kb1 Rxa2 14. d4 c5 15. dxe5 Qa4 16. Qe4 Rxb2+ 17. Kxb2 Bxe5+ 18. Bd4 Qa2+ 19. Kc3 cxd4+ *

@@ -1,0 +1,27 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.07"]
+[Round "5.2"]
+[White "Aronian, Levon"]
+[Black "Caruana, Fabiano"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2745"]
+[BlackElo "2803"]
+[WhiteFideId "13300474"]
+[BlackFideId "2020009"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rbbknrqn/pppppppp/8/8/8/8/PPPPPPPP/RBBKNRQN w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. e4 f5 2. exf5 d5 3. Ng3 Nd6 4. c3 Nxf5 5. d4 c6 6. Bd2 Nd6 7. Bd3 Ng6 8.
+O-O-O b5 9. f4 Nh4 10. Kb1 a5 11. Be2 Nhf5 12. Nd3 Nc4 13. Ne5 Nxg3 14. hxg3
+Bf5+ 15. Ka1 Qe6 16. g4 Bc2 17. f5 Qc8 18. Bxc4 Bxd1 19. Bd3 Bxe5 20. dxe5 Bxg4
+21. Qd4 h5 22. f6 gxf6 23. exf6 Rxf6 24. Rxf6 exf6 25. Bf4 Ke7 26. Bg6 Qe6 27.
+Qc5+ Kd7 28. Qb6 Qe1+ 29. Bb1 Rc8 30. Qb7+ Kd8 31. Qg7 Qe7 32. Qg6 b4 33. c4
+dxc4 34. Qg8+ Kd7 35. Qxc4 Qe6 36. Qd4+ Ke7 37. Qc5+ Kf7 38. Qxa5 c5 39. Qa7+
+Qd7 40. Qa6 Bf5 41. Qc4+ Qe6 42. Qc1 Bxb1 43. Qxb1 Kg7 44. Qd1 Re8 45. Bc1 Qe1
+46. Qc2 Re5 47. a3 b3 48. Qc4 Re2 49. Qf4 Rxg2 50. Qc7+ Kg6 51. Qf4 Rg5 52. Kb1
+Qe2 53. Ka1 Qc2 54. a4 h4 55. Qe3 Kf7 0-1

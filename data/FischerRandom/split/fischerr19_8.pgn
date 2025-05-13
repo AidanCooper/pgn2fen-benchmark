@@ -1,0 +1,21 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.04"]
+[Round "1.12"]
+[White "Nakamura, Hikaru"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qrnnbkrb/pppppppp/8/8/8/8/PPPPPPPP/QRNNBKRB w GBgb - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2745"]
+[BlackElo "2767"]
+[WhiteFideId "2016192"]
+[BlackFideId "5202213"]
+[EventDate "2019.10.04"]
+
+1. g3 g6 2. d3 d6 3. c4 c5 4. Bc3 Bxc3 5. Nxc3 Bc6 6. Bxc6 Nxc6 7. a3 a6 8. b4
+cxb4 9. axb4 b5 10. cxb5 axb5 11. Qxa8 Rxa8 12. Nb3 Kg7 13. Nxb5 Nxb4 14. N3d4
+Nd5 15. Kg2 Na7 16. Rgc1 Rgb8 17. Nxa7 1/2-1/2

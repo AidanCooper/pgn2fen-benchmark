@@ -1,0 +1,24 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.13"]
+[Round "3.1"]
+[White "Sindarov, Javokhir"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2700"]
+[BlackElo "2833"]
+[WhiteFideId "14205483"]
+[BlackFideId "1503014"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "bqrkrbnn/pppppppp/8/8/8/8/PPPPPPPP/BQRKRBNN w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. e4 e5 2. Nf3 Nf6 3. a4 c6 4. b4 Qc7 5. Qb3 Ng6 6. Rb1 d5 7. Ng3 O-O-O 8. Bd3
+dxe4 9. Nxe4 Nf4 10. Nxf6 gxf6 11. Bf5+ Kb8 12. g3 Nd5 13. O-O Nxb4 14. d4 c5
+15. dxe5 b6 16. Rfd1 Qc6 17. exf6 Bb7 18. Bg4 c4 19. Qc3 a5 20. Rxd8+ Rxd8 21.
+Qe5+ Ka7 22. Qf5 Bc5 23. Bc3 Nxc2 24. Rc1 Ne3 25. fxe3 Bxe3+ 26. Kg2 Bxc1 27.
+Kh3 Rd3 28. Bd4 Qd5 0-1

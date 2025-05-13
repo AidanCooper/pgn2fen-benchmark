@@ -41,6 +41,19 @@ MODEL_TYPE_TO_FILES_RANDOMISED = {
     "non_reasoning": [
         "google_gemini-2.0-flash-001_randomised",
         "google_gemini-2.0-flash-lite-001_randomised",
+        "openai_gpt-4.1-nano-2025-04-14_randomised",
+    ],
+}
+
+MODEL_TYPE_TO_FILES_FISCHER = {
+    "reasoning": [
+        "openai_o3-mini-2025-01-31_fischer_random",
+        "openai_o4-mini-2025-04-16_fischer_random",
+    ],
+    "non_reasoning": [
+        "google_gemini-2.0-flash-001_fischer_random",
+        "google_gemini-2.0-flash-lite-001_fischer_random",
+        "openai_gpt-4.1-nano-2025-04-14_fischer_random",
     ],
 }
 
@@ -199,11 +212,9 @@ def main():
         [
             "standard",
             "randomised",
+            "fischer",
         ],
-        [
-            MODEL_TYPE_TO_FILES_STANDARD,
-            MODEL_TYPE_TO_FILES_RANDOMISED,
-        ],
+        [MODEL_TYPE_TO_FILES_STANDARD, MODEL_TYPE_TO_FILES_RANDOMISED, MODEL_TYPE_TO_FILES_FISCHER],
     ):
         for model_type, model_files in model_type_to_files.items():
             for evaluation_metric in evaluation_metrics:

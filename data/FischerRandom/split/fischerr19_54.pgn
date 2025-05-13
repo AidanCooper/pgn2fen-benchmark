@@ -1,0 +1,24 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.27"]
+[Round "2.2"]
+[White "So, Wesley"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1/2-1/2"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rbknbnqr/pppppppp/8/8/8/8/PPPPPPPP/RBKNBNQR w HAha - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2767"]
+[BlackElo "2776"]
+[WhiteFideId "5202213"]
+[BlackFideId "4168119"]
+[EventDate "2019.10.04"]
+
+1. d4 f6 2. e4 d5 3. f3 a5 4. Nde3 dxe4 5. fxe4 Ba7 6. c3 e5 7. d5 Nd7 8. Bf2
+Qf8 9. Nd2 Nf7 10. Bc2 Nd6 11. Nf5 Bxf2 12. Qxf2 Nxf5 13. Qxf5 Qc5 14. Qg4 Rg8
+15. O-O-O a4 16. a3 Kb8 17. Rhf1 Nb6 18. Rde1 Ka7 19. Qg3 Bb5 20. Bd3 c6 21.
+Bxb5 Qxb5 22. dxc6 bxc6 23. Qe3 Rgd8 24. Rf3 Rab8 25. c4 Qa5 26. Qc3 Qc5 27. Rd3
+Rd4 28. Rxd4 exd4 29. Qc2 Qa5 30. e5 fxe5 31. Qf5 g6 32. Qe6 Nxc4 33. Qxc4 Rxb2
+34. Qf7+ Rb7 35. Qc4 Rb2 36. Qf7+ 1/2-1/2

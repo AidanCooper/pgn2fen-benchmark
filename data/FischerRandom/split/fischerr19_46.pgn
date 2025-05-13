@@ -1,0 +1,25 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.06"]
+[Round "1.33"]
+[White "Caruana, Fabiano"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "brqnkbrn/pppppppp/8/8/8/8/PPPPPPPP/BRQNKBRN w GBgb - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2812"]
+[BlackElo "2745"]
+[WhiteFideId "2020009"]
+[BlackFideId "2016192"]
+[EventDate "2019.10.04"]
+
+1. b4 b5 2. Ng3 e6 3. e4 Ng6 4. d4 Bd6 5. Bd3 Nf4 6. Ne3 f6 7. O-O Nf7 8. Qd2
+O-O 9. f3 Qa6 10. Bc3 Qb6 11. Kh1 Rfe8 12. Rfe1 Nxd3 13. cxd3 Bf8 14. Nh5 Rbd8
+15. Ng4 e5 16. d5 c6 17. Nhxf6+ gxf6 18. Nxf6+ Kh8 19. d4 cxd5 20. dxe5 Rxe5 21.
+Nxd5 Qh6 22. f4 Kg8 23. fxe5 Qxd2 24. Bxd2 Nxe5 25. Rb3 Rc8 26. Rg3+ Ng6 27.
+Nf6+ Kg7 28. Nxd7 Bd6 29. Rd3 Be7 30. Rc3 Rd8 31. Rc7 Kf7 32. Bc3 Ke6 33. Rd1
+Rg8 34. Nc5+ Bxc5 35. bxc5 Bxe4 36. Rd6+ Kf5 37. Rf7+ Kg4 38. h3+ Kh5 39. Rxh7+
+Kg5 40. Bd2+ 1-0

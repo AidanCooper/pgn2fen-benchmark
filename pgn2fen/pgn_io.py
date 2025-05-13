@@ -88,12 +88,17 @@ def split_pgn_into_individual_games(pgn_dir: str, output_dir: str) -> None:
         split_pgn_file(pgn_file, output_dir)
 
 
-def clean_headers(game: chess.pgn.Game, headers_to_delete: list[str]) -> chess.pgn.Game:
-    """Remove unwanted headers and set result to in-progress."""
+def clean_headers(
+    game: chess.pgn.Game, headers_to_delete: list[str], starting_fen: str | None = None
+) -> chess.pgn.Game:
+    """Remove unwanted headers, set result to in-progress, and optionally (over)write
+    the FEN starting position."""
     for header in headers_to_delete:
         if header in game.headers:
             del game.headers[header]
     game.headers["Result"] = "*"
+    if starting_fen:
+        game.headers["FEN"] = starting_fen
     return game
 
 
@@ -114,7 +119,10 @@ def truncate_game(game: chess.pgn.Game, halfmove_count: int) -> chess.pgn.Game |
 
 
 def process_pgn_file(
-    pgn_path: str | Path, halfmove_count: int, headers_to_delete: list[str]
+    pgn_path: str | Path,
+    halfmove_count: int,
+    headers_to_delete: list[str],
+    write_starting_fen: bool,
 ) -> chess.pgn.Game | None:
     """
     Truncate a PGN file to a specified number of halfmoves and clean headers.
@@ -122,11 +130,13 @@ def process_pgn_file(
     with open(pgn_path, encoding="utf-8") as f:
         game = chess.pgn.read_game(f)
 
+    starting_fen = game.board().fen() if write_starting_fen else None
+
     game = truncate_game(game, halfmove_count)
     if game is None:
         return None
 
-    game = clean_headers(game, headers_to_delete)
+    game = clean_headers(game, headers_to_delete, starting_fen)
     return game
 
 
@@ -136,6 +146,7 @@ def generate_truncated_pgns(
     headers_to_delete: list[str],
     max_halfmoves: int,
     target_per_halfmove: int,
+    write_starting_fen: bool = False,
 ) -> None:
     """
     Generate truncated PGN files with a specified number of halfmoves.
@@ -148,7 +159,7 @@ def generate_truncated_pgns(
             pgn_path = input_files[input_idx % len(input_files)]
             input_idx += 1
 
-            game = process_pgn_file(pgn_path, halfmoves, headers_to_delete)
+            game = process_pgn_file(pgn_path, halfmoves, headers_to_delete, write_starting_fen)
             if game is None:
                 continue
 

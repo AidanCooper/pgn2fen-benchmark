@@ -1,0 +1,25 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.25"]
+[Round "2.2"]
+[White "Carlsen, Magnus"]
+[Black "Nakamura, Hikaru"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2856"]
+[BlackElo "2768"]
+[WhiteFideId "1503014"]
+[BlackFideId "2016192"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qnbrkrnb/pppppppp/8/8/8/8/PPPPPPPP/QNBRKRNB w FDfd - 0 1"]
+[EventDate "2022.10.25"]
+
+1. b4 d5 2. g3 c6 3. Bg2 Nf6 4. a4 g6 5. Nf3 Na6 6. Ba3 Ne4 7. Qa2 Nd6 8. d3 O-O
+9. O-O b5 10. Qb3 bxa4 11. Qxa4 Qb7 12. c3 Bd7 13. Qc2 Rc8 14. d4 Nc7 15. Nbd2
+Ncb5 16. Bb2 Bf5 17. Qb3 a5 18. bxa5 Qc7 19. Qa4 Ra8 20. Ra1 Rfb8 21. Rfc1 Ne4
+22. Nxe4 Bxe4 23. Nd2 Bxg2 24. Kxg2 c5 25. Rc2 c4 26. Nf3 Na7 27. Ba3 e5 28.
+dxe5 Bxe5 29. Nxe5 Qxe5 30. Bc5 Rb3 31. a6 Qe4+ 32. Kg1 Qxc2 33. Qd7 Rb1+ 34.
+Rxb1 Qxb1+ 35. Kg2 Qb5 36. Qb7 Qxb7 37. axb7 Rb8 38. Bxa7 Rxb7 39. Bd4 Kf8 40.
+g4 Ke7 41. g5 Ke6 42. f3 Rb1 43. e3 Kd6 44. Kg3 Kc6 45. Kf4 Rf1 46. h4 Kb5 0-1

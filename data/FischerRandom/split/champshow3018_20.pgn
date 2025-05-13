@@ -1,0 +1,24 @@
+[Event "Champions Chess960 G30"]
+[Site "Saint Louis USA"]
+[Date "2018.09.12"]
+[Round "4.5"]
+[White "Aronian, Levon"]
+[Black "Dominguez Perez, Leinier"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2780"]
+[BlackElo "2739"]
+[WhiteFideId "13300474"]
+[BlackFideId "3503240"]
+[EventDate "2018.09.11"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rbnnqkbr/pppppppp/8/8/8/8/PPPPPPPP/RBNNQKBR w HAha - 0 1"]
+
+1. e4 e5 2. c3 f6 3. Ne3 c6 4. d4 exd4 5. cxd4 d5 6. exd5 cxd5 7. f3 Bf7 8. Bf2
+Nc6 9. Ne2 N8e7 10. Bg3 Bg6 11. Qd2 Qd7 12. O-O O-O 13. Re1 Re8 14. Nc3 Bxg3 15.
+hxg3 Bxb1 16. Raxb1 Nf5 17. Nxf5 Qxf5 18. g4 Qd7 19. Kf2 Qd6 20. Rh1 h6 21. Rh5
+Ne7 22. Qd3 Rad8 23. Rbh1 Qb6 24. b3 Nc6 25. Rxh6 Ne5 26. Qh7+ Kf8 27. Kg3 Nf7
+28. Rg6 Qc7+ 29. Kh4 Qxc3 30. Rxg7 Ke7 31. Rxf7+ Ke6 32. f4 Qxd4 33. Re1+ Kd6
+34. Rxe8 Rxe8 35. Rxb7 1-0

@@ -1,0 +1,14 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.26"]
+[Round "4.1"]
+[White "Carlsen, Magnus"]
+[Black "Bluebaum, Matthias"]
+[Result "*"]
+[WhiteElo "2856"]
+[BlackElo "2647"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "bqnbnrkr/pppppppp/8/8/8/8/PPPPPPPP/BQNBNRKR w KQkq - 0 1"]
+
+1. c4 c5 2. b4 cxb4 3. Qxb4 b6 4. e3 e6 5. Bf3 Bf6 6. d4 Ne7 7. Ncd3 Nc6 8. Qa4 Nd6 9. c5 Nf5 10. h4 Nxh4 11. Be4 Ng6 12. Rh5 Rd8 13. Nf3 Nce7 14. Nd2 bxc5 15. Bxa8 Qxa8 16. Nxc5 Qc6 17. Qxc6 Nxc6 18. d5 Bxa1 19. Rxa1 Nce5 20. d6 Rc8 21. Ndb3 Rc6 22. Rd1 O-O 23. f4 Nc4 24. Nxd7 Rd8 25. Ne5 Rcxd6 26. Rxd6 Nxd6 27. Nc6 Rd7 28. Ra5 Nc4 29. Rxa7 Rxa7 30. Nxa7 Nxe3 31. g3 e5 32. fxe5 Nxe5 33. a4 Nd5 *

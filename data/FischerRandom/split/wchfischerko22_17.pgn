@@ -1,0 +1,24 @@
+[Event "World Fischer Random KO"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.30"]
+[Round "2.3"]
+[White "Carlsen, Magnus"]
+[Black "Abdusattorov, Nodirbek"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2856"]
+[BlackElo "2713"]
+[WhiteFideId "1503014"]
+[BlackFideId "14204118"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkqbrnb/pppppppp/8/8/8/8/PPPPPPPP/NRKQBRNB w FBfb - 0 1"]
+[EventDate "2022.10.29"]
+
+1. Nb3 Nb6 2. g3 f5 3. Na5 Nf6 4. c4 e5 5. Nf3 Qe7 6. Qc2 e4 7. Nd4 Qe5 8. Nb5
+a6 9. d4 Qe7 10. Na7+ Kd8 11. Qb3 d6 12. Bb4 Nc8 13. Nxc8 Kxc8 14. c5 Bb5 15.
+cxd6 cxd6 16. O-O Kd7 17. Rbc1 Qf7 18. Qa3 Qd5 19. b3 f4 20. Nc4 Bxc4 21. bxc4
+Qe6 22. Qa4+ Ke7 23. c5 g5 24. cxd6+ Kf7 25. Rc5 Nd5 26. Qb3 Nxb4 27. Qxb4 Bf6
+28. Rc7+ Kg8 29. d5 Qe5 30. Qxe4 Qxe4 31. Bxe4 Rf7 32. Bf5 Kf8 33. Be6 Rg7 34.
+Rfc1 Rd8 35. Rc8 1-0

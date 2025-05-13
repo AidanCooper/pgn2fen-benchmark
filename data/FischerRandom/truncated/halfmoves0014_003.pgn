@@ -1,0 +1,14 @@
+[Event "Champions Chess960 G5"]
+[Site "Saint Louis USA"]
+[Date "2018.09.14"]
+[Round "13.3"]
+[White "Giri, Anish"]
+[Black "So, Wesley"]
+[Result "*"]
+[WhiteElo "2780"]
+[BlackElo "2776"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "brnbkrqn/pppppppp/8/8/8/8/PPPPPPPP/BRNBKRQN w KQkq - 0 1"]
+
+1. c4 b6 2. b4 f5 3. f3 e6 4. Bb3 Qf7 5. d4 Ng6 6. Nd3 O-O 7. g3 a5 *

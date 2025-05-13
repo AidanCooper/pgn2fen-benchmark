@@ -1,0 +1,28 @@
+[Event "Champions Chess960 G30"]
+[Site "Saint Louis USA"]
+[Date "2018.09.13"]
+[Round "5.5"]
+[White "Aronian, Levon"]
+[Black "Dominguez Perez, Leinier"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2780"]
+[BlackElo "2739"]
+[WhiteFideId "13300474"]
+[BlackFideId "3503240"]
+[EventDate "2018.09.11"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "brkqnbrn/pppppppp/8/8/8/8/PPPPPPPP/BRKQNBRN w GBgb - 0 1"]
+
+1. b3 e6 2. Bb2 d5 3. e3 Bd6 4. g3 Qe7 5. f4 Ba3 6. Nf3 Bxb2+ 7. Rxb2 Nd6 8. c4
+b6 9. cxd5 Bxd5 10. Ba6+ Nb7 11. Nf2 O-O 12. Qe2 Nc5 13. Bc4 Bb7 14. d4 b5 15.
+Bd3 Nxd3+ 16. Nxd3 Ng6 17. Nc5 Ba8 18. h4 Rfd8 19. Rc2 Nf8 20. Ne5 f6 21. Ned3
+Rb6 22. g4 e5 23. fxe5 fxe5 24. Nxe5 Qxh4 25. Rf1 Ng6 26. Ncd7 Be4 27. Rxc7 Qg3
+28. Qf2 Qxf2 29. Rxf2 Nxe5 30. Nxe5 Rh6 31. Rf4 Rh1+ 32. Kd2 Rh2+ 33. Ke1 Bb1
+34. Nc6 Re8 35. Ne7+ Kh8 36. d5 g5 37. Rf2 Rh1+ 38. Ke2 Rh6 39. Rxa7 Be4 40. Nf5
+Rf6 41. d6 Rd8 42. Rh2 Bxf5 43. gxf5 h6 44. d7 Kg7 45. e4 Rd6 46. a4 R6xd7 47.
+Rxd7+ Rxd7 48. Ke3 bxa4 49. bxa4 Ra7 50. Ra2 Kf6 51. a5 Ra6 52. Kf3 h5 53. Rh2
+h4 54. Ra2 Ke5 55. Ra4 h3 56. Kg3 g4 57. Kxg4 h2 58. Ra1 Kxe4 59. Re1+ Kd5 60.
+Rh1 Rxa5 61. Rxh2 Kd6 62. Kg5 Ke7 63. Kg6 Ra6+ 64. Kg7 1-0

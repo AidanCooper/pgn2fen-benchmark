@@ -1,0 +1,24 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.12"]
+[Round "2.5"]
+[White "Caruana, Fabiano"]
+[Black "Sindarov, Javokhir"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2803"]
+[BlackElo "2700"]
+[WhiteFideId "2020009"]
+[BlackFideId "14205483"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rkrnnbbq/pppppppp/8/8/8/8/PPPPPPPP/RKRNNBBQ w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. e4 e5 2. g3 Nc6 3. f4 f6 4. Nc3 Nd6 5. Bh3 Rd8 6. Nf3 g6 7. Re1 Bh6 8. Bc5
+Nc4 9. d3 Nb6 10. a4 Nc8 11. a5 b6 12. axb6 axb6 13. Rxa8+ Kxa8 14. Be3 Qg7 15.
+d4 Kb8 16. d5 Na5 17. Qf1 Qe7 18. fxe5 Bxe3 19. d6 cxd6 20. exf6 Qxf6 21. Rxe3
+Nc4 22. Rd3 Ne7 23. Qg1 Kb7 24. b3 Ne5 25. Nxe5 Qxe5 26. Qd1 Be6 27. Bg2 Ra8 28.
+Kb2 Qc5 29. Kc1 Ra1+ 30. Nb1 Nc6 31. Kb2 Qa5 32. Kc1 Ne5 33. Rxd6 Qa3+ 0-1

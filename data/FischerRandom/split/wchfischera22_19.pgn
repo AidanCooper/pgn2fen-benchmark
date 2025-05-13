@@ -1,0 +1,27 @@
+[Event "World Fischer Random GpA"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.27"]
+[Round "5.2"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "So, Wesley"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2533"]
+[BlackElo "2774"]
+[WhiteFideId "2302241"]
+[BlackFideId "5202213"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkrbbnq/pppppppp/8/8/8/8/PPPPPPPP/NRKRBBNQ w DBdb - 0 1"]
+[EventDate "2022.10.25"]
+
+1. e4 e6 2. d4 d5 3. g3 Nb6 4. Nb3 g5 5. exd5 exd5 6. Nc5 h5 7. c3 Rd6 8. Bd2
+Bh6 9. Bd3 O-O-O 10. h4 g4 11. Ne2 Bc6 12. b3 Re8 13. Re1 Nf6 14. Nf4 Ne4 15.
+Bxe4 dxe4 16. Qf1 Bf8 17. Be3 Nd5 18. Nxd5 Rxd5 19. b4 Bxc5 20. bxc5 Rxc5 21.
+Rb3 Ra5 22. Kb2 Qf6 23. Qc4 Bd5 24. Qb4 Qa6 25. Ra3 Rxa3 26. Qxa3 Qxa3+ 27. Kxa3
+Re6 28. Kb4 Bxa2 29. Ra1 Ra6 30. d5 b5 31. Bd4 Kb7 32. Kc5 f6 33. Bxf6 Rxf6 34.
+Rxa2 a6 35. c4 Rb6 36. Kd4 bxc4 37. Kxc4 Rb1 38. Kd4 Rb4+ 39. Kc3 Rb5 40. Kd4 a5
+41. Kxe4 Kb6 42. Rc2 a4 43. Rc6+ Kb7 44. Rc4 Ra5 45. Rb4+ Ka6 46. Rb1 a3 47. Kd3
+a2 48. Ra1 Kb5 49. Kc3 Kc5 50. Kb2 Kd6 51. Kc2 Kxd5 52. Kb2 Rb5+ 53. Kc2 Ra5 54.
+Kb2 Ke4 0-1

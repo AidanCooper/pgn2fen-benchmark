@@ -1,0 +1,24 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.09"]
+[Round "1.1"]
+[White "Firouzja, Alireza"]
+[Black "Keymer, Vincent"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2731"]
+[WhiteFideId "12573981"]
+[BlackFideId "12940690"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkbrnbq/pppppppp/8/8/8/8/PPPPPPPP/NRKBRNBQ w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. f4 Nb6 2. e4 f5 3. Nb3 fxe4 4. Rxe4 c6 5. h4 Bc7 6. Qh2 O-O-O 7. h5 Bf7 8.
+Qh4 Qg8 9. Ne3 g6 10. Bh2 Ne6 11. f5 gxf5 12. Nxf5 Qxg2 13. Nxe7+ Kb8 14. Bxc7+
+Kxc7 15. Nf5 Nd5 16. Ne3 Nxe3 17. Rxe3 Qg5 18. Qf2 Rf8 19. Rg3 Qh4 20. Qe3 Qf4
+21. Qc3 Kc8 22. a4 Rde8 23. Rf3 Qg5 24. Rg3 Qh4 25. Rh3 Qe1 26. Re3 Qf1 27. Qd3
+Bxh5 0-1

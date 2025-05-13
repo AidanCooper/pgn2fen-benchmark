@@ -1,0 +1,23 @@
+[Event "World Fischer Random GpA"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.25"]
+[Round "2.2"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "Nepomniachtchi, Ian"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2533"]
+[BlackElo "2793"]
+[WhiteFideId "2302241"]
+[BlackFideId "4168119"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qnbrkrnb/pppppppp/8/8/8/8/PPPPPPPP/QNBRKRNB w FDfd - 0 1"]
+[EventDate "2022.10.25"]
+
+1. c4 g6 2. g3 Nf6 3. Nc3 O-O 4. d4 Nc6 5. Bg5 d6 6. Qc1 Rde8 7. Bh6 Bg7 8. Bxg7
+Kxg7 9. f4 a6 10. Qd2 Qa7 11. b3 Bd7 12. e3 e5 13. fxe5 dxe5 14. d5 Ne7 15.
+O-O-O Nf5 16. Rde1 b5 17. cxb5 axb5 18. Kb1 Nd6 19. e4 b4 20. Nd1 Bb5 21. Rf2
+Qa6 22. Nb2 Ra8 23. Qxb4 Qxa2+ 24. Kc2 Rfb8 25. Qc3 Ra3 26. Rxf6 Rxb3 27. Rxg6+
+Kxg6 0-1

@@ -1,0 +1,26 @@
+[Event "World Fischer Random KO"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.30"]
+[Round "2.1"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "Bluebaum, Matthias"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2533"]
+[BlackElo "2647"]
+[WhiteFideId "2302241"]
+[BlackFideId "24651516"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qrbnkbrn/pppppppp/8/8/8/8/PPPPPPPP/QRBNKBRN w GBgb - 0 1"]
+[EventDate "2022.10.29"]
+
+1. c4 b5 2. cxb5 Rxb5 3. Nc3 Rb8 4. e3 e6 5. b3 Ng6 6. Bb2 a6 7. Ng3 Bb7 8. f3
+Be7 9. Be2 O-O 10. O-O f5 11. Na4 Rf7 12. Nh5 Bf8 13. Rbc1 d6 14. d4 Nc6 15. Rf2
+Nb4 16. Bf1 Nd5 17. Re1 Re8 18. Qc1 Qd8 19. Nc3 Nxc3 20. Bxc3 Qh4 21. Ng3 f4 22.
+exf4 Nxf4 23. Bd2 d5 24. a3 Bd6 25. Bb4 Qg5 26. Rc2 h5 27. Bxd6 cxd6 28. Kh1 Qf6
+29. Rc7 h4 30. Rxb7 Rxb7 31. Ne2 Nxe2 32. Bxe2 Rxb3 33. Qc6 Rd8 34. h3 Rxa3 35.
+Qb6 Re3 36. Qxa6 Qxd4 37. Rd1 Qe5 38. Qa5 Rf8 39. Bf1 Qc3 40. Qb6 Re1 41. Rxe1
+Qxe1 42. Kg1 Qe5 43. Qb1 Ra8 44. Qb5 Ra1 45. Qe8+ Kh7 46. Qb5 Qe1 47. Qd3+ Kg8
+48. f4 Kf7 49. Qf3 Qxf1+ 0-1

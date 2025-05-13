@@ -1,0 +1,23 @@
+[Event "Champions Chess960 G5"]
+[Site "Saint Louis USA"]
+[Date "2018.09.14"]
+[Round "8.4"]
+[White "Shankland, Samuel"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2722"]
+[BlackElo "2780"]
+[WhiteFideId "2004887"]
+[BlackFideId "623539"]
+[EventDate "2018.09.11"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "brkbnrqn/pppppppp/8/8/8/8/PPPPPPPP/BRKBNRQN w FBfb - 0 1"]
+
+1. f4 b6 2. b3 e6 3. g4 Bf6 4. d4 Be7 5. Bb2 f5 6. g5 Nf7 7. e3 Ned6 8. Nd3 Ne4
+9. Bf3 h6 10. h4 hxg5 11. hxg5 Nfd6 12. Qg2 Qh7 13. O-O-O Rh8 14. c4 Qh2 15. Ne5
+Qxg2 16. Bxg2 Rh2 17. Bf3 a5 18. Rg1 O-O-O 19. Ng6 Re8 20. Rg2 Rh3 21. Ne5 Reh8
+22. Rc2 Rh2 23. Rxh2 Rxh2 24. Ng3 Nxg3 25. Bxa8 c6 26. c5 Nde4 27. cxb6 Ne2+ 28.
+Kb1 N2c3+ 29. Ka1 Ba3 30. b7+ Kc7 31. Nc4 Bxb2+ 32. Nxb2 Nxd1 0-1

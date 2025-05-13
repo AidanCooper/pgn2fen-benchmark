@@ -1,0 +1,14 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.04"]
+[Round "1.16"]
+[White "Caruana, Fabiano"]
+[Black "Svidler, Peter"]
+[Result "*"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nnbbrkrq/pppppppp/8/8/8/8/PPPPPPPP/NNBBRKRQ w KQkq - 0 1"]
+[WhiteElo "2812"]
+[BlackElo "2729"]
+
+1. e4 e5 2. O-O O-O 3. Nb3 Nc6 4. c3 g6 5. d4 exd4 6. Bh6 Bf6 7. Bxf8 Rxf8 8. cxd4 Nxd4 9. Nc3 Nb6 10. h4 h5 11. Qh2 d6 12. Qf4 Be6 13. Nxd4 Bxd4 14. Bb3 Nc4 15. Nd5 Nxb2 16. Qf3 c5 17. Nf4 Bg4 18. Qg3 Qe5 19. Bd5 b5 20. Kh2 Kh7 21. f3 Bd7 22. Bxf7 Qf6 23. Bxg6+ Kh6 24. Bf5 Be5 25. Kh1 Bxf5 26. exf5 Qxf5 27. Qg5+ Qxg5 28. hxg5+ Kh7 29. Nxh5 Nd3 30. Re4 c4 31. f4 Kg6 32. g4 c3 33. Re3 Nb2 34. Kg2 Nc4 35. Ref3 c2 *

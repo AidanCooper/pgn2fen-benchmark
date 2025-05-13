@@ -1,0 +1,21 @@
+[Event "Champions Chess960 G30"]
+[Site "Saint Louis USA"]
+[Date "2018.09.12"]
+[Round "4.3"]
+[White "Giri, Anish"]
+[Black "So, Wesley"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2780"]
+[BlackElo "2776"]
+[WhiteFideId "24116068"]
+[BlackFideId "5202213"]
+[EventDate "2018.09.11"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rbnnqkbr/pppppppp/8/8/8/8/PPPPPPPP/RBNNQKBR w HAha - 0 1"]
+
+1. e4 e5 2. h3 h6 3. Bh2 Bh7 4. O-O O-O 5. c3 c6 6. d4 exd4 7. Bxb8 Rxb8 8. cxd4
+d5 9. e5 Bxb1 10. Rxb1 Ne6 11. Nb3 f6 12. exf6 Rxf6 13. Ne3 h5 14. f3 Nd6 15.
+Qd2 Nf4 16. Kh2 Qg6 17. Nc5 Re8 18. Rg1 Nc4 19. Nxc4 Re2 20. Ne5 Qxb1 0-1

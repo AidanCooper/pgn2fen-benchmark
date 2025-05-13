@@ -1,0 +1,14 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.29"]
+[Round "2.6"]
+[White "So, Wesley"]
+[Black "Nepomniachtchi, Ian"]
+[Result "*"]
+[Variant "chess 960"]
+[SetUp "1"]
+[FEN "bnnrkqrb/pppppppp/8/8/8/8/PPPPPPPP/BNNRKQRB w KQkq - 0 1"]
+[WhiteElo "2767"]
+[BlackElo "2776"]
+
+1. b3 b6 2. c4 Nc6 3. e3 Nb4 4. Bc3 e6 5. Qe2 g5 6. Bxh8 Rxh8 7. O-O Rg8 8. Nc3 g4 9. g3 Bxh1 10. Kxh1 h5 11. d4 h4 12. d5 Qh6 13. e4 Nd6 14. a3 Na6 15. b4 Rh8 16. Rd4 c5 17. dxc6 dxc6 18. Rfd1 hxg3 19. fxg3 Ke7 20. Nb3 c5 21. R4d2 cxb4 22. axb4 Nxb4 23. Nd4 a5 24. Ncb5 Nxb5 25. Nf5+ exf5 26. exf5+ Kf6 27. Rxd8 Rxd8 28. Rxd8 Qc1+ 29. Kg2 Nc6 30. Rd7 Nbd4 31. Rd6+ Kxf5 32. Rd5+ Kf6 33. Rd6+ Kg5 34. Qf2 Nf3 35. h4+ gxh3+ 36. Kxf3 h2 37. Rd5+ f5 38. Qxh2 Nd4+ 39. Kg2 Qd2+ 40. Kh3 Qe3 41. Qb2 Ne6 42. Re5 Qd4 43. Qxd4 Nxd4 44. Rd5 Nc2 45. c5 bxc5 46. Rxc5 Ne3 *

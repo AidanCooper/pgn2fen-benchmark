@@ -1,0 +1,23 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.08"]
+[Round "7.5"]
+[White "Aronian, Levon"]
+[Black "Fedoseev, Vladimir3"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2745"]
+[BlackElo "2724"]
+[WhiteFideId "13300474"]
+[BlackFideId "24130737"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rqbbknrn/pppppppp/8/8/8/8/PPPPPPPP/RQBBKNRN w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. c4 Nhg6 2. b4 e6 3. Bb2 Be7 4. a3 b6 5. e3 Bb7 6. f4 Nh4 7. g3 Nf3+ 8. Bxf3
+Bxf3 9. e4 g5 10. fxg5 Rxg5 11. Nf2 f5 12. h4 Rg6 13. Nh2 Bh5 14. Nh3 c5 15. e5
+Rg8 16. Nf4 Bf7 17. Qd3 Bxh4 18. O-O-O Be7 19. g4 Ng6 20. Nh5 Nxe5 21. Qe2 Nxc4
+22. Nf6+ Bxf6 23. Bxf6 Qf4 24. gxf5 Rxg1 25. Rxg1 cxb4 26. Rg4 Qxf5 27. Qg2 d5
+28. Rg8+ Kd7 29. Rxa8 Qxf6 30. Rxa7+ Kc6 31. axb4 Qb2+ 32. Kd1 Ne3+ 0-1

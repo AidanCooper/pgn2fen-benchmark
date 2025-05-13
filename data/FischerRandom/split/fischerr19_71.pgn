@@ -1,0 +1,26 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.11.01"]
+[Round "3.3"]
+[White "Nepomniachtchi, Ian"]
+[Black "Caruana, Fabiano"]
+[Result "1-0"]
+[Variant "chess 960"]
+[SetUp "1"]
+[FEN "rknbbqnr/pppppppp/8/8/8/8/PPPPPPPP/RKNBBQNR w HAha - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2776"]
+[BlackElo "2812"]
+[WhiteFideId "4168119"]
+[BlackFideId "2020009"]
+[EventDate "2019.10.04"]
+
+1. e4 Nf6 2. d3 d5 3. e5 Nd7 4. f4 Ndb6 5. Nb3 e6 6. Nf3 c5 7. c4 d4 8. Nfd2 Na4
+9. Ne4 a5 10. f5 Bc6 11. Nbd2 Ncb6 12. Bxa4 Nxa4 13. Bg3 Ra6 14. Kc2 Rb6 15. b3
+Nc3 16. Nxc3 dxc3 17. Nb1 h5 18. h4 a4 19. Nxc3 Qe8 20. Qf2 Ra6 21. Rhe1 Ka8 22.
+Qxc5 Be7 23. Qf2 Bb4 24. Red1 Qd8 25. Rdb1 Qa5 26. Nxa4 Bxa4 27. bxa4 Bc5 28.
+Qf3 Qxa4+ 29. Kd2 Rb8 30. Rb5 Rb6 31. Qd1 Qxd1+ 32. Rxd1 Rxb5 33. cxb5 exf5 34.
+Rc1 b6 35. Rc4 Rd8 36. Kc3 Kb7 37. d4 Bf8 38. a4 Rd7 39. Bf4 Be7 40. g3 Bd8 41.
+Rc6 Bc7 42. Kc4 Rd8 43. d5 Ra8 44. Kb3 Re8 45. d6 Bd8 46. Kc4 Rg8 47. d7 Be7 48.
+e6 1-0

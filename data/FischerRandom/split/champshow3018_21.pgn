@@ -1,0 +1,27 @@
+[Event "Champions Chess960 G30"]
+[Site "Saint Louis USA"]
+[Date "2018.09.13"]
+[Round "5.1"]
+[White "Kasparov, Garry"]
+[Black "Topalov, Veselin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2812"]
+[BlackElo "2740"]
+[WhiteFideId "4100018"]
+[BlackFideId "2900084"]
+[EventDate "2018.09.11"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "brkqnbrn/pppppppp/8/8/8/8/PPPPPPPP/BRKQNBRN w GBgb - 0 1"]
+
+1. f4 e6 2. Nf3 d5 3. e3 c5 4. b3 f6 5. Bd3 g6 6. Qe2 Nf7 7. c4 b6 8. O-O Nc7 9.
+cxd5 exd5 10. Ng3 Be7 11. b4 c4 12. Bc2 Qd7 13. Nd4 O-O-O 14. a4 Kb8 15. f5 Ne5
+16. b5 Rgf8 17. Rf2 Bd6 18. Rbf1 Qe7 19. Bc3 Bb7 20. Rf4 Rf7 21. Rh4 g5 22. Rh3
+Bc8 23. Kh1 Re8 24. Rh6 Bb4 25. Qh5 Bxc3 26. dxc3 Bd7 27. e4 Qa3 28. Rxh7 Rxh7
+29. Qxh7 Qxc3 30. Nge2 Qe3 31. Qg7 dxe4 32. Qxf6 Kc8 33. Qg7 Nd3 34. h3 Rd8 35.
+Kh2 Nf4 36. Qxg5 Nfd5 37. Qg7 Ne8 38. Qg3 Nef6 39. Qxe3 Nxe3 40. Rf4 Ned5 41.
+Rf2 Rh8 42. Kg1 Nb4 43. Nc3 Nd3 44. Re2 Rh4 45. Kh2 Rf4 46. g4 e3 47. Ne6 Rf1
+48. Bxd3 cxd3 49. Rxe3 d2 50. Rd3 Ne4 51. Nxe4 d1=Q 52. Rxd1 Rxd1 53. N6g5 Rd4
+54. h4 1-0

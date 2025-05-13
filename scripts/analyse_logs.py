@@ -44,7 +44,7 @@ def format_results(input_file, counts_and_means_and_levenshtein):
             count = counts[key]
             percentage = (count / counts["n"] * 100) if counts["n"] > 0 else 0
             output.append(f"    {key:20}: {count:4} ({percentage:.1f}%)")
-        output.append(f"    {'levenshtein ratio':20}: {levenshtein:5.1f}%")
+        output.append(f"    {'levenshtein ratio':20}: {levenshtein or 0:5.1f}%")
 
         output.append("")
 

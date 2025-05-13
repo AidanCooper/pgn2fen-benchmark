@@ -1,0 +1,23 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.08"]
+[Round "7.1"]
+[White "Abdusattorov, Nodirbek"]
+[Black "Sindarov, Javokhir"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2766"]
+[BlackElo "2700"]
+[WhiteFideId "14204118"]
+[BlackFideId "14205483"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rqbbknrn/pppppppp/8/8/8/8/PPPPPPPP/RQBBKNRN w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. c4 c5 2. b4 cxb4 3. Qxb4 Ne6 4. Nhg3 Ng6 5. Ne3 O-O 6. O-O Bc7 7. Nef5 Bxg3
+8. hxg3 Qe5 9. Bc2 Qxa1 10. Bb2 Qxa2 11. Ra1 Qxa1+ 12. Bxa1 d6 13. Bb3 Nc5 14.
+Bc2 Bxf5 15. Bxf5 e5 16. e3 a5 17. Qa3 a4 18. d4 Nb3 19. Bb2 exd4 20. exd4 Rfe8
+21. Qb4 Nf8 22. Kh2 Re2 23. Qxb7 Ra5 24. c5 Rxb2 25. Be4 dxc5 26. d5 c4 27. g4
+a3 28. d6 Rd2 0-1

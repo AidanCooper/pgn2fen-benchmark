@@ -1,0 +1,30 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.26"]
+[Round "4.2"]
+[White "Bluebaum, Matthias"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2856"]
+[WhiteFideId "24651516"]
+[BlackFideId "1503014"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "bqnbnrkr/pppppppp/8/8/8/8/PPPPPPPP/BQNBNRKR w HFhf - 0 1"]
+[EventDate "2022.10.25"]
+
+1. c4 a5 2. b3 b5 3. cxb5 Qxb5 4. e3 e6 5. Bf3 Bxf3 6. Nxf3 Nf6 7. Qc2 Qb7 8.
+Ne2 Nd6 9. Rc1 c6 10. Qd3 Be7 11. O-O Qb5 12. Ne5 Qxd3 13. Nxd3 Ra8 14. Nc5 Nde4
+15. Na4 O-O 16. d3 Nd6 17. e4 Nb5 18. Nb6 Ra7 19. Nd4 Rb7 20. Na4 Ra8 21. Rfd1
+Ne8 22. Nc2 Nec7 23. Ne3 Na6 24. Nc4 Nb4 25. a3 Na6 26. Bb2 Nb8 27. d4 d6 28. d5
+cxd5 29. exd5 Nd7 30. f4 h6 31. Rd3 Ra6 32. Rcd1 Nf6 33. Bxf6 Bxf6 34. Kf1 Be7
+35. g3 Nc7 36. dxe6 Nxe6 37. f5 Ng5 38. Kg2 Ne4 39. Rd4 Nf6 40. R1d3 d5 41. Ne3
+Bxa3 42. Nxd5 h5 43. Nxf6+ Rxf6 44. Rd5 Bb4 45. Nc5 Rb5 46. Ne4 Rxf5 47. Rd8+
+Kh7 48. Nd6 Bxd6 49. R8xd6 g5 50. Ra6 Kg7 51. Ra7 Kg6 52. h3 Rf6 53. Ra8 Kg7 54.
+Ra7 Rff5 55. Ra8 Rfc5 56. Rf3 Rc2+ 57. Rf2 Rxf2+ 58. Kxf2 Kf6 59. Ra6+ Ke5 60.
+Rh6 Rxb3 61. Rxh5 f6 62. Rh8 a4 63. Ra8 a3 64. Ra5+ Kd4 65. h4 Kc3 66. hxg5 fxg5
+67. Rxg5 a2 68. Ra5 Kb2 69. Rxa2+ Kxa2 70. Kg2 Rb4 71. Kf3 Kb3 72. g4 Rd4 73.
+Kg3 Kc4 74. Kh4 Kd5 75. Kh5 Ke5 0-1

@@ -1,0 +1,27 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.12"]
+[Round "2.2"]
+[White "Carlsen, Magnus"]
+[Black "Keymer, Vincent"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2833"]
+[BlackElo "2731"]
+[WhiteFideId "1503014"]
+[BlackFideId "12940690"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rqknrnbb/pppppppp/8/8/8/8/PPPPPPPP/RQKNRNBB w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. f4 f5 2. c3 g6 3. d4 c5 4. g3 cxd4 5. Bxd4 e5 6. fxe5 Bxe5 7. Qd3 Nc6 8. Bc5
+f4 9. Nf2 Qc7 10. gxf4 Ne6 11. Ba3 Nxf4 12. Qc2 Na5 13. Nd2 Nd5 14. Ng4 Bg7 15.
+O-O-O Nb6 16. b3 O-O-O 17. e4 Qxc3 18. Qxc3+ Bxc3 19. e5 d5 20. exd6 Be6 21. Rg1
+Bf5 22. Nh6 Nc6 23. Nxf5 gxf5 24. Nc4 Nxc4 25. bxc4 Re2 26. Rg2 Rxg2 27. Bxg2
+Bb4 28. Bxb4 Nxb4 29. a3 Nc6 30. Bh3 Na5 31. Bxf5+ Kb8 32. Be6 b6 33. Kc2 Nb7
+34. d7 Kc7 35. Rf1 Nc5 36. Bh3 Nxd7 37. Rf7 Kd6 38. Rxh7 Nf6 39. Rf7 Ke5 40. Bf1
+a5 41. Re7+ Kd4 42. Re6 Ng4 43. Be2 Ne3+ 44. Kb3 Rh8 45. Rxb6 Rxh2 46. Rd6+ Kc5
+47. Rd2 Nxc4 48. Rc2 Rh3+ 1/2-1/2

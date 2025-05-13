@@ -1,0 +1,35 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.12"]
+[Round "2.3"]
+[White "Nakamura, Hikaru"]
+[Black "Gukesh, D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2802"]
+[BlackElo "2777"]
+[WhiteFideId "2016192"]
+[BlackFideId "46616543"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qnbbnrkr/pppppppp/8/8/8/8/PPPPPPPP/QNBBNRKR w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. c4 c5 2. b3 b6 3. d4 cxd4 4. Qxd4 Nf6 5. Nc3 Bb7 6. Nf3 d6 7. Bc2 Nbd7 8. Bb2
+a6 9. a4 Bc7 10. Rd1 e6 11. O-O Rd8 12. Rfe1 Nf8 13. Ng5 d5 14. cxd5 exd5 15.
+Nb1 Ng6 16. Ba3 Qb8 17. Nf3 Re8 18. Nbd2 b5 19. axb5 axb5 20. Bd3 Bc8 21. e4 Bb6
+22. Bc5 Bxc5 23. Qxc5 dxe4 24. Qxb5 Be6 25. Nxe4 Nxe4 26. Rxe4 O-O 27. Rb1 Qa7
+28. Qh5 h6 29. Rbe1 Rd8 30. Bc4 Bxc4 31. bxc4 Rb8 32. Nd4 Rb2 33. Qf3 Qc5 34.
+Nf5 Rd8 35. Rf1 Rdd2 36. h4 Ne5 37. Qg3 Ng6 38. Ne3 Qh5 39. c5 Qxc5 40. Nc4 Re2
+41. Ne3 Qh5 42. Ra4 Kh7 43. Rc4 Red2 44. Ra4 Rd3 45. Qg4 Qxg4 46. Rxg4 Rb5 47.
+Ra4 Rdb3 48. g3 Ne7 49. Rd1 Nf5 50. Nf1 Rb1 51. Rxb1 Rxb1 52. Kg2 Rb2 53. h5 g5
+54. hxg6+ fxg6 55. Ra7+ Kg8 56. Nh2 h5 57. Ra3 Nd6 58. Re3 Nf5 59. Re4 Kg7 60.
+Nf3 Kf6 61. Re8 Kf7 62. Re1 Kf6 63. Kg1 Nh6 64. Re4 Nf5 65. Ra4 Rb6 66. Nd2 Re6
+67. Ne4+ Kg7 68. Kg2 Re7 69. Ng5 Kf6 70. Nh3 Re6 71. Nf4 Rd6 72. Ra5 Ne7 73. Ne2
+Nf5 74. Nc3 Rd7 75. Ra6+ Kg7 76. Ne4 Re7 77. Ng5 Nd4 78. Rb6 Kh6 79. Nh3 Ne6 80.
+Ng1 Nd4 81. Rb4 Rd7 82. Nh3 Ne6 83. Rb6 Re7 84. Rd6 Kg7 85. f3 Kf7 86. Nf2 Ra7
+87. Ne4 Ra3 88. Rb6 Ra2+ 89. Kh3 Ra3 90. Kh4 Ra1 91. Kh3 Ra3 92. Kh4 Ra1 93.
+Rb7+ Kf8 94. Kh3 Ra3 95. Rb8+ Kf7 96. Rb7+ Kf8 97. Rb2 Rxf3 98. Rb6 Kf7 99. Rxe6
+Rxg3+ 100. Nxg3 Kxe6 101. Nxh5 gxh5 102. Kh4 Kd5 103. Kxh5 1/2-1/2

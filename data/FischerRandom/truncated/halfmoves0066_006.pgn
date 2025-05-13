@@ -1,0 +1,14 @@
+[Event "World Fischer Random KO"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.29"]
+[Round "1.1"]
+[White "Nakamura, Hikaru"]
+[Black "Abdusattorov, Nodirbek"]
+[Result "*"]
+[WhiteElo "2768"]
+[BlackElo "2713"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrnkbrqb/pppppppp/8/8/8/8/PPPPPPPP/NRNKBRQB w KQkq - 0 1"]
+
+1. f4 g5 2. g4 gxf4 3. Rxf4 h5 4. Bf2 e5 5. Rb4 Nab6 6. Ncb3 f5 7. h3 Ne7 8. Nc5 Qxa2 9. Kc1 Ned5 10. Nab3 Nxb4 11. Ra1 Qxa1+ 12. Nxa1 e4 13. Bh4+ Bf6 14. Bxf6+ Rxf6 15. Qd4 N4d5 16. c4 fxg4 17. Bg2 O-O-O 18. cxd5 Rf5 19. hxg4 Rxd5 20. Qc3 Bg6 21. Nc2 hxg4 22. Nxe4 Bxe4 23. Bxe4 Rg5 24. Bg2 g3 25. b4 c6 26. b5 Rxb5 27. Qxg3 Rf8 28. Ne3 Rc5+ 29. Kd1 Nc4 30. Nxc4 Rxc4 31. Bh3 Rcf4 32. Qd3 R8f7 33. Qd6 Rh4 *

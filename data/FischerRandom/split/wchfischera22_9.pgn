@@ -1,0 +1,25 @@
+[Event "World Fischer Random GpA"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.26"]
+[Round "3.1"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "Abdusattorov, Nodirbek"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2533"]
+[BlackElo "2713"]
+[WhiteFideId "2302241"]
+[BlackFideId "14204118"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkrbbqn/pppppppp/8/8/8/8/PPPPPPPP/NRKRBBQN w DBdb - 0 1"]
+[EventDate "2022.10.25"]
+
+1. f4 d5 2. Nb3 Nb6 3. g4 f6 4. Bg3 e6 5. d3 g5 6. f5 e5 7. d4 Nf7 8. Nf2 Nc4 9.
+e4 Ne3 10. Re1 Nxf1 11. Qxf1 a5 12. exd5 a4 13. Nc5 Bxc5 14. dxc5 Rxd5 15. Ne4
+Qg7 16. O-O-O Rxd1+ 17. Rxd1 O-O-O 18. Re1 Nh6 19. h3 Bc6 20. Qc4 Qg8 21. Qxg8
+Nxg8 22. Bf2 a3 23. b4 h5 24. gxh5 Bd7 25. h4 g4 26. Ng3 Ne7 27. Be3 Bxf5 28.
+Rf1 Be6 29. Rxf6 Nd5 30. Bg5 Nxf6 31. Bxf6 Rf8 32. Bg7 Rf2 33. h6 Bg8 34. Ne4
+Rh2 35. Kd1 Bh7 36. Ng5 Bxc2+ 37. Kc1 Bf5 38. h7 Bxh7 39. Nxh7 g3 40. Bxe5 Rh1+
+41. Kc2 g2 42. Bd4 Rxh4 0-1

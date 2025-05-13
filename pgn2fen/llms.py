@@ -10,20 +10,32 @@ from pgn2fen.models import Provider
 # ruff: noqa: E501
 PROMPT_TEMPLATE = """
 ## Task
-Your task is to convert the provided PGN representation of a chess game into a FEN string.
+Your task is to convert the provided PGN representation of a {variant} chess game into a FEN string.
 
 ## Instructions
 1. Read the provided PGN text carefully.
 2. Convert the PGN text into a FEN string.
 3. Do not include any additional text, explanations, or backticks in your response. ONLY return the FEN string.
 4. Do not use code to convert the PGN to FEN. Use your own knowledge and understanding of chess to perform the conversion.
-
-For example, if the PGN text represented the starting position of a chess game, you would return the following and nothing else:
+{additional_instructions}
+For example, if the PGN text represented the starting position of a standard chess game, you would return the following and nothing else:
 rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 
 ## Input
 {pgn_text}
 """.strip()
+
+
+def format_prompt(pgn_text: str) -> str:
+    variant = "standard"
+    additional_instructions = ""
+    if '[Variant "Chess960"]' in pgn_text:
+        variant = "Chess960 "
+        additional_instructions = "5. Use standard castling notation (KQkq) for the FEN string.\n"
+
+    return PROMPT_TEMPLATE.format(
+        pgn_text=pgn_text, variant=variant, additional_instructions=additional_instructions
+    )
 
 
 def get_gemini_fen(
@@ -35,7 +47,7 @@ def get_gemini_fen(
     api_key = os.getenv("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
 
-    prompt = PROMPT_TEMPLATE.format(pgn_text=pgn_text)
+    prompt = format_prompt(pgn_text)
 
     thinking_config = None
     if thinking_budget is not None and "2.5" in model:
@@ -77,7 +89,7 @@ def get_openai_fen(
         api_key = os.getenv("OPENAI_API_KEY")
     client = openai.OpenAI(api_key=api_key, base_url=base_url, timeout=900.0)
 
-    prompt = PROMPT_TEMPLATE.format(pgn_text=pgn_text)
+    prompt = format_prompt(pgn_text)
 
     try:
         service_tier = None

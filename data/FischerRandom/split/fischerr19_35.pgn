@@ -1,0 +1,23 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.05"]
+[Round "1.24"]
+[White "So, Wesley"]
+[Black "Svidler, Peter"]
+[Result "1-0"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rbbkqrnn/pppppppp/8/8/8/8/PPPPPPPP/RBBKQRNN w FAfa - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2767"]
+[BlackElo "2729"]
+[WhiteFideId "5202213"]
+[BlackFideId "4102142"]
+[EventDate "2019.10.04"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Ng6 4. Qc3 c6 5. O-O Nf6 6. Qxc4 Bg4 7. Ng5 Nf4 8.
+Ng3 h6 9. N5e4 Nxe4 10. Bxe4 Be6 11. Qc2 Qd7 12. Bxf4 Bxf4 13. Nh5 g5 14. Rad1
+Qc7 15. Nxf4 gxf4 16. d5 cxd5 17. Qb3 O-O 18. Bxd5 Bxd5 19. Rxd5 Rad8 20. Rf5 e6
+21. Rh5 Kg7 22. Qh3 Rh8 23. Qg4+ Kf8 24. Qh4 Kg7 25. e3 Rd2 26. exf4 Rxb2 27.
+Qg3+ 1-0

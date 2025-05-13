@@ -1,0 +1,25 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.12"]
+[Round "2.4"]
+[White "Gukesh, D"]
+[Black "Nakamura, Hikaru"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2777"]
+[BlackElo "2802"]
+[WhiteFideId "46616543"]
+[BlackFideId "2016192"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nbrqbkrn/pppppppp/8/8/8/8/PPPPPPPP/NBRQBKRN w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. c4 Ng6 2. O-O c6 3. e3 O-O 4. f4 f5 5. Nb3 Nb6 6. Ng3 e6 7. d4 d5 8. Nc5 Qe7
+9. b3 Bd6 10. a4 dxc4 11. bxc4 Bxc5 12. dxc5 Nd7 13. Bb4 Nxc5 14. e4 fxe4 15.
+Nxe4 b6 16. Qg4 Rd8 17. Rce1 Rd4 18. Nxc5 bxc5 19. Rxe6 Qd7 20. Bxc5 Rfxf4 21.
+Rxf4 Nxf4 22. Bf5 Rd1+ 23. Kf2 Qd2+ 24. Kg3 Nxe6 25. Bxe6+ Kh8 26. Qf5 Qd3+ 27.
+Qxd3 Rxd3+ 28. Kf4 a5 29. Ke5 Rd2 30. Bh3 Bf7 31. Be3 Rd3 32. Bd4 Bxc4 33. Bd7
+c5 0-1

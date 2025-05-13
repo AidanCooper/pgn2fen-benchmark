@@ -1,0 +1,26 @@
+[Event "World Fischer Random GpA"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.26"]
+[Round "3.2"]
+[White "Nepomniachtchi, Ian"]
+[Black "So, Wesley"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2793"]
+[BlackElo "2774"]
+[WhiteFideId "4168119"]
+[BlackFideId "5202213"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkrbbqn/pppppppp/8/8/8/8/PPPPPPPP/NRKRBBQN w DBdb - 0 1"]
+[EventDate "2022.10.25"]
+
+1. e4 d5 2. exd5 Rxd5 3. Bc4 Rd6 4. f3 Ng6 5. Bg3 e5 6. a3 Bc6 7. Nf2 Nb6 8. Ba2
+Bd5 9. Bxd5 Rxd5 10. Ne4 O-O-O 11. Nb3 h5 12. Nc3 R5d7 13. a4 h4 14. Bf2 f6 15.
+Ra1 Nf4 16. Bxb6 cxb6 17. a5 Bb4 18. axb6 a6 19. Ra4 Bxc3 20. Qc5+ Kb8 21. bxc3
+Nd3+ 22. cxd3 Qxb3 23. Rxh4 Rxd3 24. Rc4 R3d7 25. d4 Qb5 26. Qxb5 axb5 27. Rc5
+exd4 28. Rxd4 Rxd4 29. cxd4 Rd6 30. Rxb5 Rxd4 31. Rh5 Kc8 32. Rh8+ Kd7 33. Rh7
+Rc4+ 34. Kd2 Kc6 35. Rxg7 Kxb6 36. Rg6 Ka5 37. Rxf6 b5 38. Rf8 b4 39. Rb8 Ka4
+40. g4 b3 41. h4 Rf4 42. Ra8+ Kb5 43. Ke3 Rb4 44. Ra1 Kc5 45. h5 Kd5 46. h6 Ke6
+47. h7 Rb8 48. Rb1 1-0

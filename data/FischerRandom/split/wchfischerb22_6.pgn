@@ -1,0 +1,24 @@
+[Event "World Fischer Random GpB"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.25"]
+[Round "2.1"]
+[White "Nakamura, Hikaru"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2768"]
+[BlackElo "2856"]
+[WhiteFideId "2016192"]
+[BlackFideId "1503014"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "qnbrkrnb/pppppppp/8/8/8/8/PPPPPPPP/QNBRKRNB w FDfd - 0 1"]
+[EventDate "2022.10.25"]
+
+1. b3 g5 2. Bb2 Bxb2 3. Qxb2 b6 4. f4 g4 5. Nc3 Bb7 6. e4 Bxe4 7. Nxe4 Qxe4+ 8.
+Ne2 g3 9. hxg3 Nf6 10. g4 Nxg4 11. g3 Qe6 12. O-O-O Qf6 13. Nc3 Nc6 14. Rde1
+O-O-O 15. Qa3 a5 16. Bxc6 dxc6 17. Qxe7 Qd4 18. Re2 h5 19. Qg5 Nf6 20. Rf3 Rg8
+21. Qf5+ Kb7 22. Kb2 Rd5 23. Re5 Rxe5 24. Qxe5 Qd6 25. Qf5 Qe6 26. Qxe6 fxe6 27.
+Ne2 Ng4 28. Nd4 Rg6 29. f5 exf5 30. Rxf5 Nf6 31. Ne2 Ne4 32. d3 Nxg3 33. Nxg3
+Rxg3 34. Rxh5 Rg4 35. a4 c5 36. Rh3 Rf4 37. Rh5 Rg4 38. Rh3 Rf4 39. Rh5 Rg4 1/2-1/2

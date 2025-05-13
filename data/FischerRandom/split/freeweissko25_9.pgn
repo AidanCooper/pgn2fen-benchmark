@@ -1,0 +1,28 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.10"]
+[Round "1.2"]
+[White "Abdusattorov, Nodirbek"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2766"]
+[BlackElo "2833"]
+[WhiteFideId "14204118"]
+[BlackFideId "1503014"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrknqbbr/pppppppp/8/8/8/8/PPPPPPPP/NRKNQBBR w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. Nb3 f6 2. e4 e5 3. f3 Nc6 4. c4 Nb6 5. d3 Na4 6. d4 exd4 7. Nxd4 Qe5 8. Nc2
+a5 9. Qd2 f5 10. f4 Qxe4 11. Bd3 Qe6 12. Nde3 Nc5 13. Bxf5 Qf6 14. Bf2 Be6 15.
+Bd3 Qxf4 16. Bg3 Qf7 17. O-O-O O-O-O 18. Rhf1 Nxd3+ 19. Qxd3 Qg6 20. Qxg6 hxg6
+21. Nd5 d6 22. Rde1 Ne5 23. Bxe5 Bxd5 24. cxd5 dxe5 25. Rxe5 Rxh2 26. Ne3 Bc5
+27. Rf7 Rh5 28. Re6 Bxe3+ 29. Rxe3 Rhxd5 30. Rxg7 Rc5+ 31. Rc3 Rxc3+ 32. bxc3
+Rd6 33. a4 Rc6 34. Kc2 Rc4 35. Rg8+ Kd7 36. Rg7+ Kd8 37. Rxg6 Rxa4 38. g4 Kd7
+39. Kd3 Rf4 40. Ke3 Rc4 41. Kd3 b5 42. Ra6 a4 43. g5 c6 44. g6 Kd6 45. g7 Rg4
+46. Ra7 Kc5 47. Rf7 Rg3+ 48. Kc2 Rg2+ 49. Kd3 a3 50. Ra7 Rg3+ 51. Kc2 Kc4 52.
+Rxa3 Rxg7 53. Ra6 Rg2+ 54. Kc1 Kxc3 55. Rxc6+ Kb3 0-1

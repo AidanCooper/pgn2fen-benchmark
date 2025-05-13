@@ -1,0 +1,25 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.11"]
+[Round "2.1"]
+[White "Keymer, Vincent"]
+[Black "Carlsen, Magnus"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2833"]
+[WhiteFideId "12940690"]
+[BlackFideId "1503014"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nbrkbrqn/pppppppp/8/8/8/8/PPPPPPPP/NBRKBRQN w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. g4 Ng6 2. Nb3 e5 3. Ng3 f6 4. c4 O-O-O 5. d4 Nb6 6. d5 d6 7. Bf5+ Bd7 8. f3
+a6 9. e4 Nf4 10. Bxd7+ Rxd7 11. Kc2 Ba7 12. Bd2 Kb8 13. Be3 Nh3 14. Qg2 Nf4 15.
+Qf2 h5 16. Rfd1 hxg4 17. fxg4 Nc8 18. c5 dxc5 19. Bxc5 g6 20. Bxa7+ Nxa7 21. Kb1
+Qh7 22. Nc5 Rd6 23. Ne2 Nxe2 24. Qxe2 Nb5 25. Qc4 Rc8 26. a4 Nd4 27. g5 Rcd8 28.
+gxf6 Rxf6 29. Rf1 Rb6 30. Rf2 g5 31. Ka2 Ka7 32. Rcf1 g4 33. Qc3 Nf3 34. Rg2 Rg8
+35. Rff2 Rd6 36. Qe3 Ka8 37. Ne6 c6 38. Qa3 Rxe6 39. dxe6 Rc8 1-0

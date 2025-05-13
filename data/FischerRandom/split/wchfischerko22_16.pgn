@@ -1,0 +1,27 @@
+[Event "World Fischer Random KO"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.30"]
+[Round "2.3"]
+[White "Nakamura, Hikaru"]
+[Black "Nepomniachtchi, Ian"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2768"]
+[BlackElo "2793"]
+[WhiteFideId "2016192"]
+[BlackFideId "4168119"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkqbrnb/pppppppp/8/8/8/8/PPPPPPPP/NRKQBRNB w FBfb - 0 1"]
+[EventDate "2022.10.29"]
+
+1. e4 d5 2. g3 dxe4 3. Bxe4 g6 4. f4 Qd6 5. Qe2 Nf6 6. Bg2 Bc6 7. Nf3 Nb6 8. Nb3
+O-O 9. Bf2 Nbd7 10. Nbd4 Bd5 11. c4 Bxf3 12. Bxf3 c6 13. Nb3 e5 14. Be3 a5 15.
+d4 exd4 16. Nxd4 Rfe8 17. Nc2 b5 18. O-O-O Qc7 19. Qd3 bxc4 20. Qxc4 Rxe3 21.
+Nxe3 Qb6 22. Qb3 Qa7 23. Qa3 Nd5 24. Nc4 Rb4 25. Bxd5 cxd5 26. Ne5 Nxe5 27. fxe5
+Bxe5 28. Rd2 Qc5+ 29. Kd1 Bxb2 30. Qf3 Qe7 31. Re1 Be5 32. Re3 d4 33. Rb3 Rc4
+34. Rb7 Qe6 35. Rf2 Bc7 36. Re2 Qd6 37. Rd2 Qc5 38. Ke2 Rc3 39. Rd3 Qc4 40. Rb2
+Bd8 41. h4 Be7 42. Qe4 Bf6 43. Rd2 Ra3 44. h5 Kg7 45. Qf4 gxh5 46. Qf5 h6 47.
+Kf2 Rxa2 48. Kg2 a4 49. Qxh5 Bg5 50. Qg4 Qd5+ 51. Kg1 f5 52. Qe2 Rxd2 53. Rxd2
+Bxd2 0-1

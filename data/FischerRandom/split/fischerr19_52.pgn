@@ -1,0 +1,28 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.10.27"]
+[Round "2.1"]
+[White "Nepomniachtchi, Ian"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rbknbnqr/pppppppp/8/8/8/8/PPPPPPPP/RBKNBNQR w HAha - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2776"]
+[BlackElo "2767"]
+[WhiteFideId "4168119"]
+[BlackFideId "5202213"]
+[EventDate "2019.10.04"]
+
+1. d4 d5 2. f3 f6 3. e4 c6 4. Nd2 e5 5. Bg3 h5 6. h4 dxe4 7. Nxe4 Ng6 8. a4 Bf7
+9. a5 Ne6 10. dxe5 Ngf4 11. Ndc3 Bxe5 12. Ba2 Qd8 13. Bxe6+ Bxe6 14. Qc5 Qc7 15.
+Rd1 O-O-O 16. Rxd8+ Rxd8 17. Qxa7 Bd4 18. Nc5 Ne2+ 19. Kb1 Nxc3+ 20. bxc3 Bxc5
+21. Qxc5 Qxg3 22. a6 Rd1+ 23. Kb2 Rxa1 24. Kxa1 Qe1+ 25. Kb2 bxa6 26. Qf8+ Kd7
+27. Qxg7+ Kd6 28. Qxf6 Qe5 29. Qd8+ Bd7 30. g4 Qb5+ 31. Ka3 Qc5+ 32. Kb2 Qb5+
+33. Ka3 Qc4 34. Qf6+ Be6 35. Qd8+ Bd7 36. Qf6+ Qe6 37. Qd4+ Qd5 38. Qf4+ Ke7 39.
+Qe3+ Kd6 40. Qh6+ Be6 41. Kb2 Qxf3 42. gxh5 Qf5 43. Qh8 Qb5+ 44. Kc1 Qf1+ 45.
+Kb2 Qf7 46. Qb8+ Qc7 47. Qf8+ Qe7 48. Qb8+ Qc7 49. Qf8+ Ke5 50. Qc5+ Ke4 51.
+Qd4+ Kf5 52. Qd3+ Kf4 53. Qd2+ Kf5 54. Qg5+ Ke4 55. Qg2+ Ke3 56. Qg1+ Ke2 57.
+Qg2+ Ke3 58. Qg1+ Ke2 1/2-1/2

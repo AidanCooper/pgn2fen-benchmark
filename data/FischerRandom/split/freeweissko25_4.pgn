@@ -1,0 +1,23 @@
+[Event "Freestyle Weissenhaus KO"]
+[Site "Wangels GER"]
+[Date "2025.02.09"]
+[Round "1.1"]
+[White "Carlsen, Magnus"]
+[Black "Abdusattorov, Nodirbek"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2833"]
+[BlackElo "2766"]
+[WhiteFideId "1503014"]
+[BlackFideId "14204118"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrkbrnbq/pppppppp/8/8/8/8/PPPPPPPP/NRKBRNBQ w KQkq - 0 1"]
+[EventDate "2025.02.09"]
+[EventType "k.o."]
+
+1. f4 f5 2. Bxa7 Bxa2 3. e4 Bxb1 4. Kxb1 fxe4 5. g3 c6 6. Qxe4 g6 7. Ne3 Bb6 8.
+Bxb8 Kxb8 9. Nb3 Nc7 10. Qb4 Bxe3 11. dxe3 Nd5 12. Qa5 e5 13. Bf3 e4 14. Bg2 Qg7
+15. c4 Nf6 16. Kc2 Qf7 17. Bf1 d6 18. Ra1 N8d7 19. Nd4 Nc5 20. b4 Na6 21. b5
+cxb5 22. Qb6 Nb4+ 23. Kd2 1-0

@@ -1,0 +1,26 @@
+[Event "Freestyle Weissenhaus RR"]
+[Site "Wangels GER"]
+[Date "2025.02.08"]
+[Round "8.2"]
+[White "Keymer, Vincent"]
+[Black "Nakamura, Hikaru"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2802"]
+[WhiteFideId "12940690"]
+[BlackFideId "2016192"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "rnnbkrbq/pppppppp/8/8/8/8/PPPPPPPP/RNNBKRBQ w KQkq - 0 1"]
+[EventDate "2025.02.07"]
+
+1. f4 f5 2. c3 c6 3. d3 Bb6 4. Nd2 g6 5. e4 d6 6. g3 Bxg1 7. Qxg1 Nd7 8. Ncb3
+Ncb6 9. a4 fxe4 10. dxe4 Nc4 11. Nxc4 Bxc4 12. Rf3 e5 13. Na5 Ba6 14. b4 exf4
+15. Qd4 Ne5 16. Rxf4 c5 17. bxc5 Nd3+ 18. Kd2 Nxf4 19. Qxh8 Rxh8 20. gxf4 dxc5
+21. Ke3 O-O-O 22. Bc2 Kc7 23. Nb3 b6 24. h4 Rd7 25. a5 Bb5 26. Nd2 Rhd8 27. Nf3
+Kb7 28. axb6 axb6 29. h5 Re7 30. hxg6 hxg6 31. Rg1 Ra8 32. Ne5 Ra3 33. Kd2 Ra2
+34. Kc1 Rxe5 35. fxe5 Ra1+ 36. Bb1 Bd3 37. Kd2 Rxb1 38. Rg4 Bc4 39. Rxg6 Rb2+
+40. Ke3 Re2+ 41. Kf3 Rh2 42. e6 Rh7 43. Kf4 Re7 44. Kf5 b5 45. e5 Bd3+ 46. Kf6
+Bxg6 0-1

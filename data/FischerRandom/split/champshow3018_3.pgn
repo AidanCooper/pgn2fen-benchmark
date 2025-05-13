@@ -1,0 +1,27 @@
+[Event "Champions Chess960 G30"]
+[Site "Saint Louis USA"]
+[Date "2018.09.11"]
+[Round "1.3"]
+[White "Giri, Anish"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2780"]
+[BlackElo "2776"]
+[WhiteFideId "24116068"]
+[BlackFideId "5202213"]
+[EventDate "2018.09.11"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nqbbrkrn/pppppppp/8/8/8/8/PPPPPPPP/NQBBRKRN w GEge - 0 1"]
+
+1. c4 c5 2. Ng3 b5 3. cxb5 Qxb5 4. O-O O-O 5. Nc2 Bb6 6. e4 Nc7 7. Be2 Qc6 8. b4
+cxb4 9. Nxb4 Qa8 10. Bb2 Ng6 11. Nf5 f6 12. Bc4+ Kh8 13. d4 Ba5 14. Bc3 Bxb4 15.
+Bxb4 d5 16. Bd3 a5 17. Bc5 Ba6 18. Bxa6 Nxa6 19. exd5 Nxc5 20. dxc5 Qxd5 21. Qc2
+Rc8 22. Rc1 Nf4 23. Ne3 Qc6 24. Rfd1 Rfd8 25. Rxd8+ Rxd8 26. Rd1 Rc8 27. Qd2 g6
+28. Qxa5 Qxc5 29. Qxc5 Rxc5 30. g3 Nh3+ 31. Kg2 Ng5 32. a4 Kg7 33. Ra1 Ra5 34.
+Nc4 Rc5 35. Ne3 Ra5 36. Nc4 Rc5 37. Nb6 Ra5 38. Rb1 Kf7 39. Rb4 Ra6 40. Nc4 Ke6
+41. a5 Kd5 42. Ne3+ Kc6 43. h4 Ne6 44. Re4 Kd7 45. Nc4 Nc5 46. Re3 Nb7 47. Rb3
+Kc6 48. Re3 e5 49. Rc3 Kd7 50. Nb6+ Kd6 51. Rd3+ Ke6 52. Nc4 Rc6 53. Rb3 Rxc4
+54. Rxb7 Ra4 55. Rxh7 Rxa5 56. Rg7 Kf5 57. Rb7 1/2-1/2

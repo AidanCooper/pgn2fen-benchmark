@@ -1,0 +1,14 @@
+[Event "World Fischer Random KO"]
+[Site "Reykjavik ISL"]
+[Date "2022.10.29"]
+[Round "1.1"]
+[White "Nepomniachtchi, Ian"]
+[Black "Carlsen, Magnus"]
+[Result "*"]
+[WhiteElo "2793"]
+[BlackElo "2856"]
+[Variant "Chess960"]
+[SetUp "1"]
+[FEN "nrnkbrqb/pppppppp/8/8/8/8/PPPPPPPP/NRNKBRQB w KQkq - 0 1"]
+
+1. f4 f5 2. g4 g6 3. Nab3 fxg4 4. Qxg4 Nab6 5. Nc5 Nd6 6. N1b3 Nbc4 7. c3 a5 8. Nd4 Bxd4 9. cxd4 b6 10. Nd3 g5 11. b3 Na3 12. Rc1 Bf7 13. Bf2 Bxb3+ 14. axb3 Rxf4 15. Qh5 Qxb3+ 16. Ke1 Nc2+ 17. Rxc2 Qxc2 18. e3 Rf6 19. Ne5 O-O-O 20. Qg4 h5 21. Qd1 Qa2 22. Qc1 Rdf8 23. Bg2 a4 24. Ke2 Qb3 25. Nd3 Qb5 26. Qc3 h4 27. Rc1 c6 28. Ke1 Rxf2 29. Nxf2 Qf5 30. Nh3 Kd8 31. Qb4 Qg4 32. Qxb6+ Ke8 33. Bf1 Rxf1+ 34. Kxf1 Qxh3+ 35. Kg1 Qg4+ 36. Kh1 Ne4 37. Qb8+ Kf7 38. Rf1+ Nf6 39. Qb1 h3 40. Rf2 a3 41. Qf5 Qh5 42. Rf1 d5 43. d3 Qe2 44. Qh7+ Ke6 45. Qf5+ Kd6 46. Qe5+ Kd7 47. Qf5+ Kd8 48. Qxh3 *

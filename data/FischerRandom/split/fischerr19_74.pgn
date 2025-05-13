@@ -1,0 +1,23 @@
+[Event "World Fischer Random 2019"]
+[Site "Hovikodden NOR"]
+[Date "2019.11.02"]
+[Round "3.5"]
+[White "Carlsen, Magnus"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[Variant "chess 960"]
+[SetUp "1"]
+[FEN "nrkbqnbr/pppppppp/8/8/8/8/PPPPPPPP/NRKBQNBR w HBhb - 0 1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2876"]
+[BlackElo "2767"]
+[WhiteFideId "1503014"]
+[BlackFideId "5202213"]
+[EventDate "2019.10.04"]
+
+1. Nb3 f5 2. f3 Nb6 3. e4 fxe4 4. fxe4 e5 5. Ne3 Ne6 6. c3 Bg5 7. Bc2 O-O-O 8.
+O-O-O Bf7 9. Kb1 Bh5 10. Rc1 Rf8 11. h4 Bxe3 12. Bxe3 Nf4 13. Rg1 Bg4 14. Bxf4
+Rxf4 15. g3 Rf6 16. d4 d6 17. Bd3 Kb8 18. Ka1 Qf7 19. d5 Rf3 20. Bb1 Rf8 21. c4
+Nd7 22. Qb4 b6 23. Na5 Nc5 24. Nc6+ Kb7 25. Na5+ Ka8 26. Nc6 Kb7 27. Na5+ Ka8
+28. Nc6 1/2-1/2
