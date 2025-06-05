@@ -15,9 +15,10 @@ def generate_random_pgn(
     n_halfmoves: int,
     output_file: Path,
 ) -> None:
+    if n_halfmoves < 1:
+        raise ValueError("Number of halfmoves must be at least 1.")
 
-    is_game_generated = False
-    while not is_game_generated:
+    while True:
         board = chess.Board()
         game = chess.pgn.Game()
         node = game
@@ -27,8 +28,8 @@ def generate_random_pgn(
             node = node.add_variation(move)
             if board.is_game_over():
                 break
-        if n == n_halfmoves:
-            is_game_generated = True
+        if board.fullmove_number * 2 - (0 if board.turn else 1) >= n_halfmoves:
+            break
 
     game.headers["Event"] = "World Cup"
     game.headers["Site"] = "NYC"

@@ -1,5 +1,6 @@
 import json
 import os
+from collections.abc import Sequence
 from pathlib import Path
 
 import chess
@@ -7,13 +8,15 @@ import chess.pgn
 
 from pgn2fen.models import LLMInfo, PGN2FENLog, PGNGameInfo
 
+PathType = str | Path
 
-def parse_board_from_pgn_file(pgn_file_path: str | Path) -> chess.Board:
+
+def parse_board_from_pgn_file(pgn_file_path: PathType) -> chess.Board:
     """
     Parses the final board position from the first game in a PGN file.
 
     Args:
-        pgn_file_path (str): Path to the PGN file.
+        pgn_file_path (PathType): Path to the PGN file.
 
     Returns:
         chess.Board: Final board state after all mainline moves.
@@ -33,7 +36,7 @@ def parse_board_from_pgn_file(pgn_file_path: str | Path) -> chess.Board:
         return board
 
 
-def load_logs_from_jsonl(results_jsonl: str) -> list[PGN2FENLog]:
+def load_logs_from_jsonl(results_jsonl: PathType) -> list[PGN2FENLog]:
     """
     Load the logs from a JSONL file.
     """
@@ -60,7 +63,7 @@ def load_logs_from_jsonl(results_jsonl: str) -> list[PGN2FENLog]:
     return logs
 
 
-def split_pgn_file(input_pgn_path: str, output_dir: str) -> None:
+def split_pgn_file(input_pgn_path: str, output_dir: PathType) -> None:
     """
     Splits a PGN file containing multiple games into separate PGN files.
     """
@@ -82,14 +85,14 @@ def split_pgn_file(input_pgn_path: str, output_dir: str) -> None:
             out_f.write(game.strip() + "\n")
 
 
-def split_pgn_into_individual_games(pgn_dir: str, output_dir: str) -> None:
+def split_pgn_into_individual_games(pgn_dir: PathType, output_dir: PathType) -> None:
     pgn_files = [os.path.join(pgn_dir, f) for f in os.listdir(pgn_dir) if f.endswith(".pgn")]
     for pgn_file in pgn_files:
         split_pgn_file(pgn_file, output_dir)
 
 
 def clean_headers(
-    game: chess.pgn.Game, headers_to_delete: list[str], starting_fen: str | None = None
+    game: chess.pgn.Game, headers_to_delete: Sequence[str], starting_fen: str | None = None
 ) -> chess.pgn.Game:
     """Remove unwanted headers, set result to in-progress, and optionally (over)write
     the FEN starting position."""
@@ -119,9 +122,9 @@ def truncate_game(game: chess.pgn.Game, halfmove_count: int) -> chess.pgn.Game |
 
 
 def process_pgn_file(
-    pgn_path: str | Path,
+    pgn_path: PathType,
     halfmove_count: int,
-    headers_to_delete: list[str],
+    headers_to_delete: Sequence[str],
     write_starting_fen: bool,
 ) -> chess.pgn.Game | None:
     """
@@ -130,6 +133,8 @@ def process_pgn_file(
     with open(pgn_path, encoding="utf-8") as f:
         game = chess.pgn.read_game(f)
 
+    if game is None:
+        return None
     starting_fen = game.board().fen() if write_starting_fen else None
 
     game = truncate_game(game, halfmove_count)
@@ -141,9 +146,9 @@ def process_pgn_file(
 
 
 def generate_truncated_pgns(
-    input_files: list[str],
+    input_files: Sequence[PathType],
     truncated_dir: Path,
-    headers_to_delete: list[str],
+    headers_to_delete: Sequence[str],
     max_halfmoves: int,
     target_per_halfmove: int,
     write_starting_fen: bool = False,

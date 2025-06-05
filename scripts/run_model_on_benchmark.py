@@ -71,7 +71,7 @@ def process_single_pgn(
 
 def run_experiment(
     pgn_input_files: list[Path],
-    jsonl_write_file: str | None = None,
+    jsonl_write_file: str | Path | None = None,
     print_to_console: bool = True,
     provider: Provider = Provider.GOOGLE,
     model: str = "gemini-2.0-flash-001",

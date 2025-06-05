@@ -35,7 +35,7 @@ def main():
         TRUNCATED_DIR = PGN_DIR / "truncated"
         TARGET_FILES_PER_HALFMOVE = 10
         MAX_HALFMOVES = 100
-        HEADERS_TO_DELETE = {
+        HEADERS_TO_DELETE = [
             "WhiteTitle",
             "BlackTitle",
             "ECO",
@@ -45,7 +45,7 @@ def main():
             "BlackFideId",
             "EventDate",
             "EventType",
-        }
+        ]
 
         setup_directories(SPLIT_DIR, TRUNCATED_DIR)
         split_pgn_into_individual_games(PGN_DIR, SPLIT_DIR)
