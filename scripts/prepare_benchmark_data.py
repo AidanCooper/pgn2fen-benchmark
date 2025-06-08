@@ -27,7 +27,7 @@ def setup_directories(split_dir, truncated_dir):
 
 def main():
     for benchmark in [
-        # "WorldCup",
+        "WorldCup",
         "FischerRandom",
     ]:
         PGN_DIR = PROJECT_ROOT / "data" / benchmark

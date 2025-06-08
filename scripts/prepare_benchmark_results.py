@@ -146,12 +146,13 @@ def prepare_bar_plot(
         None
     """
     colours = []
-    providers = {
+    providers: {str, (int, list[str])} = {
         "google": [0, ["#3367D6", "#5C9DFF", "#4285F4", "#174EA6", "#0B3D91", "#7BAAF7"]],
         "openai": [0, ["#8E59FF", "#C084FC", "#5E2CA5", "#B266FF"]],
         "deepseek": [0, ["#00A88E", "#00D1C1", "#00BFAE", "#008578"]],
         "anthropic": [0, ["#E6AC00", "#FF9900", "#FFB800", "#CC8800"]],
-    }
+        "baseline": [0, ["#D9D9D9", "#A6A6A6", "#737373", "#404040"]],
+    }  # int tracks how many colours have been used for each provider
     for provider, model in zip(df["provider"], df["model"], strict=False):
         try:
             colours.append(providers[provider][1][providers[provider][0]])
@@ -223,6 +224,8 @@ def main():
         for model_type, model_files in model_type_to_files.items():
             for evaluation_metric in evaluation_metrics:
                 json_files = [input_dir / f"{file}.jsonl" for file in model_files]
+                if evaluation_metric == "levenshtein_ratio":
+                    json_files.append(input_dir / f"baseline_starting_board_{benchmark}.jsonl")
 
                 # Prepare data for analysis
                 df = prepare_table(

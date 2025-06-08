@@ -24,7 +24,9 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 
 ## Benchmark Leaderboards
 
-**Last updated:** 2025-05-03
+**Last updated:** 2025-06-08
+
+`baseline-starting_board` displays the levenshtein ratio for a dummy model that always predicts the starting board FEN string.
 
 *Coming soon:*
 - Anthropic's Claude models
@@ -46,6 +48,7 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 | google     | gemini-2.5-pro-preview-03-25   |         96.8 |          94.5 |          87.2 |          79.9 |          73.3 |           71.9 |
 | google     | gemini-2.5-flash-preview-04-17 |         92.1 |          76.6 |          62.8 |          53.9 |          43   |           45.7 |
 | openai     | o4-mini-2025-04-16             |         84.6 |          83.8 |          81.6 |          79.5 |          86.4 |           89.4 |
+| baseline   | starting_board                 |         77.4 |          63.7 |          52.5 |          45.5 |          41.8 |           39   |
 
 </div>
 
@@ -66,6 +69,7 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 | deepseek   | deepseek-chat             |         93.5 |          83.4 |          72.8 |          67.9 |          65.5 |           65.3 |
 | openai     | gpt-4.1-mini-2025-04-14   |         90.4 |          78.9 |          69.2 |          62.4 |          59.1 |           55.7 |
 | openai     | gpt-4.1-nano-2025-04-14   |         78.8 |          66.7 |          57.9 |          54.9 |          50.6 |           44.8 |
+| baseline   | starting_board            |         77.4 |          63.7 |          52.5 |          45.5 |          41.8 |           39   |
 
 </div>
 

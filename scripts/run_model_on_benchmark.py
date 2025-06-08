@@ -13,7 +13,7 @@ from tqdm import tqdm
 from pgn2fen.llms import get_fen
 from pgn2fen.models import LLMInfo, PGN2FENLog, PGNGameInfo, Provider
 from pgn2fen.pgn_io import load_logs_from_jsonl, parse_board_from_pgn_file
-from pgn2fen.utils import is_fen, process_llm_raw_text
+from pgn2fen.utils import process_llm_raw_text
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
