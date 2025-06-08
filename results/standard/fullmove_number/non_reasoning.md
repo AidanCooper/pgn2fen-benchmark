@@ -6,3 +6,4 @@
 | google     | gemini-2.0-flash-lite-001 |           99 |            99 |          98   |          96   |          92.5 |          100   |
 | deepseek   | deepseek-chat             |           98 |            95 |          95   |          95   |          97.5 |           97.5 |
 | openai     | gpt-4.1-nano-2025-04-14   |           93 |            96 |          86   |          70   |          30.5 |            4   |
+| openai     | gpt-3.5-turbo-instruct    |           90 |            76 |          44   |          18   |           8.5 |            5.5 |

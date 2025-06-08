@@ -26,6 +26,7 @@ MODEL_TYPE_TO_FILES_STANDARD = {
         "openai_gpt-4.1-nano-2025-04-14",
         "openai_gpt-4.1-mini-2025-04-14",
         "openai_gpt-4.1-2025-04-14",
+        "openai_gpt-3.5-turbo-instruct",
         "google_gemini-2.0-flash-lite-001",
         "google_gemini-2.0-flash-001",
         "deepseek_deepseek-chat",
@@ -44,6 +45,7 @@ MODEL_TYPE_TO_FILES_RANDOMISED = {
         "openai_gpt-4.1-nano-2025-04-14_randomised",
         "openai_gpt-4.1-mini-2025-04-14_randomised",
         "openai_gpt-4o-mini-2024-07-18_randomised",
+        "openai_gpt-3.5-turbo-instruct_randomised",
     ],
 }
 
@@ -58,6 +60,7 @@ MODEL_TYPE_TO_FILES_FISCHER = {
         "openai_gpt-4.1-nano-2025-04-14_fischer_random",
         "openai_gpt-4.1-mini-2025-04-14_fischer_random",
         "openai_gpt-4o-mini-2024-07-18_fischer_random",
+        "openai_gpt-3.5-turbo-instruct_fischer_random",
     ],
 }
 

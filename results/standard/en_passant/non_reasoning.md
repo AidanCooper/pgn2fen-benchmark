@@ -5,4 +5,5 @@
 | deepseek   | deepseek-chat             |          100 |           100 |          99   |         100   |         100   |           99.5 |
 | openai     | gpt-4.1-2025-04-14        |          100 |            96 |          92.5 |          91.5 |          92   |           85   |
 | google     | gemini-2.0-flash-lite-001 |           99 |           100 |          98.5 |          96   |          93.5 |           99.5 |
+| openai     | gpt-3.5-turbo-instruct    |           98 |            99 |          95.5 |          97.5 |          95   |           96   |
 | openai     | gpt-4.1-nano-2025-04-14   |           94 |            97 |          95   |         100   |         100   |           98   |

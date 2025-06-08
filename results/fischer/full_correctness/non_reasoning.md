@@ -5,3 +5,4 @@
 | google     | gemini-2.0-flash-001      |            1 |             0 |             0 |             0 |             0 |              0 |
 | openai     | gpt-4.1-nano-2025-04-14   |            0 |             0 |             0 |             0 |             0 |              0 |
 | openai     | gpt-4o-mini-2024-07-18    |            0 |             0 |             0 |             0 |             0 |              0 |
+| openai     | gpt-3.5-turbo-instruct    |            0 |             0 |             0 |             0 |             0 |              0 |

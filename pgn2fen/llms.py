@@ -83,7 +83,8 @@ def get_openai_fen(
     base_url: str = "https://api.openai.com/v1",
 ) -> str:
     """
-    FEN retrieval for the OpenAI API client. Also supports DeepSeek API.
+    FEN retrieval for the OpenAI API client. Also supports any OpenAI-compatible API,
+    such as DeepSeek.
     """
     if api_key is None:
         api_key = os.getenv("OPENAI_API_KEY")
@@ -91,19 +92,36 @@ def get_openai_fen(
 
     prompt = format_prompt(pgn_text)
 
-    try:
-        service_tier = None
-        if model in OPENAI_FLEX_MODELS:
-            service_tier = "flex"
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=1.0,
-            service_tier=service_tier,
-        )
-    except Exception as e:
-        raise RuntimeError(f"Error during API call: {e}") from e
-    return str(response.choices[0].message.content)
+    def _call_openai_instruct(client: openai.OpenAI, model: str, prompt: str) -> str:
+        try:
+            response = client.completions.create(
+                model=model,
+                prompt=prompt,
+                temperature=1.0,
+                max_tokens=200,
+            )
+        except Exception as e:
+            raise RuntimeError(f"Error during API call: {e}") from e
+        return str(response.choices[0].text).strip()
+
+    def _call_openai_chat(client: openai.OpenAI, model: str, prompt: str) -> str:
+        try:
+            service_tier = None
+            if model in OPENAI_FLEX_MODELS:
+                service_tier = "flex"
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=1.0,
+                service_tier=service_tier,
+            )
+        except Exception as e:
+            raise RuntimeError(f"Error during API call: {e}") from e
+        return str(response.choices[0].message.content)
+
+    if model == "gpt-3.5-turbo-instruct":
+        return _call_openai_instruct(client, model, prompt)
+    return _call_openai_chat(client, model, prompt)
 
 
 def get_fen(

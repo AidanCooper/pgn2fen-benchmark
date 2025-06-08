@@ -6,3 +6,4 @@
 | openai     | gpt-4.1-mini-2025-04-14   |           31 |             0 |           0   |           0   |           0   |              0 |
 | openai     | gpt-4.1-2025-04-14        |           28 |             2 |           0   |           0   |           0   |              0 |
 | openai     | gpt-4.1-nano-2025-04-14   |            9 |             0 |           0   |           0   |           0   |              0 |
+| openai     | gpt-3.5-turbo-instruct    |            7 |             0 |           0   |           0   |           0   |              0 |
