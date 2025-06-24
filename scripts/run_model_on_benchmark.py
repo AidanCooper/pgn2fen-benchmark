@@ -46,7 +46,7 @@ def process_single_pgn(
     board_fen = board.fen()
 
     try:
-        llm_raw_text = get_fen(pgn_text, provider, model, thinking_budget)
+        llm_raw_text, llm_reasoning = get_fen(pgn_text, provider, model, thinking_budget)
     except Exception as e:
         raise RuntimeError(f"Error calling {provider.value}_{model} for {pgn_file}: {e}") from e
 
@@ -61,6 +61,7 @@ def process_single_pgn(
         model=model,
         llm_raw_text=llm_raw_text,
         llm_fen=process_llm_raw_text(llm_raw_text, extract_fen),
+        llm_reasoning=llm_reasoning,
     )
 
     return PGN2FENLog(

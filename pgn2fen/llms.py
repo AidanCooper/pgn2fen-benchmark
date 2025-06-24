@@ -39,8 +39,10 @@ def format_prompt(pgn_text: str) -> str:
 
 
 def get_gemini_fen(
-    pgn_text: str, model: str = "gemini-2.0-flash-001", thinking_budget: int | None = None
-) -> str:
+    pgn_text: str,
+    model: str = "gemini-2.0-flash-001",
+    thinking_budget: int | None = None,
+) -> tuple[str, str | None]:
     """
     FEN retrieval for the Google Gemini API client.
     """
@@ -51,7 +53,9 @@ def get_gemini_fen(
 
     thinking_config = None
     if thinking_budget is not None and "2.5" in model:
-        thinking_config = types.ThinkingConfig(thinking_budget=thinking_budget)
+        thinking_config = types.ThinkingConfig(
+            include_thoughts=True, thinking_budget=thinking_budget
+        )
 
     try:
         response = client.models.generate_content(
@@ -64,7 +68,18 @@ def get_gemini_fen(
         )
     except Exception as e:
         raise RuntimeError(f"Error during API call: {e}") from e
-    return str(response.text).strip()
+
+    response_thoughts = ""
+    response_text = ""
+    for part in response.candidates[0].content.parts:
+        if not part.text:
+            continue
+        if part.thought:
+            response_thoughts += part.text + "\n"
+        else:
+            response_text = part.text
+
+    return response_text, response_thoughts or None
 
 
 OPENAI_FLEX_MODELS: list[str] = [
@@ -81,7 +96,7 @@ def get_openai_fen(
     model: str = "gpt-4.1-mini-2025-04-14",
     api_key: str | None = None,
     base_url: str = "https://api.openai.com/v1",
-) -> str:
+) -> tuple[str, str | None]:
     """
     FEN retrieval for the OpenAI API client. Also supports any OpenAI-compatible API,
     such as DeepSeek.
@@ -92,7 +107,9 @@ def get_openai_fen(
 
     prompt = format_prompt(pgn_text)
 
-    def _call_openai_instruct(client: openai.OpenAI, model: str, prompt: str) -> str:
+    def _call_openai_instruct(
+        client: openai.OpenAI, model: str, prompt: str
+    ) -> tuple[str, str | None]:
         try:
             response = client.completions.create(
                 model=model,
@@ -102,22 +119,30 @@ def get_openai_fen(
             )
         except Exception as e:
             raise RuntimeError(f"Error during API call: {e}") from e
-        return str(response.choices[0].text).strip()
+        return str(response.choices[0].text).strip(), None
 
-    def _call_openai_chat(client: openai.OpenAI, model: str, prompt: str) -> str:
+    def _call_openai_chat(client: openai.OpenAI, model: str, prompt: str) -> tuple[str, str | None]:
         try:
             service_tier = None
             if model in OPENAI_FLEX_MODELS:
                 service_tier = "flex"
-            response = client.chat.completions.create(
+            response = client.responses.create(
                 model=model,
-                messages=[{"role": "user", "content": prompt}],
+                input=prompt,
                 temperature=1.0,
                 service_tier=service_tier,
+                reasoning={"summary": "auto"},
             )
         except Exception as e:
             raise RuntimeError(f"Error during API call: {e}") from e
-        return str(response.choices[0].message.content)
+
+        reasoning = ""
+        for output in response.output:
+            if output.type == "reasoning":
+                for summary in output.summary:
+                    reasoning += summary.text + "\n"
+
+        return response.output_text, reasoning or None
 
     if model == "gpt-3.5-turbo-instruct":
         return _call_openai_instruct(client, model, prompt)
@@ -129,7 +154,7 @@ def get_fen(
     provider: Provider = Provider.GOOGLE,
     model: str = "gemini-2.0-flash-001",
     thinking_budget: int | None = None,
-) -> str:
+) -> tuple[str, str | None]:
     """
     Get the FEN string from the PGN text using the specified provider and model.
 
@@ -141,21 +166,23 @@ def get_fen(
             Currently only implemented for the GOOGLE provider.
 
     Returns:
-        str: The FEN string.
+        str: The FEN string and the LLM reasoning (if applicable).
 
     Raises:
         ValueError: If the provider is not supported.
     """
     if provider == Provider.GOOGLE:
-        return str(get_gemini_fen(pgn_text, model=model, thinking_budget=thinking_budget))
+        fen_string, reasoning = get_gemini_fen(
+            pgn_text, model=model, thinking_budget=thinking_budget
+        )
     elif provider == Provider.OPENAI:
-        return str(get_openai_fen(pgn_text, model=model))
+        fen_string, reasoning = get_openai_fen(pgn_text, model=model)
     elif provider == Provider.DEEPSEEK:
         api_key = os.getenv("DEEPSEEK_API_KEY")
-        return str(
-            get_openai_fen(
-                pgn_text, model=model, api_key=api_key, base_url="https://api.deepseek.com/v1"
-            )
+        fen_string, reasoning = get_openai_fen(
+            pgn_text, model=model, api_key=api_key, base_url="https://api.deepseek.com/v1"
         )
     else:
         raise ValueError(f"Unsupported provider: {provider}")
+
+    return fen_string, reasoning

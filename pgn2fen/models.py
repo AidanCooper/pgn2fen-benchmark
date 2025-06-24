@@ -23,6 +23,7 @@ class LLMInfo:
     model: str
     llm_raw_text: str
     llm_fen: str | None
+    llm_reasoning: str | None = None
 
 
 @dataclass

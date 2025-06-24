@@ -58,6 +58,7 @@ def load_logs_from_jsonl(results_jsonl: PathType) -> list[PGN2FENLog]:
                 model=data["llm_info"]["model"],
                 llm_raw_text=data["llm_info"].get("llm_raw_text", data["llm_info"]["llm_fen"]),
                 llm_fen=data["llm_info"]["llm_fen"],
+                llm_reasoning=data["llm_info"].get("llm_reasoning", None),
             )
             logs.append(PGN2FENLog(game_info, llm_info))
     return logs
