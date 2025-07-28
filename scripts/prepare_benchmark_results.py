@@ -37,7 +37,8 @@ MODEL_TYPE_TO_FILES_RANDOMISED = {
     "reasoning": [
         "openai_o3-mini-2025-01-31_randomised",
         "openai_o4-mini-2025-04-16_randomised",
-        "google_gemini-2.5-flash-preview-04-17_randomised",
+        "openai_o3-2025-04-16_randomised",
+        # "google_gemini-2.5-flash-preview-04-17_randomised",
     ],
     "non_reasoning": [
         "google_gemini-2.0-flash-001_randomised",
@@ -53,6 +54,7 @@ MODEL_TYPE_TO_FILES_FISCHER = {
     "reasoning": [
         "openai_o3-mini-2025-01-31_fischer_random",
         "openai_o4-mini-2025-04-16_fischer_random",
+        "openai_o3-2025-04-16_fischer_random",
     ],
     "non_reasoning": [
         "google_gemini-2.0-flash-001_fischer_random",

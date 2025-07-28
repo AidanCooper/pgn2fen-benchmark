@@ -24,17 +24,23 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 
 ## Benchmark Leaderboards
 
-**Last updated:** 2025-06-08
+**Last updated:** 2025-07-28
 
 `baseline-starting_board` displays the levenshtein ratio for a dummy model that always predicts the starting board FEN string.
 
 *Coming soon:*
 - Anthropic's Claude models
 
+---
+
 ### Reasoning Language Models
 
 <p align="center">
   <img src="results/standard/levenshtein_ratio/reasoning.png" width="800">
+</p>
+
+<p align="center">
+  <img src="results/standard/full_correctness/reasoning.png" width="800">
 </p>
 
 **Levenshtein Ratio (%):**
@@ -52,10 +58,30 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 
 </div>
 
+**Full Correctness (%):**
+<div align="center">
+
+| provider   | model                          |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
+|:-----------|:-------------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
+| openai     | o3-2025-04-16                  |           99 |            94 |          94.5 |          93.5 |            93 |           96.5 |
+| openai     | o3-mini-2025-01-31             |           82 |            74 |          49   |          39.5 |            27 |           16   |
+| deepseek   | deepseek-reasoner              |           82 |            22 |           7.5 |           9.5 |             3 |            6   |
+| google     | gemini-2.5-pro-preview-03-25   |           48 |             8 |           2   |           1   |             0 |            0   |
+| openai     | o4-mini-2025-04-16             |           28 |            19 |          17.5 |          30.5 |            35 |           42.5 |
+| google     | gemini-2.5-flash-preview-04-17 |           19 |             1 |           0   |           0   |             0 |            0   |
+
+</div>
+
+---
+
 ### Non-Reasoning Language Models
 
 <p align="center">
   <img src="results/standard/levenshtein_ratio/non_reasoning.png" width="800">
+</p>
+
+<p align="center">
+  <img src="results/standard/full_correctness/non_reasoning.png" width="800">
 </p>
 
 **Levenshtein Ratio (%):**
@@ -73,6 +99,23 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 | baseline   | starting_board            |         77.4 |          63.7 |          52.5 |          45.5 |          41.8 |           39   |
 
 </div>
+
+**Full Correctness (%):**
+<div align="center">
+
+| provider   | model                     |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
+|:-----------|:--------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
+| google     | gemini-2.0-flash-001      |           44 |            10 |           3.5 |           0.5 |           0.5 |              0 |
+| google     | gemini-2.0-flash-lite-001 |           36 |             7 |           1.5 |           0   |           0   |              0 |
+| deepseek   | deepseek-chat             |           25 |             0 |           0   |           0   |           0   |              0 |
+| openai     | gpt-4.1-2025-04-14        |           20 |             1 |           0   |           0   |           0   |              0 |
+| openai     | gpt-4.1-mini-2025-04-14   |           17 |             0 |           0   |           0   |           0   |              0 |
+| openai     | gpt-4.1-nano-2025-04-14   |            2 |             0 |           0   |           0   |           0   |              0 |
+| openai     | gpt-3.5-turbo-instruct    |            1 |             0 |           0   |           0   |           0   |              0 |
+
+</div>
+
+---
 
 ## Task
 
