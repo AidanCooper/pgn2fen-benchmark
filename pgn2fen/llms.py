@@ -4,6 +4,7 @@ import backoff
 import openai
 from google import genai
 from google.genai import types
+from llama_cpp import Llama
 
 from pgn2fen.models import Provider
 
@@ -25,6 +26,10 @@ rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 {pgn_text}
 """.strip()
 
+PROMPT_TEMPLATE_CHESSGPT_CHAT = """
+{pgn_moves} Convert the PGN to FEN
+""".strip()
+
 
 def format_prompt(pgn_text: str) -> str:
     variant = "standard"
@@ -36,6 +41,11 @@ def format_prompt(pgn_text: str) -> str:
     return PROMPT_TEMPLATE.format(
         pgn_text=pgn_text, variant=variant, additional_instructions=additional_instructions
     )
+
+
+def format_prompt_chessgpt_chat(pgn_text: str) -> str:
+    lines = pgn_text.splitlines()
+    return PROMPT_TEMPLATE_CHESSGPT_CHAT.format(pgn_moves=lines[-1])
 
 
 def get_gemini_fen(
@@ -149,6 +159,41 @@ def get_openai_fen(
     return _call_openai_chat(client, model, prompt)
 
 
+def get_chessgpt_fen(
+    pgn_text: str,
+    model: str = "chessgpt-chat-v1.Q4_K.gguf",
+    model_directory: str | None = None,
+) -> tuple[str, str | None]:
+    """
+    FEN retrieval using ChessGPT chat via llama.cpp.
+    """
+    if model_directory is None:
+        model_directory = os.getenv("CHESSGPT_MODEL_DIR", "~/Models/")
+
+    llm = Llama(
+        model_path=model_directory + model,
+        n_gpu_layers=-1,
+        n_ctx=2048,
+        verbose=False,
+    )
+
+    user_prompt = format_prompt_chessgpt_chat(pgn_text)
+    prompt = f"A friendly, helpful chat between some humans.<|endoftext|>Human 0: {user_prompt}<|endoftext|>Human 1:"
+
+    try:
+        response = llm(
+            prompt,
+            max_tokens=100,
+            stop=["<|endoftext|>", "Human 0:", "Human 1:"],
+            echo=False,
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error during llama.cpp call: {e}") from e
+
+    response_text = response["choices"][0]["text"].strip()
+    return response_text, None
+
+
 def get_fen(
     pgn_text: str,
     provider: Provider = Provider.GOOGLE,
@@ -182,6 +227,8 @@ def get_fen(
         fen_string, reasoning = get_openai_fen(
             pgn_text, model=model, api_key=api_key, base_url="https://api.deepseek.com/v1"
         )
+    elif provider == Provider.CHESSGPT:
+        fen_string, reasoning = get_chessgpt_fen(pgn_text, model=model)
     else:
         raise ValueError(f"Unsupported provider: {provider}")
 

@@ -7,6 +7,7 @@ class Provider(Enum):
     GOOGLE = "google"
     OPENAI = "openai"
     DEEPSEEK = "deepseek"
+    CHESSGPT = "chessgpt"
 
 
 @dataclass

@@ -214,10 +214,11 @@ def main():
 
     pgn_dir = PROJECT_ROOT / args.pgn_dir
     think_str = f"_think{thinking_budget}" if thinking_budget is not None else ""
+    model_name = model.replace(".gguf", "")
     jsonl_write_file = (
         PROJECT_ROOT / args.output_file
         if args.output_file
-        else PROJECT_ROOT / "model_logs" / f"{provider.value}_{model}{think_str}.jsonl"
+        else PROJECT_ROOT / "model_logs" / f"{provider.value}_{model_name}{think_str}.jsonl"
     )
 
     pgn_input_files = get_pgn_paths(

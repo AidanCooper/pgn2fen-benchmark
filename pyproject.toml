@@ -21,6 +21,7 @@ dependencies = [
     "tabulate",
     "google-generativeai",
     "openai",
+    "llama-cpp-python",
     "levenshtein",
 ]
 
