@@ -30,6 +30,7 @@ MODEL_TYPE_TO_FILES_STANDARD = {
         "google_gemini-2.0-flash-lite-001",
         "google_gemini-2.0-flash-001",
         "deepseek_deepseek-chat",
+        "chessgpt_chessgpt-chat-v1.Q4_K",
     ],
 }
 
@@ -155,7 +156,7 @@ def prepare_bar_plot(
         "google": [0, ["#3367D6", "#5C9DFF", "#4285F4", "#174EA6", "#0B3D91", "#7BAAF7"]],
         "openai": [0, ["#8E59FF", "#C084FC", "#5E2CA5", "#B266FF"]],
         "deepseek": [0, ["#00A88E", "#00D1C1", "#00BFAE", "#008578"]],
-        "anthropic": [0, ["#E6AC00", "#FF9900", "#FFB800", "#CC8800"]],
+        "chessgpt": [0, ["#E6AC00", "#FF9900", "#FFB800", "#CC8800"]],
         "baseline": [0, ["#D9D9D9", "#A6A6A6", "#737373", "#404040"]],
     }  # int tracks how many colours have been used for each provider
     for provider, model in zip(df["provider"], df["model"], strict=False):

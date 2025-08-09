@@ -4,5 +4,6 @@ google,gemini-2.0-flash-001,65.0,21.0,5.5,1.5,0.5,0.0
 deepseek,deepseek-chat,39.0,1.0,0.0,0.0,0.0,0.0
 openai,gpt-4.1-mini-2025-04-14,31.0,0.0,0.0,0.0,0.0,0.0
 openai,gpt-4.1-2025-04-14,28.0,2.0,0.0,0.0,0.0,0.0
+chessgpt,chessgpt-chat-v1.Q4_K.gguf,17.0,6.0,5.0,2.0,0.0,0.0
 openai,gpt-4.1-nano-2025-04-14,9.0,0.0,0.0,0.0,0.0,0.0
 openai,gpt-3.5-turbo-instruct,7.0,0.0,0.0,0.0,0.0,0.0
