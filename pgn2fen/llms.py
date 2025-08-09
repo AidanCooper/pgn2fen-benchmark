@@ -26,7 +26,7 @@ rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 {pgn_text}
 """.strip()
 
-PROMPT_TEMPLATE_CHESSGPT_CHAT = """
+PROMPT_TEMPLATE_CHESSGPT = """
 {pgn_moves} Convert the PGN to FEN
 """.strip()
 
@@ -43,9 +43,9 @@ def format_prompt(pgn_text: str) -> str:
     )
 
 
-def format_prompt_chessgpt_chat(pgn_text: str) -> str:
+def format_prompt_chessgpt(pgn_text: str) -> str:
     lines = pgn_text.splitlines()
-    return PROMPT_TEMPLATE_CHESSGPT_CHAT.format(pgn_moves=lines[-1])
+    return PROMPT_TEMPLATE_CHESSGPT.format(pgn_moves=lines[-1])
 
 
 def get_gemini_fen(
@@ -165,7 +165,7 @@ def get_chessgpt_fen(
     model_directory: str | None = None,
 ) -> tuple[str, str | None]:
     """
-    FEN retrieval using ChessGPT chat via llama.cpp.
+    FEN retrieval using ChessGPT chat or base via llama.cpp.
     """
     if model_directory is None:
         model_directory = os.getenv("CHESSGPT_MODEL_DIR", "~/Models/")
@@ -177,8 +177,13 @@ def get_chessgpt_fen(
         verbose=False,
     )
 
-    user_prompt = format_prompt_chessgpt_chat(pgn_text)
-    prompt = f"A friendly, helpful chat between some humans.<|endoftext|>Human 0: {user_prompt}<|endoftext|>Human 1:"
+    user_prompt = format_prompt_chessgpt(pgn_text)
+    if "chat" in model:
+        prompt = f"A friendly, helpful chat between some humans.<|endoftext|>Human 0: {user_prompt}<|endoftext|>Human 1:"
+    elif "base" in model:
+        prompt = f"Q: {user_prompt} A:"
+    else:
+        raise ValueError(f"Unsupported ChessGPT model: {model}")
 
     try:
         response = llm(

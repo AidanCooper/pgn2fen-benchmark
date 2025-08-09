@@ -24,7 +24,7 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 
 ## Benchmark Leaderboards
 
-**Last updated:** 2025-08-08
+**Last updated:** 2025-08-09
 
 `baseline-starting_board` displays the levenshtein ratio for a dummy model that always predicts the starting board FEN string.
 
@@ -87,33 +87,35 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 **Levenshtein Ratio (%):**
 <div align="center">
 
-| provider   | model                      |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
-|:-----------|:---------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
-| google     | gemini-2.0-flash-001       |         97.3 |          93.5 |          91.6 |          88.3 |          84   |           75.5 |
-| google     | gemini-2.0-flash-lite-001  |         96.5 |          92.9 |          88   |          79.9 |          73.1 |           76.6 |
-| openai     | gpt-4.1-2025-04-14         |         94.9 |          85.3 |          72.9 |          64.9 |          62.3 |           55.5 |
-| deepseek   | deepseek-chat              |         93.5 |          83.4 |          72.8 |          67.9 |          65.5 |           65.3 |
-| openai     | gpt-4.1-mini-2025-04-14    |         90.4 |          78.9 |          69.2 |          62.4 |          59.1 |           55.7 |
-| openai     | gpt-3.5-turbo-instruct     |         80.9 |          68.7 |          59.2 |          54.4 |          50.2 |           47.4 |
-| openai     | gpt-4.1-nano-2025-04-14    |         78.8 |          66.7 |          57.9 |          54.9 |          50.6 |           44.8 |
-| baseline   | starting_board             |         77.4 |          63.7 |          52.5 |          45.5 |          41.8 |           39   |
-| chessgpt   | chessgpt-chat-v1.Q4_K.gguf |         45.6 |          54.8 |          70.8 |          50.7 |          60.1 |           42.3 |
+| provider   | model                        |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
+|:-----------|:-----------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
+| google     | gemini-2.0-flash-001         |         97.3 |          93.5 |          91.6 |          88.3 |          84   |           75.5 |
+| google     | gemini-2.0-flash-lite-001    |         96.5 |          92.9 |          88   |          79.9 |          73.1 |           76.6 |
+| openai     | gpt-4.1-2025-04-14           |         94.9 |          85.3 |          72.9 |          64.9 |          62.3 |           55.5 |
+| deepseek   | deepseek-chat                |         93.5 |          83.4 |          72.8 |          67.9 |          65.5 |           65.3 |
+| openai     | gpt-4.1-mini-2025-04-14      |         90.4 |          78.9 |          69.2 |          62.4 |          59.1 |           55.7 |
+| openai     | gpt-3.5-turbo-instruct       |         80.9 |          68.7 |          59.2 |          54.4 |          50.2 |           47.4 |
+| openai     | gpt-4.1-nano-2025-04-14      |         78.8 |          66.7 |          57.9 |          54.9 |          50.6 |           44.8 |
+| baseline   | starting_board               |         77.4 |          63.7 |          52.5 |          45.5 |          41.8 |           39   |
+| chessgpt   | chessgpt-chat-v1.Q4_K.gguf   |         45.6 |          54.8 |          70.8 |          50.7 |          60.1 |           42.3 |
+| chessgpt   | chessgpt-base-v1-q4_k_m.gguf |         43.7 |          32.6 |          64.3 |          62.7 |          48.5 |           34.5 |
 
 </div>
 
 **Full Correctness (%):**
 <div align="center">
 
-| provider   | model                      |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
-|:-----------|:---------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
-| google     | gemini-2.0-flash-001       |           44 |            10 |           3.5 |           0.5 |           0.5 |              0 |
-| google     | gemini-2.0-flash-lite-001  |           36 |             7 |           1.5 |           0   |           0   |              0 |
-| deepseek   | deepseek-chat              |           25 |             0 |           0   |           0   |           0   |              0 |
-| openai     | gpt-4.1-2025-04-14         |           20 |             1 |           0   |           0   |           0   |              0 |
-| openai     | gpt-4.1-mini-2025-04-14    |           17 |             0 |           0   |           0   |           0   |              0 |
-| chessgpt   | chessgpt-chat-v1.Q4_K.gguf |            7 |             2 |           1   |           1   |           0   |              0 |
-| openai     | gpt-4.1-nano-2025-04-14    |            2 |             0 |           0   |           0   |           0   |              0 |
-| openai     | gpt-3.5-turbo-instruct     |            1 |             0 |           0   |           0   |           0   |              0 |
+| provider   | model                        |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
+|:-----------|:-----------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
+| google     | gemini-2.0-flash-001         |           44 |            10 |           3.5 |           0.5 |           0.5 |              0 |
+| google     | gemini-2.0-flash-lite-001    |           36 |             7 |           1.5 |           0   |           0   |              0 |
+| deepseek   | deepseek-chat                |           25 |             0 |           0   |           0   |           0   |              0 |
+| openai     | gpt-4.1-2025-04-14           |           20 |             1 |           0   |           0   |           0   |              0 |
+| openai     | gpt-4.1-mini-2025-04-14      |           17 |             0 |           0   |           0   |           0   |              0 |
+| chessgpt   | chessgpt-chat-v1.Q4_K.gguf   |            7 |             2 |           1   |           1   |           0   |              0 |
+| chessgpt   | chessgpt-base-v1-q4_k_m.gguf |            5 |             2 |           1.5 |           0.5 |           0   |              0 |
+| openai     | gpt-4.1-nano-2025-04-14      |            2 |             0 |           0   |           0   |           0   |              0 |
+| openai     | gpt-3.5-turbo-instruct       |            1 |             0 |           0   |           0   |           0   |              0 |
 
 </div>
 

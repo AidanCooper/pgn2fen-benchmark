@@ -7,3 +7,4 @@ deepseek,deepseek-chat,56.0,46.0,43.0,37.0,28.0,23.5
 openai,gpt-3.5-turbo-instruct,52.0,38.0,33.5,26.0,21.0,21.0
 openai,gpt-4.1-nano-2025-04-14,49.0,39.0,39.5,39.0,29.5,23.5
 chessgpt,chessgpt-chat-v1.Q4_K.gguf,27.0,39.0,38.0,29.0,24.5,15.0
+chessgpt,chessgpt-base-v1-q4_k_m.gguf,25.0,17.0,36.0,31.0,22.0,15.5

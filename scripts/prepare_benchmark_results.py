@@ -31,6 +31,7 @@ MODEL_TYPE_TO_FILES_STANDARD = {
         "google_gemini-2.0-flash-001",
         "deepseek_deepseek-chat",
         "chessgpt_chessgpt-chat-v1.Q4_K",
+        "chessgpt_chessgpt-base-v1-q4_k_m",
     ],
 }
 

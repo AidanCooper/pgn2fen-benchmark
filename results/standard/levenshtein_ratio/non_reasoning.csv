@@ -8,3 +8,4 @@ openai,gpt-3.5-turbo-instruct,80.9,68.7,59.2,54.4,50.2,47.4
 openai,gpt-4.1-nano-2025-04-14,78.8,66.7,57.9,54.9,50.6,44.8
 baseline,starting_board,77.4,63.7,52.5,45.5,41.8,39.0
 chessgpt,chessgpt-chat-v1.Q4_K.gguf,45.6,54.8,70.8,50.7,60.1,42.3
+chessgpt,chessgpt-base-v1-q4_k_m.gguf,43.7,32.6,64.3,62.7,48.5,34.5

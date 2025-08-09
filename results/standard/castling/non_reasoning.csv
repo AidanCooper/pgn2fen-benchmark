@@ -7,3 +7,4 @@ openai,gpt-4.1-mini-2025-04-14,92.0,67.0,83.0,83.0,96.5,95.0
 openai,gpt-3.5-turbo-instruct,80.0,31.0,36.5,42.0,47.0,41.0
 openai,gpt-4.1-nano-2025-04-14,67.0,33.0,38.0,38.0,38.0,23.5
 chessgpt,chessgpt-chat-v1.Q4_K.gguf,46.0,36.0,68.5,51.5,71.0,57.0
+chessgpt,chessgpt-base-v1-q4_k_m.gguf,41.0,25.0,46.0,54.5,46.5,38.5

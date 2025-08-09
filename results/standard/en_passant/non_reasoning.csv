@@ -7,3 +7,4 @@ google,gemini-2.0-flash-lite-001,99.0,100.0,98.5,96.0,93.5,99.5
 openai,gpt-3.5-turbo-instruct,98.0,99.0,95.5,97.5,95.0,96.0
 openai,gpt-4.1-nano-2025-04-14,94.0,97.0,95.0,100.0,100.0,98.0
 chessgpt,chessgpt-chat-v1.Q4_K.gguf,49.0,63.0,79.0,63.0,81.0,61.5
+chessgpt,chessgpt-base-v1-q4_k_m.gguf,48.0,35.0,70.5,75.0,65.0,50.0
