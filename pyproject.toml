@@ -23,6 +23,7 @@ dependencies = [
     "openai",
     "llama-cpp-python",
     "levenshtein",
+    "xai_sdk",
 ]
 
 [project.optional-dependencies]

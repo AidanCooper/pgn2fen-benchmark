@@ -4,10 +4,11 @@ from enum import Enum
 
 
 class Provider(Enum):
+    CHESSGPT = "chessgpt"
+    DEEPSEEK = "deepseek"
     GOOGLE = "google"
     OPENAI = "openai"
-    DEEPSEEK = "deepseek"
-    CHESSGPT = "chessgpt"
+    XAI = "xai"
 
 
 @dataclass

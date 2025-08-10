@@ -154,11 +154,12 @@ def prepare_bar_plot(
     """
     colours = []
     providers: {str, (int, list[str])} = {
+        "baseline": [0, ["#D9D9D9", "#D9D9D9", "#D9D9D9", "#D9D9D9"]],
+        "chessgpt": [0, ["#E6AC00", "#FF9900", "#FFB800", "#CC8800"]],
+        "deepseek": [0, ["#00A88E", "#00D1C1", "#00BFAE", "#008578"]],
         "google": [0, ["#3367D6", "#5C9DFF", "#4285F4", "#174EA6", "#0B3D91", "#7BAAF7"]],
         "openai": [0, ["#8E59FF", "#C084FC", "#5E2CA5", "#B266FF"]],
-        "deepseek": [0, ["#00A88E", "#00D1C1", "#00BFAE", "#008578"]],
-        "chessgpt": [0, ["#E6AC00", "#FF9900", "#FFB800", "#CC8800"]],
-        "baseline": [0, ["#D9D9D9", "#A6A6A6", "#737373", "#404040"]],
+        "xai": [0, ["#404040", "#A6A6A6", "#737373", "#BFBFBF"]],
     }  # int tracks how many colours have been used for each provider
     for provider, model in zip(df["provider"], df["model"], strict=False):
         try:

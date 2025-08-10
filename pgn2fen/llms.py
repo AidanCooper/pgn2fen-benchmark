@@ -5,6 +5,8 @@ import openai
 from google import genai
 from google.genai import types
 from llama_cpp import Llama
+from xai_sdk import Client
+from xai_sdk.chat import user
 
 from pgn2fen.models import Provider
 
@@ -199,6 +201,30 @@ def get_chessgpt_fen(
     return response_text, None
 
 
+def get_xai_fen(
+    pgn_text: str,
+    model: str = "grok-4-0709",
+) -> tuple[str, str | None]:
+    """
+    FEN retrieval for the XAI API client.
+    """
+    api_key = os.getenv("XAI_API_KEY")
+    client = Client(api_key=api_key, timeout=900)
+    chat = client.chat.create(model=model, temperature=1.0)
+
+    prompt = format_prompt(pgn_text)
+    chat.append(user(prompt))
+
+    try:
+        response = chat.sample()
+    except Exception as e:
+        raise RuntimeError(f"Error during XAI API call: {e}") from e
+
+    response_text = response.content.strip()
+    reasoning = response.reasoning_content
+    return response_text, reasoning
+
+
 def get_fen(
     pgn_text: str,
     provider: Provider = Provider.GOOGLE,
@@ -232,6 +258,8 @@ def get_fen(
         fen_string, reasoning = get_openai_fen(
             pgn_text, model=model, api_key=api_key, base_url="https://api.deepseek.com/v1"
         )
+    elif provider == Provider.XAI:
+        fen_string, reasoning = get_xai_fen(pgn_text, model=model)
     elif provider == Provider.CHESSGPT:
         fen_string, reasoning = get_chessgpt_fen(pgn_text, model=model)
     else:
