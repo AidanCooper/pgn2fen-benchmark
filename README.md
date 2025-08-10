@@ -24,7 +24,7 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 
 ## Benchmark Leaderboards
 
-**Last updated:** 2025-08-09
+**Last updated:** 2025-08-10
 
 `baseline-starting_board` displays the levenshtein ratio for a dummy model that always predicts the starting board FEN string.
 
@@ -51,6 +51,7 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 | openai     | o3-2025-04-16                  |         99.1 |          99.1 |          99.7 |          99.7 |          99.7 |           99.8 |
 | deepseek   | deepseek-reasoner              |         98.4 |          95.7 |          92.5 |          89.2 |          87   |           88.6 |
 | openai     | o3-mini-2025-01-31             |         98.3 |          98.2 |          97.6 |          97.2 |          96.4 |           94.2 |
+| xai        | grok-3-mini                    |         97.8 |          90.5 |          83.2 |          82   |          71.6 |           73.1 |
 | google     | gemini-2.5-pro-preview-03-25   |         96.8 |          94.5 |          87.2 |          79.9 |          73.3 |           71.9 |
 | google     | gemini-2.5-flash-preview-04-17 |         92.1 |          76.6 |          62.8 |          53.9 |          43   |           45.7 |
 | openai     | o4-mini-2025-04-16             |         84.6 |          83.8 |          81.6 |          79.5 |          86.4 |           89.4 |
@@ -63,12 +64,13 @@ For more context on this work, refer to the blog post: [PGN2FEN: A Benchmark for
 
 | provider   | model                          |   0-10 moves |   11-20 moves |   21-40 moves |   41-60 moves |   61-80 moves |   81-100 moves |
 |:-----------|:-------------------------------|-------------:|--------------:|--------------:|--------------:|--------------:|---------------:|
-| openai     | o3-2025-04-16                  |           99 |            94 |          94.5 |          93.5 |            93 |           96.5 |
-| openai     | o3-mini-2025-01-31             |           82 |            74 |          49   |          39.5 |            27 |           16   |
-| deepseek   | deepseek-reasoner              |           82 |            22 |           7.5 |           9.5 |             3 |            6   |
-| google     | gemini-2.5-pro-preview-03-25   |           48 |             8 |           2   |           1   |             0 |            0   |
-| openai     | o4-mini-2025-04-16             |           28 |            19 |          17.5 |          30.5 |            35 |           42.5 |
-| google     | gemini-2.5-flash-preview-04-17 |           19 |             1 |           0   |           0   |             0 |            0   |
+| openai     | o3-2025-04-16                  |           99 |            94 |          94.5 |          93.5 |          93   |           96.5 |
+| openai     | o3-mini-2025-01-31             |           82 |            74 |          49   |          39.5 |          27   |           16   |
+| deepseek   | deepseek-reasoner              |           82 |            22 |           7.5 |           9.5 |           3   |            6   |
+| xai        | grok-3-mini                    |           53 |             8 |           0   |           1   |           0.5 |            0.5 |
+| google     | gemini-2.5-pro-preview-03-25   |           48 |             8 |           2   |           1   |           0   |            0   |
+| openai     | o4-mini-2025-04-16             |           28 |            19 |          17.5 |          30.5 |          35   |           42.5 |
+| google     | gemini-2.5-flash-preview-04-17 |           19 |             1 |           0   |           0   |           0   |            0   |
 
 </div>
 

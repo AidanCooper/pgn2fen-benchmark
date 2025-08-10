@@ -21,6 +21,7 @@ MODEL_TYPE_TO_FILES_STANDARD = {
         "google_gemini-2.5-pro-preview-03-25",
         "google_gemini-2.5-flash-preview-04-17",
         "deepseek_deepseek-reasoner",
+        "xai_grok-3-mini",
     ],
     "non_reasoning": [
         "openai_gpt-4.1-nano-2025-04-14",

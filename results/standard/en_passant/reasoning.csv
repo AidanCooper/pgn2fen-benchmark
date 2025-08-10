@@ -2,6 +2,7 @@ provider,model,0-10 moves,11-20 moves,21-40 moves,41-60 moves,61-80 moves,81-100
 deepseek,deepseek-reasoner,100.0,100.0,99.5,100.0,99.5,100.0
 openai,o3-2025-04-16,100.0,100.0,97.5,98.0,97.0,99.0
 openai,o3-mini-2025-01-31,100.0,99.0,85.0,83.5,79.0,79.5
+xai,grok-3-mini,100.0,97.0,93.0,96.5,94.0,95.5
 google,gemini-2.5-pro-preview-03-25,99.0,100.0,97.0,94.5,93.0,95.5
 openai,o4-mini-2025-04-16,99.0,97.0,85.5,82.5,80.5,86.5
 google,gemini-2.5-flash-preview-04-17,96.0,85.0,75.0,68.5,59.5,67.5

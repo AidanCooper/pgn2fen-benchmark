@@ -4,5 +4,6 @@
 | openai     | o3-2025-04-16                  |          100 |            99 |          99.5 |         100   |           100 |          100   |
 | deepseek   | deepseek-reasoner              |           98 |            99 |          98   |          94.5 |            97 |           96.5 |
 | openai     | o4-mini-2025-04-16             |           96 |            92 |          88.5 |          86.5 |            93 |           95   |
+| xai        | grok-3-mini                    |           96 |            74 |          73.5 |          82   |            91 |           95.5 |
 | google     | gemini-2.5-pro-preview-03-25   |           95 |            92 |          88.5 |          92.5 |            89 |           96   |
 | google     | gemini-2.5-flash-preview-04-17 |           87 |            61 |          54   |          58   |            59 |           66   |
